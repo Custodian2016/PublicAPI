@@ -1,0 +1,340 @@
+﻿<cust:responce xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cust="urn:dmt:custodian2016" xsi:schemaLocation="urn:dmt:custodian2016 http://www.dekra.net.ua/downloads/Custodian2016/API/current/Custodian2016.Public.API.xsd">
+  <cust:header>
+    <cust:ResponceType>GetAccount</cust:ResponceType>
+    <cust:ResponceID>10E15708-89C3-425C-9B9A-7C6606E16A06</cust:ResponceID>
+    <cust:TimeStamp>2021-01-16T03:34:59.673</cust:TimeStamp>
+    <cust:RequestID>F1ABD4CC-7436-4D2C-9F9C-C1D5DB160CAC</cust:RequestID>
+  </cust:header>
+  <cust:body>
+    <cust:account>
+      <cust:accountNumber>400820-UA40889406</cust:accountNumber>
+      <cust:nssmcClientTypeCode>120</cust:nssmcClientTypeCode>
+      <cust:accountDateopen>2021-01-13</cust:accountDateopen>
+      <cust:Customer>
+        <cust:CustomerID>111667</cust:CustomerID>
+        <cust:country>804</cust:country>
+        <cust:CountryTax>804</cust:CountryTax>
+        <cust:idCode>00152230</cust:idCode>
+        <cust:ClientTypeCode>1</cust:ClientTypeCode>
+        <cust:name>
+          <cust:shortName>ТОВ "НАФТОХІМІК ПРИКАРПАТТЯ"</cust:shortName>
+          <cust:longName>ТОВАРИСТВО "НАФТОХІМІК ПРИКАРПАТТЯ"</cust:longName>
+          <cust:shortName_International>LLC "NAFTOKHIMIK PRYKARPATTYA"</cust:shortName_International>
+        </cust:name>
+        <cust:addresses>
+          <cust:address>
+            <cust:addressID>-1</cust:addressID>
+            <cust:addressType>legal</cust:addressType>
+            <cust:country>804</cust:country>
+            <cust:postIndex>78400</cust:postIndex>
+            <cust:region>26000</cust:region>
+            <cust:district />
+            <cust:locality>м. Надвірна</cust:locality>
+            <cust:street>вул. Майданська</cust:street>
+            <cust:house>555</cust:house>
+            <cust:flat />
+            <cust:addressFree />
+          </cust:address>
+          <cust:address>
+            <cust:addressID>52912</cust:addressID>
+            <cust:addressType>post</cust:addressType>
+            <cust:country>804</cust:country>
+            <cust:postIndex>78400</cust:postIndex>
+            <cust:region>26000</cust:region>
+            <cust:district />
+            <cust:locality>м. Надвірна</cust:locality>
+            <cust:street>вул. Майданська</cust:street>
+            <cust:house>555</cust:house>
+            <cust:flat />
+            <cust:addressFree />
+          </cust:address>
+        </cust:addresses>
+        <cust:docUO>
+          <cust:docSerial />
+          <cust:docNumber>1 112 120 0000 000043</cust:docNumber>
+          <cust:docDate>1994-03-22</cust:docDate>
+          <cust:docWho>Івано-Франківський ЦНАП</cust:docWho>
+        </cust:docUO>
+        <cust:bankDetails>
+          <cust:bankDetail>
+            <cust:bankDetailID>45123</cust:bankDetailID>
+            <cust:MFO>339500</cust:MFO>
+            <cust:IBAN>UA763395000000026203045502007</cust:IBAN>
+            <cust:bankName>АТ 'ТАСКОМБАНК'</cust:bankName>
+            <cust:currency>980</cust:currency>
+            <cust:use4income>true</cust:use4income>
+            <cust:Period>
+              <cust:DateStart>2021-01-11</cust:DateStart>
+              <cust:DateStop>2021-05-30</cust:DateStop>
+            </cust:Period>
+          </cust:bankDetail>
+        </cust:bankDetails>
+        <cust:addParams>
+          <cust:param>
+            <cust:Name>HoldDVSPercent</cust:Name>
+            <cust:Value>0</cust:Value>
+          </cust:param>
+          <cust:param>
+            <cust:Name>fatca_post_country</cust:Name>
+            <cust:Value>UA</cust:Value>
+          </cust:param>
+          <cust:param>
+            <cust:Name>use_PostAdr</cust:Name>
+            <cust:Value>0</cust:Value>
+          </cust:param>
+          <cust:param>
+            <cust:Name>fatca_Phone</cust:Name>
+            <cust:Value>+380342501811501830</cust:Value>
+          </cust:param>
+          <cust:param>
+            <cust:Name>MarkIntExt</cust:Name>
+            <cust:Value>-1</cust:Value>
+          </cust:param>
+          <cust:param>
+            <cust:Name>fatca_DateOpen_base</cust:Name>
+            <cust:Value>20210113</cust:Value>
+          </cust:param>
+          <cust:param>
+            <cust:Name>fatca_Need</cust:Name>
+            <cust:Value>1</cust:Value>
+          </cust:param>
+          <cust:param>
+            <cust:Name>fatca_Indx_base</cust:Name>
+            <cust:Value>78400</cust:Value>
+          </cust:param>
+          <cust:param>
+            <cust:Name>fatca_country_Reg_base</cust:Name>
+            <cust:Value>UA</cust:Value>
+          </cust:param>
+          <cust:param>
+            <cust:Name>fatca_country_nation</cust:Name>
+            <cust:Value>UA</cust:Value>
+          </cust:param>
+          <cust:param>
+            <cust:Name>HoldComission</cust:Name>
+            <cust:Value>0</cust:Value>
+          </cust:param>
+          <cust:param>
+            <cust:Name>fatca_Birth_Date</cust:Name>
+            <cust:Value>19940322</cust:Value>
+          </cust:param>
+          <cust:param>
+            <cust:Name>MultipleSend</cust:Name>
+            <cust:Value>0</cust:Value>
+          </cust:param>
+          <cust:param>
+            <cust:Name>fatca_country_Reg</cust:Name>
+            <cust:Value>UA</cust:Value>
+          </cust:param>
+          <cust:param>
+            <cust:Name>MultiplePrint</cust:Name>
+            <cust:Value>0</cust:Value>
+          </cust:param>
+          <cust:param>
+            <cust:Name>fatca_Indx</cust:Name>
+            <cust:Value>78400</cust:Value>
+          </cust:param>
+          <cust:param>
+            <cust:Name>C_STI</cust:Name>
+            <cust:Value>107</cust:Value>
+          </cust:param>
+          <cust:param>
+            <cust:Name>fatca_post_country_base</cust:Name>
+            <cust:Value>UA</cust:Value>
+          </cust:param>
+          <cust:param>
+            <cust:Name>CustomField_5</cust:Name>
+            <cust:Value>0</cust:Value>
+          </cust:param>
+          <cust:param>
+            <cust:Name>fatca_Birth_Date_base</cust:Name>
+            <cust:Value>19940322</cust:Value>
+          </cust:param>
+          <cust:param>
+            <cust:Name>fatca_DateOpen</cust:Name>
+            <cust:Value>20210113</cust:Value>
+          </cust:param>
+          <cust:param>
+            <cust:Name>fatca_Street</cust:Name>
+            <cust:Value>вул. Майданська</cust:Value>
+          </cust:param>
+          <cust:param>
+            <cust:Name>HoldDVS</cust:Name>
+            <cust:Value>0</cust:Value>
+          </cust:param>
+          <cust:param>
+            <cust:Name>use_SWIFT</cust:Name>
+            <cust:Value>0</cust:Value>
+          </cust:param>
+          <cust:param>
+            <cust:Name>fatca_Street_base</cust:Name>
+            <cust:Value>вул. Майданська</cust:Value>
+          </cust:param>
+          <cust:param>
+            <cust:Name>fatca_country_nation_base</cust:Name>
+            <cust:Value>UA</cust:Value>
+          </cust:param>
+          <cust:param>
+            <cust:Name>MultipleUseFolder</cust:Name>
+            <cust:Value>0</cust:Value>
+          </cust:param>
+          <cust:param>
+            <cust:Name>fatca_Need_base</cust:Name>
+            <cust:Value>1</cust:Value>
+          </cust:param>
+          <cust:param>
+            <cust:Name>AlterLang</cust:Name>
+            <cust:Value>0</cust:Value>
+          </cust:param>
+          <cust:param>
+            <cust:Name>use_EMail</cust:Name>
+            <cust:Value>0</cust:Value>
+          </cust:param>
+          <cust:param>
+            <cust:Name>fatca_Phone_base</cust:Name>
+            <cust:Value>+380342501811501830</cust:Value>
+          </cust:param>
+        </cust:addParams>
+        <cust:contact>
+          <cust:Phone>0342 50-18-11/50-18-30</cust:Phone>
+        </cust:contact>
+      </cust:Customer>
+      <cust:agreements>
+        <cust:agreement>
+          <cust:number>9406</cust:number>
+          <cust:date>2021-01-13</cust:date>
+          <cust:dateStart>2021-01-13</cust:dateStart>
+        </cust:agreement>
+      </cust:agreements>
+      <cust:brokerAgreements>
+        <cust:brokerAgreement>
+          <cust:number>1112</cust:number>
+          <cust:date>2021-01-12</cust:date>
+          <cust:dateStart>2021-01-13</cust:dateStart>
+          <cust:dateStop>2021-08-26</cust:dateStop>
+          <cust:Customer>
+            <cust:CustomerID>252669</cust:CustomerID>
+            <cust:country>804</cust:country>
+            <cust:CountryTax>804</cust:CountryTax>
+            <cust:idCode>21685166</cust:idCode>
+            <cust:name>
+              <cust:shortName>АТ "ОТП БАНК"</cust:shortName>
+              <cust:longName>АКЦІОНЕРНЕ ТОВАРИСТВО "ОТП БАНК"</cust:longName>
+            </cust:name>
+            <cust:addresses>
+              <cust:address>
+                <cust:addressID>-1</cust:addressID>
+                <cust:addressType>legal</cust:addressType>
+                <cust:country>804</cust:country>
+                <cust:postIndex>01033</cust:postIndex>
+                <cust:region>80000</cust:region>
+                <cust:locality>м. Київ</cust:locality>
+              </cust:address>
+            </cust:addresses>
+            <cust:docUO />
+            <cust:contact />
+          </cust:Customer>
+        </cust:brokerAgreement>
+      </cust:brokerAgreements>
+      <cust:Controlling>
+        <cust:controlingSubject>
+          <cust:controlingSubjectType />
+          <cust:Customer>
+            <cust:CustomerID>103392</cust:CustomerID>
+            <cust:country>804</cust:country>
+            <cust:CountryTax>804</cust:CountryTax>
+            <cust:idCode>25959784</cust:idCode>
+            <cust:name>
+              <cust:shortName>АТ "СБЕРБАНК"</cust:shortName>
+              <cust:longName>АКЦІОНЕРНЕ ТОВАРИСТВО "СБЕРБАНК"</cust:longName>
+            </cust:name>
+            <cust:addresses>
+              <cust:address>
+                <cust:addressID>-1</cust:addressID>
+                <cust:addressType>legal</cust:addressType>
+                <cust:country>804</cust:country>
+                <cust:postIndex>01601</cust:postIndex>
+                <cust:region>80000</cust:region>
+                <cust:district />
+                <cust:locality>м. Київ</cust:locality>
+                <cust:street>вул. Володимирська</cust:street>
+                <cust:house>46</cust:house>
+                <cust:flat />
+              </cust:address>
+            </cust:addresses>
+            <cust:docUO>
+              <cust:docSerial />
+              <cust:docNumber />
+              <cust:docDate>1899-12-30</cust:docDate>
+              <cust:docWho />
+            </cust:docUO>
+            <cust:addParams>
+              <cust:param>
+                <cust:Name>fatca_post_country</cust:Name>
+                <cust:Value>UA</cust:Value>
+              </cust:param>
+              <cust:param>
+                <cust:Name>fatca_post_country_base</cust:Name>
+                <cust:Value>UA</cust:Value>
+              </cust:param>
+              <cust:param>
+                <cust:Name>fatca_Indx</cust:Name>
+                <cust:Value>01601</cust:Value>
+              </cust:param>
+              <cust:param>
+                <cust:Name>fatca_Indx_base</cust:Name>
+                <cust:Value>01601</cust:Value>
+              </cust:param>
+              <cust:param>
+                <cust:Name>fatca_Street</cust:Name>
+                <cust:Value>вул. Володимирська</cust:Value>
+              </cust:param>
+              <cust:param>
+                <cust:Name>fatca_Street_base</cust:Name>
+                <cust:Value>вул. Володимирська</cust:Value>
+              </cust:param>
+              <cust:param>
+                <cust:Name>fatca_Phone</cust:Name>
+                <cust:Value>+380445947612</cust:Value>
+              </cust:param>
+              <cust:param>
+                <cust:Name>fatca_Phone_base</cust:Name>
+                <cust:Value>+380445947612</cust:Value>
+              </cust:param>
+              <cust:param>
+                <cust:Name>fatca_country_Reg</cust:Name>
+                <cust:Value>UA</cust:Value>
+              </cust:param>
+              <cust:param>
+                <cust:Name>fatca_country_Reg_base</cust:Name>
+                <cust:Value>UA</cust:Value>
+              </cust:param>
+              <cust:param>
+                <cust:Name>fatca_country_nation</cust:Name>
+                <cust:Value>UA</cust:Value>
+              </cust:param>
+              <cust:param>
+                <cust:Name>fatca_country_nation_base</cust:Name>
+                <cust:Value>UA</cust:Value>
+              </cust:param>
+              <cust:param>
+                <cust:Name>fatca_Need</cust:Name>
+                <cust:Value>0</cust:Value>
+              </cust:param>
+              <cust:param>
+                <cust:Name>fatca_Need_base</cust:Name>
+                <cust:Value>0</cust:Value>
+              </cust:param>
+            </cust:addParams>
+            <cust:contact>
+              <cust:Phone>(044) 594-76-12</cust:Phone>
+            </cust:contact>
+          </cust:Customer>
+          <cust:dateStart>2020-10-14</cust:dateStart>
+          <cust:dateStop>2021-06-25</cust:dateStop>
+          <cust:reason>2322</cust:reason>
+        </cust:controlingSubject>
+      </cust:Controlling>
+    </cust:account>
+  </cust:body>
+</cust:responce>
