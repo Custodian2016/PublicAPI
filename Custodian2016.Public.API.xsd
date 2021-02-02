@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- edited with XMLSpy v2020 rel. 2 (http://www.altova.com) by  () -->
-<xsd:schema xmlns:cust="urn:dmt:custodian2016" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning" targetNamespace="urn:dmt:custodian2016" elementFormDefault="qualified" attributeFormDefault="unqualified" version="0.4.1" vc:minVersion="1.1">
+<xsd:schema xmlns:cust="urn:dmt:custodian2016" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning" targetNamespace="urn:dmt:custodian2016" elementFormDefault="qualified" attributeFormDefault="unqualified" version="0.4.2" vc:minVersion="1.1">
 	<!--Custodian2016 public API-->
 	<xsd:element name="request">
 		<xsd:annotation>
@@ -923,7 +923,7 @@
 			<xsd:documentation>ИНН физического лица или ЕГРПОУ юридического лица</xsd:documentation>
 		</xsd:annotation>
 		<xsd:restriction base="xsd:string">
-			<xsd:minLength value="1"/>
+			<xsd:minLength value="0"/>
 		</xsd:restriction>
 	</xsd:simpleType>
 	<xsd:simpleType name="TLongName">
@@ -1343,14 +1343,14 @@
 		<xsd:annotation>
 			<xsd:documentation>Адрес</xsd:documentation>
 		</xsd:annotation>
-		<xsd:sequence>
+		<xsd:all>
 			<xsd:element name="addressID" type="xsd:integer" minOccurs="0"/>
 			<xsd:element name="addressType" type="cust:TAddressType">
 				<xsd:annotation>
 					<xsd:documentation>Тип адреса.</xsd:documentation>
 				</xsd:annotation>
 			</xsd:element>
-			<xsd:element name="country" type="cust:TCountry">
+			<xsd:element name="country" type="cust:TCountry" minOccurs="0">
 				<xsd:annotation>
 					<xsd:documentation>Страна регистрации</xsd:documentation>
 				</xsd:annotation>
@@ -1360,10 +1360,13 @@
 					<xsd:documentation>Почтовый индекс</xsd:documentation>
 				</xsd:annotation>
 			</xsd:element>
-			<xsd:element name="region" type="cust:Tnssmc_Region" minOccurs="0">
+			<xsd:element name="region" minOccurs="0">
 				<xsd:annotation>
 					<xsd:documentation>Область. Заполняется только для адресов в Украине.</xsd:documentation>
 				</xsd:annotation>
+				<xsd:simpleType>
+					<xsd:restriction base="cust:Tnssmc_Region"/>
+				</xsd:simpleType>
 			</xsd:element>
 			<xsd:element name="district" minOccurs="0">
 				<xsd:annotation>
@@ -1426,7 +1429,7 @@
 					</xsd:restriction>
 				</xsd:simpleType>
 			</xsd:element>
-		</xsd:sequence>
+		</xsd:all>
 		<xsd:attribute name="changed" type="xsd:boolean">
 			<xsd:annotation>
 				<xsd:documentation>Информация о изменении. При использовании в методах обновления карточки клиента/счета - обновляться будут только те значения у которых этот параметр установлен в значение true</xsd:documentation>
@@ -2023,6 +2026,22 @@
 					</xsd:simpleContent>
 				</xsd:complexType>
 			</xsd:element>
+			<xsd:element name="CountryTax" minOccurs="0">
+				<xsd:annotation>
+					<xsd:documentation>Страна наогового резидентства</xsd:documentation>
+				</xsd:annotation>
+				<xsd:complexType>
+					<xsd:simpleContent>
+						<xsd:extension base="cust:TCountry">
+							<xsd:attribute name="changed" type="xsd:boolean">
+								<xsd:annotation>
+									<xsd:documentation>Информация о изменении. При использовании в методах обновления карточки клиента/счета - обновляться будут только те значения у которых этот параметр установлен в значение true</xsd:documentation>
+								</xsd:annotation>
+							</xsd:attribute>
+						</xsd:extension>
+					</xsd:simpleContent>
+				</xsd:complexType>
+			</xsd:element>
 			<xsd:element name="idCode">
 				<xsd:annotation>
 					<xsd:documentation>ИНН - для физического лица
@@ -2041,6 +2060,11 @@
 					</xsd:simpleContent>
 				</xsd:complexType>
 			</xsd:element>
+			<xsd:element name="name" type="cust:TName"/>
+			<xsd:choice minOccurs="0">
+				<xsd:element name="docFO" type="cust:TdocFO"/>
+				<xsd:element name="docUO" type="cust:TdocUO"/>
+			</xsd:choice>
 			<xsd:element name="accountNumber" type="cust:TAccount_Num">
 				<xsd:annotation>
 					<xsd:documentation>Номер счета в ЦБ</xsd:documentation>
@@ -2056,11 +2080,6 @@
 					<xsd:documentation>Дата закрытия счета</xsd:documentation>
 				</xsd:annotation>
 			</xsd:element>
-			<xsd:element name="name" type="cust:TName"/>
-			<xsd:choice minOccurs="0">
-				<xsd:element name="docFO" type="cust:TdocFO"/>
-				<xsd:element name="docUO" type="cust:TdocUO"/>
-			</xsd:choice>
 		</xsd:sequence>
 	</xsd:complexType>
 	<xsd:complexType name="TnewAccountRequest">
@@ -2198,7 +2217,7 @@
 			<xsd:documentation>Результат запроса поиск депонента</xsd:documentation>
 		</xsd:annotation>
 		<xsd:sequence minOccurs="0" maxOccurs="unbounded">
-			<xsd:element name="Account" type="cust:TAccount"/>
+			<xsd:element name="account" type="cust:TAccount"/>
 		</xsd:sequence>
 	</xsd:complexType>
 	<xsd:complexType name="TCustomerList">
@@ -2214,17 +2233,17 @@
 			<xsd:documentation>Поисковый запрос для получения списка клиентов</xsd:documentation>
 		</xsd:annotation>
 		<xsd:sequence>
-			<xsd:element name="Name">
+			<xsd:element name="Name" type="cust:TLongName" minOccurs="0">
 				<xsd:annotation>
 					<xsd:documentation>Часть названия/ФИО депонента</xsd:documentation>
 				</xsd:annotation>
 			</xsd:element>
-			<xsd:element name="IDCode">
+			<xsd:element name="IDCode" type="cust:TIDCode" minOccurs="0">
 				<xsd:annotation>
 					<xsd:documentation>ИНН/ЕГРПОУ депонента</xsd:documentation>
 				</xsd:annotation>
 			</xsd:element>
-			<xsd:element name="CNUM">
+			<xsd:element name="CNUM" minOccurs="0">
 				<xsd:annotation>
 					<xsd:documentation>Идентификатор клиента в АБС</xsd:documentation>
 				</xsd:annotation>
@@ -2302,7 +2321,7 @@
 		<xsd:complexContent>
 			<xsd:extension base="cust:TSearchCustomer">
 				<xsd:sequence>
-					<xsd:element name="Account_Num" type="cust:TAccount_Num"/>
+					<xsd:element name="Account_Num" type="cust:TAccount_Num" minOccurs="0"/>
 				</xsd:sequence>
 			</xsd:extension>
 		</xsd:complexContent>
@@ -2665,10 +2684,10 @@
 		<xsd:annotation>
 			<xsd:documentation>Выписка про состояние счета</xsd:documentation>
 		</xsd:annotation>
-		<xsd:sequence>
-			<xsd:element name="Account" type="cust:TAccountSimple"/>
+		<xsd:all>
+			<xsd:element name="account" type="cust:TAccountSimple"/>
 			<xsd:element name="Rows" type="cust:TStatement_of_Holding_rows"/>
-		</xsd:sequence>
+		</xsd:all>
 	</xsd:complexType>
 	<xsd:complexType name="TStatement_of_Holding_row">
 		<xsd:annotation>
