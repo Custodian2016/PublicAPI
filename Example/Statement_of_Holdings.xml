@@ -1,0 +1,58 @@
+<cust:responce xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cust="urn:dmt:custodian2016" xsi:schemaLocation="urn:dmt:custodian2016 http://www.dekra.net.ua/downloads/Custodian2016/API/current/Custodian2016.Public.API.xsd">
+  <cust:header>
+    <cust:ResponceType>Statement_of_Holdings</cust:ResponceType>
+    <cust:ResponceID>FAD50FBD-3312-477C-B72C-C07B0A3FA23F</cust:ResponceID>
+    <cust:TimeStamp>2021-02-02T03:01:25.750</cust:TimeStamp>
+    <cust:RequestID>995E2B35-3FBA-450B-8162-F83333C031CC</cust:RequestID>
+  </cust:header>
+  <cust:body>
+    <cust:Statement_of_Holdings>
+      <cust:account>
+        <cust:CustomerID>274940</cust:CustomerID>
+        <cust:country>804</cust:country>
+        <cust:CountryTax>804</cust:CountryTax>
+        <cust:idCode>4545252121</cust:idCode>
+        <cust:name>
+          <cust:shortName>Галушка Петро Петрович</cust:shortName>
+          <cust:longName>Галушка Петро Петрович</cust:longName>
+          <cust:shortName_International />
+        </cust:name>
+        <cust:docFO>
+          <cust:docSerial>ШШ</cust:docSerial>
+          <cust:docNumber>123456</cust:docNumber>
+          <cust:docDate>2020-12-28</cust:docDate>
+          <cust:docWho>ЦНАП м.Одеса</cust:docWho>
+          <cust:docType>1</cust:docType>
+          <cust:docDatestart>2020-12-28</cust:docDatestart>
+          <cust:docDateStop>2030-12-28</cust:docDateStop>
+          <cust:docSDRnumber>20000111-01234</cust:docSDRnumber>
+        </cust:docFO>
+        <cust:accountNumber>400820-UA10889405</cust:accountNumber>
+        <cust:accountDateopen>2021-01-13</cust:accountDateopen>
+      </cust:account>
+      <cust:Rows>
+        <cust:Row>
+          <cust:ISIN>
+            <cust:ISIN>UA5000000191</cust:ISIN>
+            <cust:Depositary>200</cust:Depositary>
+          </cust:ISIN>
+          <cust:Issuer>
+            <cust:ShortName>АТ "КИЇВЕНЕРГІЯ"</cust:ShortName>
+            <cust:IDCode>00131306</cust:IDCode>
+          </cust:Issuer>
+          <cust:ISINState>
+            <cust:Code>0</cust:Code>
+            <cust:Name>Дійсний</cust:Name>
+          </cust:ISINState>
+          <cust:BalAccount>
+            <cust:Code>410000</cust:Code>
+            <cust:Name>не обтяжені зобов'язаннями</cust:Name>
+          </cust:BalAccount>
+          <cust:Quantity>100</cust:Quantity>
+          <cust:faceAmount>100.0000</cust:faceAmount>
+          <cust:Percent>0.0018</cust:Percent>
+        </cust:Row>
+      </cust:Rows>
+    </cust:Statement_of_Holdings>
+  </cust:body>
+</cust:responce>
