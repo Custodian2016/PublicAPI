@@ -2490,7 +2490,13 @@
 			<xsd:documentation>Ответ на запрос проверки наличия необходимого количества ЦБ на счету</xsd:documentation>
 		</xsd:annotation>
 		<xsd:sequence>
-			<xsd:element name="Status" type="cust:TStatus"/>
+			<xsd:element name="Status" type="cust:TStatus">
+				<xsd:annotation>
+					<xsd:documentation>Возможные значения:
+7007 - Запрошеное количество ЦБ доступно
+7008 - Запрошеное коичество ЦБ не доступно</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
 		</xsd:sequence>
 	</xsd:complexType>
 	<xsd:complexType name="TTransaction_pre_check_request">
