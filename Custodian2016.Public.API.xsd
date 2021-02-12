@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- edited with XMLSpy v2020 rel. 2 (http://www.altova.com) by  () -->
-<xsd:schema xmlns:cust="urn:dmt:custodian2016" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning" targetNamespace="urn:dmt:custodian2016" elementFormDefault="qualified" attributeFormDefault="unqualified" version="0.4.2" vc:minVersion="1.1">
+<xsd:schema xmlns:cust="urn:dmt:custodian2016" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning" targetNamespace="urn:dmt:custodian2016" elementFormDefault="qualified" attributeFormDefault="unqualified" version="0.4.3" vc:minVersion="1.1">
 	<!--Custodian2016 public API-->
 	<xsd:element name="request">
 		<xsd:annotation>
@@ -54,6 +54,11 @@
 				<xsd:annotation>
 					<xsd:documentation>Идентификатор пакета (cust:PacketID) в ответ на который сформировано данное сообщение.
 Заполняется исключительно ПО "Хранитель 2016"</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="EndUserID" type="cust:TPackettID" minOccurs="0">
+				<xsd:annotation>
+					<xsd:documentation>Идентификатор конечного клиентоского приложения/конечного пользователя. Применяется для поддержания принципа FIFO при маштабировании</xsd:documentation>
 				</xsd:annotation>
 			</xsd:element>
 		</xsd:sequence>
@@ -162,6 +167,11 @@
 				<xsd:annotation>
 					<xsd:documentation>Идентификатор пакета (cust:PacketID) в ответ на который сформировано данное сообщение.
 Заполняется исключительно ПО "Хранитель 2016"</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="EndUserID" type="cust:TPackettID" minOccurs="0">
+				<xsd:annotation>
+					<xsd:documentation>Идентификатор конечного клиентоского приложения/конечного пользователя. Применяется для поддержания принципа FIFO при маштабировании</xsd:documentation>
 				</xsd:annotation>
 			</xsd:element>
 		</xsd:sequence>
@@ -2537,7 +2547,9 @@
 		<xsd:complexContent>
 			<xsd:extension base="cust:TTransactionHeader_responce">
 				<xsd:sequence minOccurs="0">
-					<xsd:element name="request" type="cust:TTransaction_request"/>
+					<xsd:element name="request" type="cust:TTransaction_request" minOccurs="0"/>
+					<xsd:element name="Statement_of_Holdings" type="cust:TStatement_of_Holding" minOccurs="0"/>
+					<xsd:element name="Statement_of_Transactions_Request" type="cust:TStatement_of_Transactions" minOccurs="0"/>
 				</xsd:sequence>
 			</xsd:extension>
 		</xsd:complexContent>
