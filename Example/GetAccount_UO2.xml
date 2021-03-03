@@ -1,4 +1,4 @@
-﻿<cust:responce xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cust="urn:dmt:custodian2016" xsi:schemaLocation="urn:dmt:custodian2016 http://www.dekra.net.ua/downloads/Custodian2016/API/current/Custodian2016.Public.API.xsd">
+<cust:responce xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cust="urn:dmt:custodian2016" xsi:schemaLocation="urn:dmt:custodian2016 http://www.dekra.net.ua/downloads/Custodian2016/API/current/Custodian2016.Public.API.xsd">
   <cust:header>
     <cust:ResponceType>GetAccount</cust:ResponceType>
     <cust:ResponceID>10E15708-89C3-425C-9B9A-7C6606E16A06</cust:ResponceID>
@@ -57,11 +57,12 @@
         </cust:docUO>
         <cust:bankDetails>
           <cust:bankDetail>
-            <cust:bankDetailID>45123</cust:bankDetailID>
+            
             <cust:MFO>339500</cust:MFO>
             <cust:IBAN>UA763395000000026203045502007</cust:IBAN>
             <cust:bankName>АТ 'ТАСКОМБАНК'</cust:bankName>
             <cust:currency>980</cust:currency>
+<cust:bankDetailID>45123</cust:bankDetailID>            
             <cust:use4income>true</cust:use4income>
             <cust:Period>
               <cust:DateStart>2021-01-11</cust:DateStart>
