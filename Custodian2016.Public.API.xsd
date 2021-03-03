@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- edited with XMLSpy v2020 rel. 2 (http://www.altova.com) by  () -->
-<xsd:schema xmlns:cust="urn:dmt:custodian2016" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning" targetNamespace="urn:dmt:custodian2016" elementFormDefault="qualified" attributeFormDefault="unqualified" version="0.4.3" vc:minVersion="1.1">
+<xsd:schema xmlns:cust="urn:dmt:custodian2016" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning" targetNamespace="urn:dmt:custodian2016" elementFormDefault="qualified" attributeFormDefault="unqualified" version="0.4.4" vc:minVersion="1.1">
 	<!--Custodian2016 public API-->
+	<xsd:element name="envelope">
+		<xsd:complexType>
+			<xsd:all>
+				<xsd:element name="sourceAPPidentity" type="cust:TGUID"/>
+				<xsd:element name="cryptedMessage" type="xsd:string"/>
+			</xsd:all>
+		</xsd:complexType>
+	</xsd:element>
 	<xsd:element name="request">
 		<xsd:annotation>
 			<xsd:documentation>Запрос</xsd:documentation>
@@ -34,7 +42,7 @@
 					<xsd:documentation>Тип запроса</xsd:documentation>
 				</xsd:annotation>
 			</xsd:element>
-			<xsd:element name="RequestID" type="cust:TPackettID">
+			<xsd:element name="RequestID" type="cust:TGUID">
 				<xsd:annotation>
 					<xsd:documentation>Идентификатор запроса в формате GUID</xsd:documentation>
 				</xsd:annotation>
@@ -44,19 +52,19 @@
 					<xsd:documentation>Дата и время формирования запроса</xsd:documentation>
 				</xsd:annotation>
 			</xsd:element>
-			<xsd:element name="sourceAPPidentity" type="xsd:string">
+			<xsd:element name="sourceAPPidentity" type="cust:TGUID">
 				<xsd:annotation>
 					<xsd:documentation>Идентификатор приложения сформировавшего запрос
 </xsd:documentation>
 				</xsd:annotation>
 			</xsd:element>
-			<xsd:element name="replayTo" type="cust:TPackettID" minOccurs="0">
+			<xsd:element name="replayTo" type="cust:TGUID" minOccurs="0">
 				<xsd:annotation>
 					<xsd:documentation>Идентификатор пакета (cust:PacketID) в ответ на который сформировано данное сообщение.
 Заполняется исключительно ПО "Хранитель 2016"</xsd:documentation>
 				</xsd:annotation>
 			</xsd:element>
-			<xsd:element name="EndUserID" type="cust:TPackettID" minOccurs="0">
+			<xsd:element name="EndUserID" type="cust:TGUID" minOccurs="0">
 				<xsd:annotation>
 					<xsd:documentation>Идентификатор конечного клиентоского приложения/конечного пользователя. Применяется для поддержания принципа FIFO при маштабировании</xsd:documentation>
 				</xsd:annotation>
@@ -153,7 +161,7 @@
 					<xsd:documentation>Тип запроса</xsd:documentation>
 				</xsd:annotation>
 			</xsd:element>
-			<xsd:element name="ResponceID" type="cust:TPackettID">
+			<xsd:element name="ResponceID" type="cust:TGUID">
 				<xsd:annotation>
 					<xsd:documentation>Идентификатор запроса в формате GUID</xsd:documentation>
 				</xsd:annotation>
@@ -163,13 +171,13 @@
 					<xsd:documentation>Дата и время формирования запроса</xsd:documentation>
 				</xsd:annotation>
 			</xsd:element>
-			<xsd:element name="RequestID" type="cust:TPackettID">
+			<xsd:element name="RequestID" type="cust:TGUID">
 				<xsd:annotation>
 					<xsd:documentation>Идентификатор пакета (cust:PacketID) в ответ на который сформировано данное сообщение.
 Заполняется исключительно ПО "Хранитель 2016"</xsd:documentation>
 				</xsd:annotation>
 			</xsd:element>
-			<xsd:element name="EndUserID" type="cust:TPackettID" minOccurs="0">
+			<xsd:element name="EndUserID" type="cust:TGUID" minOccurs="0">
 				<xsd:annotation>
 					<xsd:documentation>Идентификатор конечного клиентоского приложения/конечного пользователя. Применяется для поддержания принципа FIFO при маштабировании</xsd:documentation>
 				</xsd:annotation>
@@ -252,7 +260,7 @@
 			<xsd:maxLength value="100"/>
 		</xsd:restriction>
 	</xsd:simpleType>
-	<xsd:simpleType name="TPackettID">
+	<xsd:simpleType name="TGUID">
 		<xsd:annotation>
 			<xsd:documentation>Идентификатор запроса или ответа в формате GUID</xsd:documentation>
 		</xsd:annotation>
@@ -1794,7 +1802,7 @@
 		<xsd:annotation>
 			<xsd:documentation>Банковские реквизиты. Базовый тип</xsd:documentation>
 		</xsd:annotation>
-		<xsd:all>
+		<xsd:sequence>
 			<xsd:element name="MFO" minOccurs="0">
 				<xsd:annotation>
 					<xsd:documentation>МФО банка. Если указана IBAN украинского банка, реквизит не обязательный.</xsd:documentation>
@@ -1889,7 +1897,7 @@
 					</xsd:sequence>
 				</xsd:complexType>
 			</xsd:element>
-		</xsd:all>
+		</xsd:sequence>
 	</xsd:complexType>
 	<xsd:complexType name="TBankDetail">
 		<xsd:annotation>
@@ -1898,7 +1906,7 @@
 		</xsd:annotation>
 		<xsd:complexContent>
 			<xsd:extension base="cust:TBankDetailBase">
-				<xsd:all>
+				<xsd:sequence>
 					<xsd:element name="bankDetailID" type="xsd:integer" minOccurs="0">
 						<xsd:annotation>
 							<xsd:documentation>Внутрений идентифкатор банковских реквизитов клиента. Используется в ответах, при создании реквизитов. Или в запросах на редактирование карточки клиента в разделе банковских реквизитов</xsd:documentation>
@@ -1929,7 +1937,7 @@
 							</xsd:sequence>
 						</xsd:complexType>
 					</xsd:element>
-				</xsd:all>
+				</xsd:sequence>
 				<xsd:attribute name="changed" type="xsd:boolean">
 					<xsd:annotation>
 						<xsd:documentation>Информация о изменении. При использовании в методах обновления карточки клиента/счета - обновляться будут только те значения у которых этот параметр установлен в значение true</xsd:documentation>
@@ -2257,6 +2265,11 @@
 				<xsd:annotation>
 					<xsd:documentation>Идентификатор клиента в АБС</xsd:documentation>
 				</xsd:annotation>
+				<xsd:simpleType>
+					<xsd:restriction base="xsd:string">
+						<xsd:maxLength value="100"/>
+					</xsd:restriction>
+				</xsd:simpleType>
 			</xsd:element>
 		</xsd:sequence>
 		<xsd:attribute name="boolOper">
