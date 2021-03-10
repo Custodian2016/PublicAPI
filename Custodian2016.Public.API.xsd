@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- edited with XMLSpy v2020 rel. 2 (http://www.altova.com) by  () -->
-<xsd:schema xmlns:cust="urn:dmt:custodian2016" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning" targetNamespace="urn:dmt:custodian2016" elementFormDefault="qualified" attributeFormDefault="unqualified" version="0.4.4" vc:minVersion="1.1">
+<xsd:schema xmlns:cust="urn:dmt:custodian2016" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning" targetNamespace="urn:dmt:custodian2016" elementFormDefault="qualified" attributeFormDefault="unqualified" version="0.4.5" vc:minVersion="1.1">
 	<!--Custodian2016 public API-->
 	<xsd:element name="envelope">
 		<xsd:complexType>
@@ -204,11 +204,6 @@
 			<xsd:element name="status" type="cust:TStatus">
 				<xsd:annotation>
 					<xsd:documentation>Статусы обработки запроса</xsd:documentation>
-				</xsd:annotation>
-			</xsd:element>
-			<xsd:element name="error" type="cust:TStatus">
-				<xsd:annotation>
-					<xsd:documentation>Ошибка при обработке запроса.</xsd:documentation>
 				</xsd:annotation>
 			</xsd:element>
 			<xsd:element name="Statement_of_Holdings" type="cust:TStatement_of_Holding">
@@ -1014,13 +1009,14 @@
 				</xsd:simpleType>
 			</xsd:element>
 			<xsd:element name="message" type="xsd:string" minOccurs="0"/>
+			<xsd:element name="isError" type="xsd:boolean" minOccurs="0"/>
 		</xsd:sequence>
 	</xsd:complexType>
 	<xsd:complexType name="TContact">
 		<xsd:annotation>
 			<xsd:documentation>Контактная информация</xsd:documentation>
 		</xsd:annotation>
-		<xsd:all>
+		<xsd:sequence>
 			<xsd:element name="Phone" type="xsd:string" minOccurs="0"/>
 			<xsd:element name="mobilePhone" type="xsd:string" minOccurs="0"/>
 			<xsd:element name="eMails" minOccurs="0">
@@ -1034,13 +1030,13 @@
 				</xsd:complexType>
 			</xsd:element>
 			<xsd:element name="Person" type="xsd:string" minOccurs="0"/>
-		</xsd:all>
+		</xsd:sequence>
 	</xsd:complexType>
 	<xsd:complexType name="TISI">
 		<xsd:annotation>
 			<xsd:documentation>Информация по ИСИ и/или НПФ</xsd:documentation>
 		</xsd:annotation>
-		<xsd:all>
+		<xsd:sequence>
 			<xsd:element name="ISIType" type="cust:Tnssmc_ISIType">
 				<xsd:annotation>
 					<xsd:documentation>Тип ИСИ согласно класификации НКЦПФР</xsd:documentation>
@@ -1071,7 +1067,7 @@
 					<xsd:documentation>Реквизиты договора на обслуживание ИСИ/НПФ</xsd:documentation>
 				</xsd:annotation>
 				<xsd:complexType>
-					<xsd:all>
+					<xsd:sequence>
 						<xsd:element name="number">
 							<xsd:annotation>
 								<xsd:documentation>Номер</xsd:documentation>
@@ -1087,12 +1083,12 @@
 								<xsd:documentation>Дата</xsd:documentation>
 							</xsd:annotation>
 						</xsd:element>
-					</xsd:all>
+					</xsd:sequence>
 				</xsd:complexType>
 			</xsd:element>
 			<xsd:element name="KUA" minOccurs="0">
 				<xsd:complexType>
-					<xsd:all>
+					<xsd:sequence>
 						<xsd:element name="idCode">
 							<xsd:annotation>
 								<xsd:documentation>ЕГРПОУ компании по управлению активами</xsd:documentation>
@@ -1125,12 +1121,12 @@
 								</xsd:simpleContent>
 							</xsd:complexType>
 						</xsd:element>
-					</xsd:all>
+					</xsd:sequence>
 				</xsd:complexType>
 			</xsd:element>
 			<xsd:element name="Admin" minOccurs="0">
 				<xsd:complexType>
-					<xsd:all>
+					<xsd:sequence>
 						<xsd:element name="idCode">
 							<xsd:annotation>
 								<xsd:documentation>ЕГРПОУ администратора ПФ</xsd:documentation>
@@ -1163,10 +1159,10 @@
 								</xsd:simpleContent>
 							</xsd:complexType>
 						</xsd:element>
-					</xsd:all>
+					</xsd:sequence>
 				</xsd:complexType>
 			</xsd:element>
-		</xsd:all>
+		</xsd:sequence>
 	</xsd:complexType>
 	<xsd:complexType name="TAgreementBase">
 		<xsd:annotation>
@@ -1361,7 +1357,7 @@
 		<xsd:annotation>
 			<xsd:documentation>Адрес</xsd:documentation>
 		</xsd:annotation>
-		<xsd:all>
+		<xsd:sequence>
 			<xsd:element name="addressID" type="xsd:integer" minOccurs="0"/>
 			<xsd:element name="addressType" type="cust:TAddressType">
 				<xsd:annotation>
@@ -1447,7 +1443,7 @@
 					</xsd:restriction>
 				</xsd:simpleType>
 			</xsd:element>
-		</xsd:all>
+		</xsd:sequence>
 		<xsd:attribute name="changed" type="xsd:boolean">
 			<xsd:annotation>
 				<xsd:documentation>Информация о изменении. При использовании в методах обновления карточки клиента/счета - обновляться будут только те значения у которых этот параметр установлен в значение true</xsd:documentation>
@@ -1607,7 +1603,7 @@
 					<xsd:documentation>дата и место рождения</xsd:documentation>
 				</xsd:annotation>
 				<xsd:complexType>
-					<xsd:all>
+					<xsd:sequence>
 						<xsd:element name="BirthDate" type="xsd:date" minOccurs="0"/>
 						<xsd:element name="BirthPlace">
 							<xsd:simpleType>
@@ -1616,7 +1612,7 @@
 								</xsd:restriction>
 							</xsd:simpleType>
 						</xsd:element>
-					</xsd:all>
+					</xsd:sequence>
 					<xsd:attribute name="changed" type="xsd:boolean">
 						<xsd:annotation>
 							<xsd:documentation>Информация о изменении. При использовании в методах обновления карточки клиента/счета - обновляться будут только те значения у которых этот параметр установлен в значение true</xsd:documentation>
@@ -1779,7 +1775,7 @@
 					<xsd:documentation>дата и место рождения</xsd:documentation>
 				</xsd:annotation>
 				<xsd:complexType>
-					<xsd:all>
+					<xsd:sequence>
 						<xsd:element name="BirthDate" type="xsd:date" minOccurs="0"/>
 						<xsd:element name="BirthPlace">
 							<xsd:simpleType>
@@ -1788,7 +1784,7 @@
 								</xsd:restriction>
 							</xsd:simpleType>
 						</xsd:element>
-					</xsd:all>
+					</xsd:sequence>
 					<xsd:attribute name="changed" type="xsd:boolean">
 						<xsd:annotation>
 							<xsd:documentation>Информация о изменении. При использовании в методах обновления карточки клиента/счета - обновляться будут только те значения у которых этот параметр установлен в значение true</xsd:documentation>
@@ -1813,7 +1809,7 @@
 					</xsd:restriction>
 				</xsd:simpleType>
 			</xsd:element>
-			<xsd:element name="IBAN">
+			<xsd:element name="IBAN" minOccurs="0">
 				<xsd:simpleType>
 					<xsd:restriction base="xsd:string">
 						<xsd:maxLength value="34"/>
@@ -1974,7 +1970,7 @@
 		</xsd:annotation>
 		<xsd:complexContent>
 			<xsd:extension base="cust:TnewAccountRequest">
-				<xsd:all>
+				<xsd:sequence>
 					<xsd:element name="accountNumber" type="cust:TAccount_Num">
 						<xsd:annotation>
 							<xsd:documentation>Номер счета в ЦБ</xsd:documentation>
@@ -1997,7 +1993,7 @@
 							</xsd:sequence>
 						</xsd:complexType>
 					</xsd:element>
-				</xsd:all>
+				</xsd:sequence>
 			</xsd:extension>
 		</xsd:complexContent>
 	</xsd:complexType>
@@ -2104,7 +2100,7 @@
 		<xsd:annotation>
 			<xsd:documentation>Тип данных для окрытия нового счета в ЦБ</xsd:documentation>
 		</xsd:annotation>
-		<xsd:all>
+		<xsd:sequence>
 			<xsd:element name="nssmcClientTypeCode">
 				<xsd:annotation>
 					<xsd:documentation>Тип клиента по классификации НКЦПФР</xsd:documentation>
@@ -2228,7 +2224,7 @@
 					<xsd:documentation>Дополнительная информация по ИСИ и НПФ</xsd:documentation>
 				</xsd:annotation>
 			</xsd:element>
-		</xsd:all>
+		</xsd:sequence>
 	</xsd:complexType>
 	<xsd:complexType name="TAccountList">
 		<xsd:annotation>
@@ -2682,10 +2678,14 @@
 	</xsd:annotation>
 	<xsd:complexType name="TBalance_request">
 		<xsd:annotation>
-			<xsd:documentation>Запрос на текщий баланс в разрезе счета депонента</xsd:documentation>
+			<xsd:documentation>Запрос баланса на любую дату в разрезе счета депонента</xsd:documentation>
 		</xsd:annotation>
 		<xsd:complexContent>
-			<xsd:extension base="cust:TStatement_of_Holdings_Request"/>
+			<xsd:extension base="cust:TStatementRequestBase">
+				<xsd:sequence minOccurs="0">
+					<xsd:element name="dateState" type="xsd:date" minOccurs="0"/>
+				</xsd:sequence>
+			</xsd:extension>
 		</xsd:complexContent>
 	</xsd:complexType>
 	<xsd:complexType name="TBalance_responce">
@@ -2705,8 +2705,8 @@
 		</xsd:annotation>
 		<xsd:complexContent>
 			<xsd:extension base="cust:TStatementRequestBase">
-				<xsd:sequence>
-					<xsd:element name="dateState" type="xsd:date"/>
+				<xsd:sequence minOccurs="0">
+					<xsd:element name="dateState" type="xsd:date" minOccurs="0"/>
 				</xsd:sequence>
 			</xsd:extension>
 		</xsd:complexContent>
@@ -2779,6 +2779,7 @@
 			<xsd:element name="Quantity" type="xsd:long"/>
 			<xsd:element name="faceAmount" type="xsd:float"/>
 			<xsd:element name="Percent" type="xsd:float" minOccurs="0"/>
+			<xsd:element name="Currency" type="cust:TCurrency"/>
 		</xsd:sequence>
 	</xsd:complexType>
 	<xsd:complexType name="TStatement_of_Holding_rows">
