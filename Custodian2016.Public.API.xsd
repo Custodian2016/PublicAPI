@@ -1620,6 +1620,21 @@
 					</xsd:attribute>
 				</xsd:complexType>
 			</xsd:element>
+			<xsd:element name="fund" type="xsd:float" minOccurs="0">
+				<xsd:annotation>
+					<xsd:documentation>Уставный фонд. Может заполнятся только при открытии счета юридическому лицу.</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="currency" type="cust:TCurrency" minOccurs="0">
+				<xsd:annotation>
+					<xsd:documentation>Валюта уставного фонда. Может заполнятся только при открытии счета юридическому лицу.</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
+			<xsd:element name="refusingCode" type="xsd:boolean" minOccurs="0">
+				<xsd:annotation>
+					<xsd:documentation>Отказ от получения ИНН. Заполняется только для физических лиц. Если это параметр установлен в значение true, поле idCode не должно содержать значений</xsd:documentation>
+				</xsd:annotation>
+			</xsd:element>
 		</xsd:sequence>
 	</xsd:complexType>
 	<xsd:complexType name="TCustomerSimple">
