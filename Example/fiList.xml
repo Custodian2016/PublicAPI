@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cust:request xmlns:cust="urn:dmt:custodian2016">   <cust:header>    <cust:RequestType>fiList</cust:RequestType>    <cust:RequestID>85F3C4F2-3BC4-48C5-8DD7-59255BE3AFCA</cust:RequestID>    <cust:TimeStamp>2021-09-28T16:23:42.366Z</cust:TimeStamp>    <cust:sourceAPPidentity>1DD4EC32-45DB-404A-A123-6F657895E502</cust:sourceAPPidentity>   </cust:header>   <cust:body>    <cust:fiList>    </cust:fiList>   </cust:body>  </cust:request>  

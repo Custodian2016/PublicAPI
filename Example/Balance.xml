@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cust:request xmlns:cust="urn:dmt:custodian2016"><cust:header><cust:RequestType>Balance</cust:RequestType><cust:RequestID>ECED927F-4AD2-4FE1-873C-98E54F5FEC8F</cust:RequestID><cust:TimeStamp>2021-09-28T02:31:44.222Z</cust:TimeStamp><cust:sourceAPPidentity>1DD4EC32-45DB-404A-A123-6F657895E502</cust:sourceAPPidentity></cust:header><cust:body><cust:Balance><cust:Account>400820-UA10123456</cust:Account></cust:Balance></cust:body></cust:request>
