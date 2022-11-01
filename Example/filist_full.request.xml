@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<cust:request xmlns:cust="urn:dmt:custodian2016">
+	<cust:header>
+		<cust:RequestType>fiList</cust:RequestType>
+		<cust:RequestID>42CA786D-B1C2-46DC-ABB7-427537E00DB8</cust:RequestID>
+		<cust:TimeStamp>2022-06-06T18:50:24.716Z</cust:TimeStamp>
+		<cust:sourceAPPidentity>1DD4EC32-45DB-404A-A123-6F657895E502</cust:sourceAPPidentity>
+		<cust:EndUserID>494BE83E-9F12-4F90-B757-FDFA00F0EA93</cust:EndUserID></cust:header>
+	<cust:body>
+		<cust:fiList>
+		</cust:fiList>
+	</cust:body>
+</cust:request>

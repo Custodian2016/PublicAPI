@@ -1,0 +1,42 @@
+<cust:request xmlns:cust="urn:dmt:custodian2016" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:dmt:custodian2016">
+	<cust:header>
+		<cust:RequestType>Transaction</cust:RequestType>
+		<cust:RequestID>ba7fed65-558f-4232-95da-9fb2ec71c5a7</cust:RequestID>
+		<cust:TimeStamp>2022-05-24T18:13:57.350</cust:TimeStamp>
+		<cust:sourceAPPidentity>1DD4EC32-45DB-404A-A123-6F657895E502</cust:sourceAPPidentity>
+	</cust:header>
+	<cust:body>
+		<cust:Transaction>
+			<cust:ISIN>
+				<cust:ISIN>UA4000225866</cust:ISIN>
+				<cust:Depositary>100</cust:Depositary>
+			</cust:ISIN>
+			<cust:Quantity>7013</cust:Quantity>
+			<cust:Agreement>
+				<cust:number>20285</cust:number>
+				<cust:date>2022-05-24</cust:date>
+				<cust:AgreementCost>6899880.31</cust:AgreementCost>
+				<cust:AgreementCurrency>980</cust:AgreementCurrency>
+			</cust:Agreement>
+			<cust:CommitAfterRegistr>true</cust:CommitAfterRegistr>
+			<cust:ParticipantSource>
+				<cust:MDO>400820</cust:MDO>
+				<cust:Account>400820-UA40001129</cust:Account>
+				<cust:IDCode>24685310</cust:IDCode>
+				<cust:Level>2</cust:Level>
+			</cust:ParticipantSource>
+			<cust:ParticipantDestination>
+				<cust:MDO>400820</cust:MDO>
+				<cust:Account>400820-UA10000001</cust:Account>
+				<cust:IDCode>0123456789</cust:IDCode>
+				<cust:Doc>
+					<cust:docSerial>XX</cust:docSerial>
+					<cust:docNumber>123456</cust:docNumber>
+					<cust:docDate>1998-10-21</cust:docDate>
+					<cust:docWho>Кем выдан паспорт</cust:docWho>
+				</cust:Doc>
+				<cust:Level>2</cust:Level>
+			</cust:ParticipantDestination>
+		</cust:Transaction>
+	</cust:body>
+</cust:request>

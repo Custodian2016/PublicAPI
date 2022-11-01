@@ -1,0 +1,41 @@
+<cust:request xmlns:cust="urn:dmt:custodian2016" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:dmt:custodian2016 file:///C:/Users/Nim/OneDrive/Project/Custodian.Web/PublicAPI/Custodian2016.Public.API.xsd">
+	<cust:header>
+		<cust:RequestType>AddOrUpdateFI</cust:RequestType>
+		<cust:RequestID>2964DA19-E0C9-4174-AB42-A3227FEDA49A</cust:RequestID>
+		<cust:TimeStamp>2022-01-31T20:56:16.850</cust:TimeStamp>
+		<cust:sourceAPPidentity>1DD4EC32-45DB-404A-A123-6F657895E502</cust:sourceAPPidentity>
+		<cust:EndUserID>B86DBB47-8A47-4E92-A180-716821900388</cust:EndUserID>
+	</cust:header>
+	<cust:body>
+		<cust:FI>
+			<cust:ISIN>
+				<cust:ISIN>US0378331005</cust:ISIN>
+				<cust:Depositary>1000</cust:Depositary>
+			</cust:ISIN>
+			<cust:Country>840</cust:Country>
+			<cust:IssuerName>
+				<cust:shortName>APPLE INC.APPLE INC.</cust:shortName>
+				<cust:longName>APPLE INC.APPLE INC.</cust:longName>
+			</cust:IssuerName>
+			<cust:IssuerIDCode>94-2404110</cust:IssuerIDCode>
+			<cust:IssuerRegNumber>
+				<cust:number>1234</cust:number>
+				<cust:date>2000-01-01</cust:date>
+			</cust:IssuerRegNumber>
+			<cust:Issuer_form>230</cust:Issuer_form>
+			<cust:Issuer_fund>10000000</cust:Issuer_fund>
+			<cust:Issuer_currency>840</cust:Issuer_currency>
+			<cust:State>0</cust:State>
+			<cust:Type>01111100</cust:Type>
+			<cust:CFI>ESVUFR</cust:CFI>
+			<cust:Quantity>1000000</cust:Quantity>
+			<cust:Nominal>177.0800</cust:Nominal>
+			<cust:Currency>840</cust:Currency>
+			<cust:RegNumber>
+				<cust:number>Regnumber #1234</cust:number>
+				<cust:date>2020-01-01</cust:date>
+			</cust:RegNumber>
+			<cust:isTGS>0</cust:isTGS>
+		</cust:FI>
+	</cust:body>
+</cust:request>

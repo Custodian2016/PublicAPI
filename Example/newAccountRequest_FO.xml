@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cust:request xmlns:cust="urn:dmt:custodian2016" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<cust:header>
+		<cust:RequestType>newAccount</cust:RequestType>
+		<cust:RequestID>860966B1-2E36-4242-85F1-BFA4F23AA487</cust:RequestID>
+		<cust:TimeStamp>2021-03-09T17:57:26.493</cust:TimeStamp>
+		<cust:sourceAPPidentity>1DD4EC32-45DB-404A-A123-6F657895E502</cust:sourceAPPidentity>
+	</cust:header>
+	<cust:body>
+		<cust:newAccount>
+			  <cust:nssmcClientTypeCode>110</cust:nssmcClientTypeCode>
+			  <cust:Customer>
+				<cust:CNUM>4630991</cust:CNUM>
+				<cust:country>804</cust:country>
+				<cust:CountryTax>804</cust:CountryTax>
+				<cust:idCode>3333105490</cust:idCode>
+				<cust:ClientTypeCode>0</cust:ClientTypeCode>
+				<cust:name>
+				  <cust:shortName>ШИШКОВ О.В.</cust:shortName>
+				  <cust:longName>Шишков Олександр Володимирович</cust:longName>
+				</cust:name>
+				<cust:addresses>
+				  <cust:address>
+					<cust:addressType>legal</cust:addressType>
+					<cust:country>804</cust:country>
+					<cust:region>63000</cust:region>
+					<cust:locality>м. ХАРКІВ</cust:locality>
+					<cust:street>вул. Клименова Дача</cust:street>
+					<cust:house>11</cust:house>
+					<cust:flat>31</cust:flat>
+				  </cust:address>
+				  <cust:address>
+					<cust:addressType>post</cust:addressType>
+					<cust:country>804</cust:country>
+					<cust:region>63000</cust:region>
+					<cust:locality>м. ХАРКІВ</cust:locality>
+					<cust:street>вул. Клименова Дача</cust:street>
+					<cust:house>11</cust:house>
+					<cust:flat>31</cust:flat>
+				  </cust:address>
+				</cust:addresses>
+				<cust:docFO>
+				  <cust:docSerial>МТ</cust:docSerial>
+				  <cust:docNumber>322553</cust:docNumber>
+				  <cust:docDate>2013-11-27</cust:docDate>
+				  <cust:docWho>Чугуївським РВ ГУДМС України в Харківській обл.</cust:docWho>
+				  <cust:docType>Паспорт</cust:docType>
+				</cust:docFO>
+				<cust:bankDetails>
+				  <cust:bankDetail>
+					<cust:IBAN>UA483003460000026207907121175</cust:IBAN>
+					<cust:bankName>АТ 'АЛЬФА-БАНК'</cust:bankName>
+					<cust:currency>980</cust:currency>
+					<cust:bankDetailID>49549</cust:bankDetailID>
+					<cust:use4income>true</cust:use4income>
+					<cust:Period>
+					  <cust:DateStart>2022-01-10</cust:DateStart>
+					</cust:Period>
+					<cust:Type>1</cust:Type>
+				  </cust:bankDetail>
+				</cust:bankDetails>
+				<cust:contact>
+				  <cust:mobilePhone>380968754600</cust:mobilePhone>
+				  <cust:eMails>
+					<cust:eMail_general>shishkov.ua@gmail.com</cust:eMail_general>
+				  </cust:eMails>
+				</cust:contact>
+				<cust:BirthInfo>
+				  <cust:BirthDate>1991-04-04</cust:BirthDate>
+				  <cust:BirthPlace>м. Чугуїв Харківської області</cust:BirthPlace>
+				</cust:BirthInfo>
+				<cust:refusingCode>0</cust:refusingCode>
+			  </cust:Customer>
+			  <cust:agreements>
+				<cust:agreement>
+				  <cust:number>3-15000067</cust:number>
+				  <cust:date>2021-12-28</cust:date>
+				  <cust:dateStart>2021-12-28</cust:dateStart>
+				  <cust:AgrID>54689</cust:AgrID>
+				</cust:agreement>
+			  </cust:agreements>
+		</cust:newAccount>
+	</cust:body>
+</cust:request>

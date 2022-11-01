@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cust:request xmlns:cust="urn:dmt:custodian2016">
+	<cust:header>
+		<cust:RequestType>GetDictionary</cust:RequestType>
+		<cust:RequestID>266250EC-BC1B-4FBB-B815-81D706EA553D</cust:RequestID>
+		<cust:TimeStamp>2022-05-12T10:26:51.315Z</cust:TimeStamp>
+		<cust:sourceAPPidentity>1DD4EC32-45DB-404A-A123-6F657895E502</cust:sourceAPPidentity>
+		<cust:EndUserID>3E268019-2C09-45EE-8A4E-1B9C6B885E0E</cust:EndUserID></cust:header>
+	<cust:body>
+		<cust:Dictionary>
+			<cust:code>nsdmc_fi_type</cust:code>
+			<cust:data>true</cust:data>
+			<cust:metadata>true</cust:metadata>
+		</cust:Dictionary>
+	</cust:body>
+</cust:request>

@@ -1,0 +1,22 @@
+<cust:responce xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cust="urn:dmt:custodian2016">
+  <cust:header>
+    <cust:ResponceType>NotificationTransaction</cust:ResponceType>
+    <cust:ResponceID>39E93D44-D921-4185-810E-A2A87768B08F</cust:ResponceID>
+    <cust:TimeStamp>2022-09-23T18:18:01.010</cust:TimeStamp>
+    <cust:RequestID>00000000-0000-0000-0000-000000000000</cust:RequestID>
+  </cust:header>
+  <cust:body>
+    <cust:Notification xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="cust:TNotificationTransaction">
+      <cust:NotificationType>newTransaction</cust:NotificationType>
+      <cust:OrderID>795854</cust:OrderID>
+      <cust:Date>2022-08-30</cust:Date>
+      <cust:ISIN>
+        <cust:ISIN>UA5000003963</cust:ISIN>
+        <cust:Depositary>200</cust:Depositary>
+      </cust:ISIN>
+      <cust:AccountSource>400820-UA40001129</cust:AccountSource>
+      <cust:AccountDestination>400820-AU90043965/001</cust:AccountDestination>
+      <cust:Quantity>20</cust:Quantity>
+    </cust:Notification>
+  </cust:body>
+</cust:responce>

@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<cust:request xmlns:cust="urn:dmt:custodian2016">
+	<cust:header>
+		<cust:RequestType>BalanceV2</cust:RequestType>
+		<cust:RequestID>91F61283-0B2F-4B55-8B2F-A5D9DE695AC3</cust:RequestID>
+		<cust:TimeStamp>2022-06-30T12:03:40.688Z</cust:TimeStamp>
+		<cust:sourceAPPidentity>1DD4EC32-45DB-404A-A123-6F657895E502</cust:sourceAPPidentity>
+		<cust:EndUserID>1FA2968C-3385-4369-A51C-C78023CFB294</cust:EndUserID></cust:header>
+	<cust:body>
+		<cust:Balance>
+			<cust:Account>400820-UA40000001</cust:Account>
+		</cust:Balance>
+	</cust:body>
+</cust:request>

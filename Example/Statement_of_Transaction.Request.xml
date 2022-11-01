@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<cust:request xmlns:cust="urn:dmt:custodian2016" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<cust:header>
+		<cust:RequestType>Statement_of_Transaction</cust:RequestType>
+		<cust:RequestID>CD0C0432-92BF-41C3-B848-94EBAF93F768</cust:RequestID>
+		<cust:TimeStamp>2022-06-06T21:13:43.346Z</cust:TimeStamp>
+		<cust:sourceAPPidentity>1DD4EC32-45DB-404A-A123-6F657895E502</cust:sourceAPPidentity>
+		<cust:EndUserID>FF77F9FD-DF3A-4281-AF77-A3F2B75DBC9E</cust:EndUserID>
+	</cust:header>
+	<cust:body>
+		<cust:Statement_of_Transactions_Request>
+			<cust:Account>400820-UA40000001</cust:Account>
+			<cust:dateStart>2022-01-01</cust:dateStart>
+			<cust:dateStop>2022-06-06</cust:dateStop>
+		</cust:Statement_of_Transactions_Request>
+	</cust:body>
+</cust:request>

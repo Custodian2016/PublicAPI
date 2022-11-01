@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cust:request xmlns:cust="urn:dmt:custodian2016" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:dmt:custodian2016">
+	<cust:header>
+		<cust:RequestType>updateAccountV2</cust:RequestType>
+		<cust:RequestID>BBCC9B28-E017-4FD3-AC7C-3F3B88C8C26E</cust:RequestID>
+		<cust:TimeStamp>2022-06-29T22:07:46.743Z</cust:TimeStamp>
+		<cust:sourceAPPidentity>1DD4EC32-45DB-404A-A123-6F657895E502</cust:sourceAPPidentity>
+		<cust:EndUserID>A02001CA-B34B-4BE0-B052-F8A4A6765E5E</cust:EndUserID>
+	</cust:header>
+	<cust:body>
+		<cust:updateAccount>
+			<cust:Account>400820-UA40000001</cust:Account>
+			<cust:Customer>
+				<cust:CustomerID>103993</cust:CustomerID>
+				<cust:bankDetails>
+					<cust:bankDetail changed="true">						
+						<cust:MFO>123456</cust:MFO>						
+						<cust:IBAN>UA583003460000026202900672660</cust:IBAN>
+						<cust:bankName>Банк1</cust:bankName>
+						<cust:currency>840</cust:currency>
+						<cust:use4income>true</cust:use4income>
+						<cust:AgregateAccountID>5</cust:AgregateAccountID>
+					</cust:bankDetail>
+				</cust:bankDetails>
+			</cust:Customer>
+		</cust:updateAccount>
+	</cust:body>
+</cust:request>

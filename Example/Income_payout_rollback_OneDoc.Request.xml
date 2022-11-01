@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cust:request xmlns:cust="urn:dmt:custodian2016" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:dmt:custodian2016 file:///C:/Users/Nim/OneDrive/Project/Custodian.Web/PublicAPI/Custodian2016.Public.API.xsd">
+	<cust:header>
+		<cust:RequestType>Income_payout_rollback</cust:RequestType>
+		<cust:RequestID>21240A25-7472-4BFD-9EE5-9EE8AB61FC29</cust:RequestID>
+		<cust:TimeStamp>2001-12-17T09:30:47Z</cust:TimeStamp>
+		<cust:sourceAPPidentity>1DD4EC32-45DB-404A-A123-6F657895E502</cust:sourceAPPidentity>
+	</cust:header>
+	<cust:body>
+		<cust:Income_payout_rollback>
+			<cust:ID>94771</cust:ID>
+			<cust:message>Помилковий рахунок</cust:message>
+		</cust:Income_payout_rollback>
+	</cust:body>
+</cust:request>

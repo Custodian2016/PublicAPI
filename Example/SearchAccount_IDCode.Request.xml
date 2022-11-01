@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cust:request xmlns:cust="urn:dmt:custodian2016" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<cust:header>
+		<cust:RequestType>SearchAccount</cust:RequestType>
+		<cust:RequestID>F2AFB2AA-6C75-4CD1-84AA-FD9941CDCDC9</cust:RequestID>
+		<cust:TimeStamp>2001-12-17T09:30:47Z</cust:TimeStamp>
+		<cust:sourceAPPidentity>1DD4EC32-45DB-404A-A123-6F657895E502</cust:sourceAPPidentity>
+	</cust:header>
+	<cust:body>
+		<cust:SearchAccount>
+			<cust:IDCode>1578314415</cust:IDCode>			
+		</cust:SearchAccount>
+	</cust:body>
+</cust:request>

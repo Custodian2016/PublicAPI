@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<cust:request xmlns:cust="urn:dmt:custodian2016">
+	<cust:header>
+		<cust:RequestType>getFI</cust:RequestType>
+		<cust:RequestID>7AA55448-121E-4329-9C29-C9B5A0569AF2</cust:RequestID>
+		<cust:TimeStamp>2022-06-06T18:55:41.780Z</cust:TimeStamp>
+		<cust:sourceAPPidentity>1DD4EC32-45DB-404A-A123-6F657895E502</cust:sourceAPPidentity>
+		<cust:EndUserID>E8910757-19B9-488C-8F9F-5EBBD763DFC0</cust:EndUserID></cust:header>
+	<cust:body>
+		<cust:getFI>
+			<cust:ISIN>UA4000225775</cust:ISIN>
+		</cust:getFI>
+	</cust:body>
+</cust:request>
