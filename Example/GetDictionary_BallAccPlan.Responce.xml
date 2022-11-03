@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cust:responce xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cust="urn:dmt:custodian2016" xsi:schemaLocation="urn:dmt:custodian2016 file:///C:/Users/Nim/OneDrive/Project/Custodian.Web/PublicAPI/Custodian2016.Public.API.xsd">
+	<cust:header>
+		<cust:ResponceType>Dictionary</cust:ResponceType>
+		<cust:ResponceID>44F37317-B06D-4925-BDDE-AB00F1696729</cust:ResponceID>
+		<cust:TimeStamp>2022-11-03T15:18:42.427</cust:TimeStamp>
+		<cust:RequestID>46339CD6-CA7B-406D-B387-92443D2CD7A2</cust:RequestID>
+		<cust:EndUserID>3E268019-2C09-45EE-8A4E-1B9C6B885E0E</cust:EndUserID>
+
+	</cust:header>
+	<cust:body>
+		<cust:dictionary Code="BallAccPlan">
+			<cust:metadata>
+				<cust:field name="BalAccount" type="varchar" maxLen="26" precision="0" scale="0" nullable="0"/>
+				<cust:field name="Text" type="varchar" maxLen="256" precision="0" scale="0" nullable="0"/>
+			</cust:metadata>
+			<cust:data>
+				<cust:row BalAccount="220200" Text="заблоковані під здійснення розрахунків на позабіржовому ринку без дотримання принципу &quot;поставка ЦП проти оплати&quot; ЦП на обліку іноземної депозитарної установи в ЦД"/>
+				<cust:row BalAccount="221200" Text="заблоковані за операціями РЕПО ЦП на обліку іноземної депозитарної установи в ЦД"/>
+				<cust:row BalAccount="210000" Text="не обтяжені зобов'язаннями"/>
+				<cust:row BalAccount="220000" Text="заблоковані під здійснення розрахунків на позабіржовому ринку без дотримання принципу &quot;поставка ЦП проти оплати&quot;"/>
+				<cust:row BalAccount="221000" Text="заблоковані за  операціями РЕПО"/>
+				<cust:row BalAccount="222000" Text="заблоковані за операціями емітента"/>
+				<cust:row BalAccount="223000" Text="заблоковані внаслідок безумовної операції"/>
+				<cust:row BalAccount="224000" Text="заблоковані за емісійними обмеженнями"/>
+				<cust:row BalAccount="225000" Text="заблоковані під забезпечення кредитів рефінансування Національного банку України"/>
+				<cust:row BalAccount="226000" Text="заблоковані під забезпечення кредитів"/>
+				<cust:row BalAccount="227000" Text="заблоковані для торгів"/>
+				<cust:row BalAccount="228000" Text="заблоковані власником під забезпечення виконання договірних відносин (крім тих, що  блокуються на підставах, зазначених в інших групах)"/>
+				<cust:row BalAccount="229000" Text="заблоковані з обмеженням прав за цінними паперами (з 14.12.17 не застосовується)"/>
+				<cust:row BalAccount="210200" Text="не обтяжені зобов’язаннями ЦП на обліку іноземної депозитарної установи в ЦД"/>
+				<cust:row BalAccount="222200" Text="заблоковані за операціями емітента ЦП на обліку іноземної депозитарної установи в ЦД"/>
+				<cust:row BalAccount="223200" Text="заблоковані внаслідок безумовної операції ЦП на обліку іноземної депозитарної установи в ЦД"/>
+				<cust:row BalAccount="224200" Text="заблоковані за емісійними обмеженнями ЦП на обліку іноземної депозитарної установи в ЦД"/>
+				<cust:row BalAccount="226200" Text="заблоковані під забезпечення кредитів ЦП на обліку іноземної депозитарної установи в ЦД"/>
+				<cust:row BalAccount="227200" Text="заблоковані для торгів ЦП на обліку іноземної депозитарної установи в ЦД"/>
+				<cust:row BalAccount="228200" Text="заблоковані власником під забезпечення виконання договірних відносин (крім тих, що блокуються на підставах, зазначених в інших групах) ЦП на обліку іноземної депозитарної установи в ЦД"/>
+				<cust:row BalAccount="229200" Text="заблоковані з обмеженням прав за цінними паперами (з 14.12.17 не застосовується)"/>
+				<cust:row BalAccount="410000" Text="не обтяжені зобов'язаннями"/>
+				<cust:row BalAccount="420000" Text="заблоковані під здійснення розрахунків на позабіржовому  ринку без дотримання принципу &quot;поставка ЦП проти оплати&quot;"/>
+				<cust:row BalAccount="421000" Text="заблоковані за операціями  РЕПО"/>
+				<cust:row BalAccount="422000" Text="заблоковані за операціями емітента"/>
+				<cust:row BalAccount="423000" Text="заблоковані внаслідок безумовної операції"/>
+				<cust:row BalAccount="424000" Text="заблоковані за емісійними обмеженнями"/>
+				<cust:row BalAccount="425000" Text="заблоковані під забезпечення кредитів рефінансування Національного банку України"/>
+				<cust:row BalAccount="426000" Text="заблоковані під забезпечення кредитів"/>
+				<cust:row BalAccount="427000" Text="заблоковані для торгів"/>
+				<cust:row BalAccount="428000" Text="заблоковані власником під забезпечення виконання договірних відносин (крім тих, що блокуються на підставах, зазначених в інших групах)"/>
+				<cust:row BalAccount="429000" Text="заблоковані з обмеженням прав за цінними паперами (з 14.12.17 не застосовується)"/>
+				<cust:row BalAccount="22A000" Text="заблоковані для розподілу за власниками"/>
+				<cust:row BalAccount="230000" Text="не обтяжені зобов'язаннями"/>
+				<cust:row BalAccount="430000" Text="не обтяжені зобов'язаннями"/>
+				<cust:row BalAccount="233000" Text="заблоковані внаслідок безумовної операції"/>
+				<cust:row BalAccount="238000" Text="заблоковані під забезпечення виконання договірних відносин"/>
+				<cust:row BalAccount="433000" Text="заблоковані внаслідок безумовної операції"/>
+				<cust:row BalAccount="438000" Text="заблоковані під забезпечення виконання договірних відносин"/>
+				<cust:row BalAccount="223310" Text="заблоковані за рішенням суду"/>
+				<cust:row BalAccount="223320" Text="заблоковані за ухвалою суду"/>
+				<cust:row BalAccount="223330" Text="Гарантоване блокування"/>
+				<cust:row BalAccount="223340" Text="заблоковані за постановою суду"/>
+				<cust:row BalAccount="223350" Text="Заблоковані судом (інше)"/>
+				<cust:row BalAccount="223360" Text="заблоковані АРМА"/>
+				<cust:row BalAccount="223999" Text="заблоковані внаслідок безумовної операції"/>
+				<cust:row BalAccount="226999" Text="заблоковані під забезпечення кредитів"/>
+				<cust:row BalAccount="227999" Text="заблоковані для торгів TEST"/>
+				<cust:row BalAccount="423310" Text="заблоковані за рішенням суду"/>
+				<cust:row BalAccount="423320" Text="заблоковані за ухвалою суду"/>
+				<cust:row BalAccount="423330" Text="Гарантоване блокування"/>
+				<cust:row BalAccount="423340" Text="заблоковані за постановою суду"/>
+				<cust:row BalAccount="423350" Text="Заблоковані судом (інше)"/>
+				<cust:row BalAccount="423360" Text="заблоковані АРМА"/>
+				<cust:row BalAccount="423999" Text="заблоковані внаслідок безумовної операції"/>
+				<cust:row BalAccount="426999" Text="заблоковані під забезпечення кредитів"/>
+				<cust:row BalAccount="427999" Text="заблоковані для торгів TEST"/>
+			</cust:data>
+		</cust:dictionary>
+	</cust:body>
+</cust:responce>
