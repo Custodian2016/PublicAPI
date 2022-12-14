@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cust:request xmlns:cust="urn:dmt:custodian2016" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:dmt:custodian2016 file:///C:/Users/Nim/OneDrive/Project/Custodian.Web/PublicAPI/Custodian2016.Public.API.xsd">
+	<cust:header>
+		<cust:RequestType>Balance_compare</cust:RequestType>
+		<cust:RequestID>8CD5AF02-E8AE-41D2-AA38-A532A67C3A14</cust:RequestID>
+		<cust:TimeStamp>2022-12-14T23:00:03.398Z</cust:TimeStamp>
+		<cust:sourceAPPidentity>1DD4EC32-45DB-404A-A123-6F657895E502</cust:sourceAPPidentity>
+		<cust:EndUserID>04EC1A7A-ECB4-4F53-B84B-7A1731D66715</cust:EndUserID>
+	</cust:header>
+	<cust:body>
+		<cust:Balance_compare>
+			<cust:date>2022-12-14</cust:date>
+			<cust:ISIN>UA5000003963</cust:ISIN>
+			<cust:Depositary>200</cust:Depositary>
+			<cust:type>detailed</cust:type>
+		</cust:Balance_compare>
+	</cust:body>
+</cust:request>
