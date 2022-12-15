@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cust:responce xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cust="urn:dmt:custodian2016" xsi:schemaLocation="urn:dmt:custodian2016 file:///C:/Users/Nim/OneDrive/Project/Custodian.Web/PublicAPI/Custodian2016.Public.API.xsd">
+	<cust:header>
+		<cust:ResponceType>NotificationAccount</cust:ResponceType>
+		<cust:ResponceID>BD436075-B0F7-4765-83BE-C868FC7A11CB</cust:ResponceID>
+		<cust:TimeStamp>2022-12-15T22:08:21.360</cust:TimeStamp>
+		<cust:RequestID>00000000-0000-0000-0000-000000000000</cust:RequestID>
+	</cust:header>
+	<cust:body>
+		<cust:Notification xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="cust:TNotificationAccount_standart">
+			<cust:NotificationType>newAccount</cust:NotificationType>
+			<cust:account>
+				<cust:accountNumber>400820-UA40000001</cust:accountNumber>
+				<cust:nssmcClientTypeCode>120</cust:nssmcClientTypeCode>
+				<cust:Customer>
+					<cust:CustomerID>103993</cust:CustomerID>
+					<cust:CNUM>123456789</cust:CNUM>
+				</cust:Customer>
+				<cust:Status>1</cust:Status>
+				<cust:State>0</cust:State>
+				<cust:accountDateopen>2010-03-31</cust:accountDateopen>
+				<cust:Level>
+					<cust:NDU>2</cust:NDU>
+					<cust:NBU>1</cust:NBU>
+				</cust:Level>
+			</cust:account>
+		</cust:Notification>
+	</cust:body>
+</cust:responce>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cust:responce xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cust="urn:dmt:custodian2016" xsi:schemaLocation="urn:dmt:custodian2016 file:///C:/Users/Nim/OneDrive/Project/Custodian.Web/PublicAPI/Custodian2016.Public.API.xsd">
+	<cust:header>
+		<cust:ResponceType>NotificationAccount</cust:ResponceType>
+		<cust:ResponceID>25601F07-D88C-4E49-A4D5-E024BA070742</cust:ResponceID>
+		<cust:TimeStamp>2022-12-15T22:08:21.343</cust:TimeStamp>
+		<cust:RequestID>00000000-0000-0000-0000-000000000000</cust:RequestID>
+	</cust:header>
+	<cust:body>
+		<cust:Notification xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="cust:TNotificationAccount_simple">
+			<cust:NotificationType>newAccount</cust:NotificationType>
+			<cust:account>
+				<cust:accountNumber>400820-UA40000001</cust:accountNumber>
+			</cust:account>
+		</cust:Notification>
+	</cust:body>
+</cust:responce>
