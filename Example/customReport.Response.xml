@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cust:responce xmlns="urn:dmt:custodian2016" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cust="urn:dmt:custodian2016" xsi:schemaLocation="urn:dmt:custodian2016 file:///C:/Users/Nim/OneDrive/Project/Custodian.Web/PublicAPI/Custodian2016.Public.API.xsd">
+	<cust:header>
+		<cust:ResponceType>customReport</cust:ResponceType>
+		<cust:ResponceID>AE4944D2-5A17-4F79-B93C-ABAAFBD7B4DE</cust:ResponceID>
+		<cust:TimeStamp>2023-01-07T14:29:55.573</cust:TimeStamp>
+		<cust:RequestID>21240A25-7472-4BFD-9EE5-9EE8AB61FC29</cust:RequestID>
+		<cust:binary>
+			<cust:binary>0</cust:binary>
+			<cust:outputFormat>0</cust:outputFormat>
+		</cust:binary>
+	</cust:header>
+	<cust:body>
+		<cust:customReport>
+			<cust:metadata>
+				<cust:field fieldName="field1" displayName="Кількість" type="bigint" maxLen="8" precision="19" scale="0" nullable="1"/>
+				<cust:field fieldName="field2" displayName="№ рахунку" type="varchar" maxLen="26" precision="0" scale="0" nullable="1"/>
+				<cust:field fieldName="field3" displayName="ІПН/ЄДРПОУ" type="varchar" maxLen="26" precision="0" scale="0" nullable="1"/>
+				<cust:field fieldName="field4" displayName="Коротка назва" type="varchar" maxLen="150" precision="0" scale="0" nullable="1"/>
+				<cust:field fieldName="field5" displayName="ISIN" type="varchar" maxLen="26" precision="0" scale="0" nullable="1"/>
+				<cust:field fieldName="field6" displayName="Балансовий рахунок" type="varchar" maxLen="26" precision="0" scale="0" nullable="1"/>
+				<cust:field fieldName="field7" displayName="Валюта" type="varchar" maxLen="4" precision="0" scale="0" nullable="1"/>
+			</cust:metadata>
+			<cust:data>
+				<cust:row field1="500" field2="400820-UA40001129" field3="24685310" field4="Товариство з обмеженою відповідальністю &quot;Фінансова компанія ДЕКРА&quot;" field5="UA4000204457" field6="210000" field7="USD"/>
+				<cust:row field1="2084" field2="400820-UA40001129" field3="24685310" field4="Товариство з обмеженою відповідальністю &quot;Фінансова компанія ДЕКРА&quot;" field5="UA4000204861" field6="210000" field7="USD"/>
+				<cust:row field1="1680" field2="400820-UA40001129" field3="24685310" field4="Товариство з обмеженою відповідальністю &quot;Фінансова компанія ДЕКРА&quot;" field5="UA4000205736" field6="210000" field7="USD"/>
+				<cust:row field1="260" field2="400820-UA40001129" field3="24685310" field4="Товариство з обмеженою відповідальністю &quot;Фінансова компанія ДЕКРА&quot;" field5="UA4000205736" field6="225000" field7="USD"/>
+			</cust:data>
+		</cust:customReport>
+	</cust:body>
+</cust:responce>

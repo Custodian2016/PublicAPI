@@ -1,0 +1,345 @@
+<cust:responce xmlns="urn:dmt:custodian2016" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cust="urn:dmt:custodian2016" xsi:schemaLocation="urn:dmt:custodian2016 file:///C:/Users/Nim/OneDrive/Project/Custodian.Web/PublicAPI/Custodian2016.Public.API.xsd">
+	<cust:header>
+		<cust:ResponceType>customReportList</cust:ResponceType>
+		<cust:ResponceID>F38D9784-8C81-4C55-ADE7-C7F9D2E339E4</cust:ResponceID>
+		<cust:TimeStamp>2023-01-07T15:48:05.400</cust:TimeStamp>
+		<cust:RequestID>21240A25-7472-4BFD-9EE5-9EE8AB61FC29</cust:RequestID>
+		<cust:binary>
+			<cust:binary>0</cust:binary>
+			<cust:outputFormat>0</cust:outputFormat>
+		</cust:binary>
+	</cust:header>
+	<cust:body>
+		<cust:customReports>
+			<cust:customReport>
+				<cust:report_id>1</cust:report_id>
+				<cust:reportCode>CP_NPF</cust:reportCode>
+				<cust:report_name>ОВГЗ НПФ для отчетности в НКЦПФР</cust:report_name>
+				<cust:description>ОВГЗ НПФ для отчетности в НКЦПФР</cust:description>
+				<cust:version>4</cust:version>
+			</cust:customReport>
+			<cust:customReport>
+				<cust:report_id>2</cust:report_id>
+				<cust:reportCode>Transfer_pricing</cust:reportCode>
+				<cust:report_name>Трансфетрное ценообразование</cust:report_name>
+				<cust:description>Трансфетрное ценообразование</cust:description>
+				<cust:version>3</cust:version>
+			</cust:customReport>
+			<cust:customReport>
+				<cust:report_id>3</cust:report_id>
+				<cust:reportCode>Sanctions</cust:reportCode>
+				<cust:report_name>Санкции ФО (полное название)</cust:report_name>
+				<cust:description>Санкции ФО (полное название)</cust:description>
+				<cust:version>1</cust:version>
+			</cust:customReport>
+			<cust:customReport>
+				<cust:report_id>4</cust:report_id>
+				<cust:reportCode>biInvoiceISIN</cust:reportCode>
+				<cust:report_name>Начисления по эмитенту</cust:report_name>
+				<cust:description>Начисления по эмитенту</cust:description>
+				<cust:version>2</cust:version>
+			</cust:customReport>
+			<cust:customReport>
+				<cust:report_id>5</cust:report_id>
+				<cust:reportCode>biInvoiceDepository</cust:reportCode>
+				<cust:report_name>Начисления по депозитарию</cust:report_name>
+				<cust:description>Начисления по депозитарию</cust:description>
+				<cust:version>2</cust:version>
+			</cust:customReport>
+			<cust:customReport>
+				<cust:report_id>6</cust:report_id>
+				<cust:reportCode>Z_PV</cust:reportCode>
+				<cust:report_name>Проверка таблицы Z_PV для квартального отчета</cust:report_name>
+				<cust:description>Проверка таблицы Z_PV для квартального отчета</cust:description>
+				<cust:version>1</cust:version>
+			</cust:customReport>
+			<cust:customReport>
+				<cust:report_id>7</cust:report_id>
+				<cust:reportCode>Z_PVReport</cust:reportCode>
+				<cust:report_name>Проверка таблицы Z_PV ОВДП для квартального отчета</cust:report_name>
+				<cust:description>Проверка таблицы Z_PV ОВДП для квартального отчета</cust:description>
+				<cust:version>4</cust:version>
+			</cust:customReport>
+			<cust:customReport>
+				<cust:report_id>8</cust:report_id>
+				<cust:reportCode>CustomOrder</cust:reportCode>
+				<cust:report_name>Стоимости по распоряжениям свободного формата</cust:report_name>
+				<cust:description>Стоимости по распоряжениям свободного формата</cust:description>
+				<cust:version>1</cust:version>
+			</cust:customReport>
+			<cust:customReport>
+				<cust:report_id>9</cust:report_id>
+				<cust:reportCode>EdrBeneficiar</cust:reportCode>
+				<cust:report_name>Поиск связаных компаний по бенефициару</cust:report_name>
+				<cust:description>Поиск связаных компаний по бенефициару</cust:description>
+				<cust:version>1</cust:version>
+			</cust:customReport>
+			<cust:customReport>
+				<cust:report_id>10</cust:report_id>
+				<cust:reportCode>OldCustodianStateOborot</cust:reportCode>
+				<cust:report_name>Старый хранитель.Оборот</cust:report_name>
+				<cust:description>Старый хранитель.Оборот</cust:description>
+				<cust:version>6</cust:version>
+			</cust:customReport>
+			<cust:customReport>
+				<cust:report_id>11</cust:report_id>
+				<cust:reportCode>FM_Test_Period</cust:reportCode>
+				<cust:report_name>Отчет для ФинМон за период</cust:report_name>
+				<cust:description>Отчет для ФинМон за период</cust:description>
+				<cust:version>1</cust:version>
+			</cust:customReport>
+			<cust:customReport>
+				<cust:report_id>12</cust:report_id>
+				<cust:reportCode>Balans</cust:reportCode>
+				<cust:report_name>Баланс</cust:report_name>
+				<cust:description>Баланс</cust:description>
+				<cust:version>7</cust:version>
+			</cust:customReport>
+			<cust:customReport>
+				<cust:report_id>14</cust:report_id>
+				<cust:reportCode>MisReportCheck1</cust:reportCode>
+				<cust:report_name>Проверка MIS Report (Активы)</cust:report_name>
+				<cust:description>Проверка MIS Report (Активы)</cust:description>
+				<cust:version>2</cust:version>
+			</cust:customReport>
+			<cust:customReport>
+				<cust:report_id>15</cust:report_id>
+				<cust:reportCode>MisReportCheck3</cust:reportCode>
+				<cust:report_name>Проверка MIS Report (Деньги)</cust:report_name>
+				<cust:description>Проверка MIS Report (Деньги)</cust:description>
+				<cust:version>5</cust:version>
+			</cust:customReport>
+			<cust:customReport>
+				<cust:report_id>16</cust:report_id>
+				<cust:reportCode>BankAccount</cust:reportCode>
+				<cust:report_name>Банковские реквизиты депонентов</cust:report_name>
+				<cust:description>Банковские реквизиты депонентов</cust:description>
+				<cust:version>11</cust:version>
+			</cust:customReport>
+			<cust:customReport>
+				<cust:report_id>17</cust:report_id>
+				<cust:reportCode>FATCA</cust:reportCode>
+				<cust:report_name>Отчет FATCA</cust:report_name>
+				<cust:description>Отчет FATCA</cust:description>
+				<cust:version>1</cust:version>
+			</cust:customReport>
+			<cust:customReport>
+				<cust:report_id>18</cust:report_id>
+				<cust:reportCode>MisReportCheck4</cust:reportCode>
+				<cust:report_name>Проверка MIS Report (Депоненты)</cust:report_name>
+				<cust:description>Проверка MIS Report (Депоненты)</cust:description>
+				<cust:version>3</cust:version>
+			</cust:customReport>
+			<cust:customReport>
+				<cust:report_id>19</cust:report_id>
+				<cust:reportCode>MisReportCheck2</cust:reportCode>
+				<cust:report_name>Проверка MIS Report (Операции)</cust:report_name>
+				<cust:description>Проверка MIS Report (Операции)</cust:description>
+				<cust:version>3</cust:version>
+			</cust:customReport>
+			<cust:customReport>
+				<cust:report_id>20</cust:report_id>
+				<cust:reportCode>DepoList</cust:reportCode>
+				<cust:report_name>Список депонентов</cust:report_name>
+				<cust:description>Список депонентов</cust:description>
+				<cust:version>4</cust:version>
+			</cust:customReport>
+			<cust:customReport>
+				<cust:report_id>21</cust:report_id>
+				<cust:reportCode>BuhReport42</cust:reportCode>
+				<cust:report_name>Отчет для бухгалтерии №42 Вариант2</cust:report_name>
+				<cust:description>Отчет для бухгалтерии №42 Вариант2</cust:description>
+				<cust:version>5</cust:version>
+			</cust:customReport>
+			<cust:customReport>
+				<cust:report_id>22</cust:report_id>
+				<cust:reportCode>OwnerReestr_Bank</cust:reportCode>
+				<cust:report_name>Реестр собствеников.Отчет о банковских реквизитах</cust:report_name>
+				<cust:description>Реестр собствеников.Отчет о банковских реквизитах</cust:description>
+				<cust:version>3</cust:version>
+			</cust:customReport>
+			<cust:customReport>
+				<cust:report_id>23</cust:report_id>
+				<cust:reportCode>DepoFromCountryList</cust:reportCode>
+				<cust:report_name>Список депонентов по странам</cust:report_name>
+				<cust:description>Список депонентов по странам</cust:description>
+				<cust:version>1</cust:version>
+			</cust:customReport>
+			<cust:customReport>
+				<cust:report_id>28</cust:report_id>
+				<cust:reportCode>MigrationL2_L1_ISIN_list</cust:reportCode>
+				<cust:report_name>Міграція L2--&gt;L1. Перелік ІСІН для першого етапу</cust:report_name>
+				<cust:description>Міграція L2--&gt;L1. Перелік ІСІН для першого етапу</cust:description>
+				<cust:version>1</cust:version>
+			</cust:customReport>
+			<cust:customReport>
+				<cust:report_id>29</cust:report_id>
+				<cust:reportCode>MigrationL2_L1_DepoList</cust:reportCode>
+				<cust:report_name>Міграція L2--&gt;L1. Перелік депонентів</cust:report_name>
+				<cust:description>Міграція L2--&gt;L1. Перелік депонентів</cust:description>
+				<cust:version>1</cust:version>
+			</cust:customReport>
+			<cust:customReport>
+				<cust:report_id>30</cust:report_id>
+				<cust:reportCode>MigrationL2_L1_OperationList</cust:reportCode>
+				<cust:report_name>Міграція L2--&gt;L1. Перелік операцій</cust:report_name>
+				<cust:description>Міграція L2--&gt;L1. Перелік операцій</cust:description>
+				<cust:version>1</cust:version>
+			</cust:customReport>
+			<cust:customReport>
+				<cust:report_id>31</cust:report_id>
+				<cust:reportCode>MigrationL2_L1_BlockList</cust:reportCode>
+				<cust:report_name>Міграція L2--&gt;L1. Перелік рахунків для додавання блокування.</cust:report_name>
+				<cust:description>Міграція L2--&gt;L1. Перелік рахунків для додавання блокування.</cust:description>
+				<cust:version>1</cust:version>
+			</cust:customReport>
+			<cust:customReport>
+				<cust:report_id>32</cust:report_id>
+				<cust:reportCode>MigrationL2_L1_SetStatus</cust:reportCode>
+				<cust:report_name>Міграція L2--&gt;L1. Перелік рахунків для встановлення статусу 'по договору з емітентом'</cust:report_name>
+				<cust:description>Міграція L2--&gt;L1. Перелік рахунків для встановлення статусу 'по договору з емітентом'</cust:description>
+				<cust:version>1</cust:version>
+			</cust:customReport>
+			<cust:customReport>
+				<cust:report_id>33</cust:report_id>
+				<cust:reportCode>BalansFull</cust:reportCode>
+				<cust:report_name>Баланс банка подробный</cust:report_name>
+				<cust:description>Баланс банка подробный</cust:description>
+				<cust:version>7</cust:version>
+			</cust:customReport>
+			<cust:customReport>
+				<cust:report_id>34</cust:report_id>
+				<cust:reportCode>BalansFullISIN</cust:reportCode>
+				<cust:report_name>Баланс в розрізі ІСІН</cust:report_name>
+				<cust:description>Баланс в розрізі ІСІН</cust:description>
+				<cust:version>2</cust:version>
+			</cust:customReport>
+			<cust:customReport>
+				<cust:report_id>35</cust:report_id>
+				<cust:reportCode>NerezList</cust:reportCode>
+				<cust:report_name>Список нерезидентов</cust:report_name>
+				<cust:description>Список нерезидентов</cust:description>
+				<cust:version>1</cust:version>
+			</cust:customReport>
+			<cust:customReport>
+				<cust:report_id>36</cust:report_id>
+				<cust:reportCode>DepoListFatca</cust:reportCode>
+				<cust:report_name>Перелік депонентів з адресами</cust:report_name>
+				<cust:description>Перелік депонентів рахунки яких було відкрито станом з 01.01.2014 з адресами</cust:description>
+				<cust:version>7</cust:version>
+			</cust:customReport>
+			<cust:customReport>
+				<cust:report_id>37</cust:report_id>
+				<cust:reportCode>AktCompare</cust:reportCode>
+				<cust:report_name>Акт звірки</cust:report_name>
+				<cust:description>Акт звірки</cust:description>
+				<cust:version>3</cust:version>
+			</cust:customReport>
+			<cust:customReport>
+				<cust:report_id>38</cust:report_id>
+				<cust:reportCode>1C_Export</cust:reportCode>
+				<cust:report_name>Для 1С</cust:report_name>
+				<cust:description>Для 1С</cust:description>
+				<cust:version>1</cust:version>
+			</cust:customReport>
+			<cust:customReport>
+				<cust:report_id>39</cust:report_id>
+				<cust:reportCode>Account_with_dog</cust:reportCode>
+				<cust:report_name>Депоненти з договорами</cust:report_name>
+				<cust:description>Депоненти з договорами</cust:description>
+				<cust:version>2</cust:version>
+			</cust:customReport>
+			<cust:customReport>
+				<cust:report_id>40</cust:report_id>
+				<cust:reportCode>FATCAnotLimit</cust:reportCode>
+				<cust:report_name>Отчет FATCA USA</cust:report_name>
+				<cust:description>Отчет FATCA USA</cust:description>
+				<cust:version>1</cust:version>
+			</cust:customReport>
+			<cust:customReport>
+				<cust:report_id>41</cust:report_id>
+				<cust:reportCode>FATCACountry</cust:reportCode>
+				<cust:report_name>Отчет FATCA с выбором страны</cust:report_name>
+				<cust:description>Отчет FATCA с выбором страны</cust:description>
+				<cust:version>1</cust:version>
+			</cust:customReport>
+			<cust:customReport>
+				<cust:report_id>42</cust:report_id>
+				<cust:reportCode>LastPacketByISIN</cust:reportCode>
+				<cust:report_name>Последний пакет по ИСИН</cust:report_name>
+				<cust:description>Последний пакет по ИСИН</cust:description>
+				<cust:version>1</cust:version>
+			</cust:customReport>
+			<cust:customReport>
+				<cust:report_id>43</cust:report_id>
+				<cust:reportCode>AccountByISINCurrency</cust:reportCode>
+				<cust:report_name>Звіт для відбору депонентів по валюті ЦБ</cust:report_name>
+				<cust:description>Звіт для відбору депонентів по валюті ЦБ</cust:description>
+				<cust:version>1</cust:version>
+			</cust:customReport>
+			<cust:customReport>
+				<cust:report_id>44</cust:report_id>
+				<cust:reportCode>First</cust:reportCode>
+				<cust:report_name>FirstPacket</cust:report_name>
+				<cust:description>FirstPacket</cust:description>
+				<cust:version>1</cust:version>
+			</cust:customReport>
+			<cust:customReport>
+				<cust:report_id>45</cust:report_id>
+				<cust:reportCode>CustodianBalance</cust:reportCode>
+				<cust:report_name>Звіт Депозитарний баланс</cust:report_name>
+				<cust:description>Звіт Депозитарний баланс</cust:description>
+				<cust:version>1</cust:version>
+			</cust:customReport>
+			<cust:customReport>
+				<cust:report_id>46</cust:report_id>
+				<cust:reportCode>KIKreport</cust:reportCode>
+				<cust:report_name>Звіт по КІК</cust:report_name>
+				<cust:description>Звіт по КІК</cust:description>
+				<cust:version>1</cust:version>
+			</cust:customReport>
+			<cust:customReport>
+				<cust:report_id>47</cust:report_id>
+				<cust:reportCode>FFI_ReestrOwner</cust:reportCode>
+				<cust:report_name>Реєстра власників для ЦП, що обліковується на рахунку в ІФУ</cust:report_name>
+				<cust:description>Реєстра власників для ЦП, що обліковується на рахунку в ІФУ</cust:description>
+				<cust:version>1</cust:version>
+			</cust:customReport>
+			<cust:customReport>
+				<cust:report_id>48</cust:report_id>
+				<cust:reportCode>Military_bonds</cust:reportCode>
+				<cust:report_name>Реєстра власників для ЦП: UA4000221436, UA4000225668</cust:report_name>
+				<cust:description>Реєстра власників для ЦП: UA4000221436, UA4000225668</cust:description>
+				<cust:version>1</cust:version>
+			</cust:customReport>
+			<cust:customReport>
+				<cust:report_id>49</cust:report_id>
+				<cust:reportCode>NonActiveAccount</cust:reportCode>
+				<cust:report_name>Неактивные клиенты</cust:report_name>
+				<cust:description>Неактивные клиенты</cust:description>
+				<cust:version>7</cust:version>
+			</cust:customReport>
+			<cust:customReport>
+				<cust:report_id>50</cust:report_id>
+				<cust:reportCode>2FX</cust:reportCode>
+				<cust:report_name>Звіт для 2FX</cust:report_name>
+				<cust:description>Звіт для 2FX</cust:description>
+				<cust:version>6</cust:version>
+			</cust:customReport>
+			<cust:customReport>
+				<cust:report_id>51</cust:report_id>
+				<cust:reportCode>2FXcredit-agricole</cust:reportCode>
+				<cust:report_name>Звіт для 2FX(credit-agricole)</cust:report_name>
+				<cust:description>Звіт для 2FX(credit-agricole)</cust:description>
+				<cust:version>1</cust:version>
+			</cust:customReport>
+			<cust:customReport>
+				<cust:report_id>52</cust:report_id>
+				<cust:reportCode>statement_oper</cust:reportCode>
+				<cust:report_name>[Вивантаження] Виписки про операції</cust:report_name>
+				<cust:description>[Вивантаження] Виписки про операції</cust:description>
+				<cust:version>4</cust:version>
+			</cust:customReport>
+		</cust:customReports>
+	</cust:body>
+</cust:responce>

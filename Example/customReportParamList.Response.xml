@@ -1,0 +1,46 @@
+<cust:responce xmlns="urn:dmt:custodian2016" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cust="urn:dmt:custodian2016" xsi:schemaLocation="urn:dmt:custodian2016 file:///C:/Users/Nim/OneDrive/Project/Custodian.Web/PublicAPI/Custodian2016.Public.API.xsd">
+	<cust:header>
+		<cust:ResponceType>customReportParamList</cust:ResponceType>
+		<cust:ResponceID>31AB22C0-0AF7-440E-808A-4F7735129F2F</cust:ResponceID>
+		<cust:TimeStamp>2023-01-07T15:00:59.907</cust:TimeStamp>
+		<cust:RequestID>21240A25-7472-4BFD-9EE5-9EE8AB61FC29</cust:RequestID>
+		<cust:binary>
+			<cust:binary>0</cust:binary>
+			<cust:outputFormat>0</cust:outputFormat>
+		</cust:binary>
+	</cust:header>
+	<cust:body>
+		<cust:reportParams>
+			<cust:reportParam>
+				<cust:paramDisplayName>Операционный день</cust:paramDisplayName>
+				<cust:paramName>DateStart</cust:paramName>
+				<cust:paramDataType>Date</cust:paramDataType>
+			</cust:reportParam>
+			<cust:reportParam>
+				<cust:paramDisplayName>Валюта</cust:paramDisplayName>
+				<cust:paramName>Currency</cust:paramName>
+				<cust:paramDataType>DBComboBox</cust:paramDataType>
+				<cust:paramDataSource>
+					<cust:data>
+						<cust:row Id="0" Text="" Code="0" A2="" A3="" Code2="0" HASH="13104"/>
+						<cust:row Id="2" Text="Долар США" Code="840" A2="" A3="USD" Code2="0" HASH="1797969285"/>
+						<cust:row Id="3" Text="ЄВРО" Code="978" A2="" A3="EUR" Code2="0" HASH="709846764"/>
+						<cust:row Id="4" Text="Росiйськi рублi" Code="643" A2="" A3="RUR" Code2="0" HASH="1339619955"/>
+						<cust:row Id="5" Text="Англiйськi фунти стерлiнгiв" Code="826" A2="" A3="GBP" Code2="0" HASH="123427505"/>
+						<cust:row Id="6" Text="Без номiнала" Code="-1" A2="" A3="XXX" Code2="0" HASH="-53170059"/>
+						<cust:row Id="7" Text="Українськi гривнi" Code="980" A2="" A3="UAH" Code2="0" HASH="1145233827" biInvoiceValName_UA="грн." biInvoiceKopName_UA="коп." biInvoiceShortName_UA="грн."/>
+						<cust:row Id="8" Text="Польські злоти" Code="985" A2="" A3="PLN" Code2="0" HASH="-1759566323"/>
+						<cust:row Id="10" Text="Ісландська крона" Code="352" A2="" A3="ISK" Code2="0" HASH="1455261168"/>
+						<cust:row Id="11" Text="Шведська крона" Code="752" A2="" A3="SEK" Code2="0" HASH="763304898"/>
+						<cust:row Id="12" Text="Молдовський лей" Code="498" A2="" A3="MDL" Code2="0" HASH="-1798665307"/>
+						<cust:row Id="13" Text="Дирхам ОАЕ" Code="784" A2="" A3="AED" Code2="0" HASH="351375273"/>
+						<cust:row Id="14" Text="Чеська крона" Code="203" A2="" A3="CZK" Code2="0" HASH="439068370"/>
+						<cust:row Id="15" Text="Турецька ліра" Code="949" A2="" A3="TRY" Code2="0" HASH="1528224644"/>
+					</cust:data>
+					<cust:keyField>id</cust:keyField>
+					<cust:displayField>A3</cust:displayField>
+				</cust:paramDataSource>
+			</cust:reportParam>
+		</cust:reportParams>
+	</cust:body>
+</cust:responce>
