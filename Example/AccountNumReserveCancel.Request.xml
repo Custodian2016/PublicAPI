@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<cust:request xmlns:cust="urn:dmt:custodian2016">
+	<cust:header>
+		<cust:RequestType>AccountNumReserveCancel</cust:RequestType>
+		<cust:RequestID>3FD4704F-C3C1-4D39-B098-CA0537D84310</cust:RequestID>
+		<cust:TimeStamp>2021-11-09T13:42:50.913Z</cust:TimeStamp>
+		<cust:sourceAPPidentity>1DD4EC32-45DB-404A-A123-6F657895E502</cust:sourceAPPidentity>
+	</cust:header>
+	<cust:body>
+		<cust:AccountNumReserveCancel>400820-CH20000005</cust:AccountNumReserveCancel>
+	</cust:body>
+</cust:request>
