@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cust:responce xmlns="urn:dmt:custodian2016" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cust="urn:dmt:custodian2016" xsi:schemaLocation="urn:dmt:custodian2016 file:///C:/Users/Nim/OneDrive/Project/Custodian.Web/PublicAPI/Custodian2016.Public.API.xsd">
+	<cust:header>
+		<cust:ResponceType>newAccount</cust:ResponceType>
+		<cust:ResponceID>4C4112B5-B2A0-4DBC-82F7-C6B647340422</cust:ResponceID>
+		<cust:TimeStamp>2023-05-29T22:29:33.520</cust:TimeStamp>
+		<cust:RequestID>C0906409-D051-4387-B5A1-DCB0C106594F</cust:RequestID>
+		<cust:binary>
+			<cust:binary>0</cust:binary>
+			<cust:outputFormat>0</cust:outputFormat>
+		</cust:binary>
+	</cust:header>
+	<cust:body>
+		<cust:account>
+			<cust:nssmcClientTypeCode>110</cust:nssmcClientTypeCode>
+			<cust:Customer>
+				<cust:Account>400820-UA10894740</cust:Account>
+				<cust:CustomerID>334256</cust:CustomerID>
+				<cust:CNUM>99999999</cust:CNUM>
+				<cust:country>804</cust:country>
+				<cust:CountryTax>804</cust:CountryTax>
+				<cust:idCode>1234567890</cust:idCode>
+				<cust:ClientTypeCode>0</cust:ClientTypeCode>
+				<cust:name>
+					<cust:shortName>Броваренко Сергій Генадійович</cust:shortName>
+					<cust:longName>Броваренко Сергій Генадійович</cust:longName>
+				</cust:name>
+				<cust:addresses>
+					<cust:address>
+						<cust:addressID>-1</cust:addressID>
+						<cust:addressType>legal</cust:addressType>
+						<cust:country>804</cust:country>
+						<cust:region>73000</cust:region>
+						<cust:locality>місто Чернівці</cust:locality>
+						<cust:street>вул. І. Франкa</cust:street>
+						<cust:house>57</cust:house>
+						<cust:flat>26</cust:flat>
+					</cust:address>
+					<cust:address>
+						<cust:addressID>61613</cust:addressID>
+						<cust:addressType>post</cust:addressType>
+						<cust:country>804</cust:country>
+						<cust:region>73000</cust:region>
+						<cust:locality>місто Чернівці</cust:locality>
+						<cust:street>вул. І. Франкa</cust:street>
+						<cust:house>57</cust:house>
+						<cust:flat>26</cust:flat>
+					</cust:address>
+				</cust:addresses>
+				<cust:docFO>
+					<cust:docSerial>АА</cust:docSerial>
+					<cust:docNumber>123456</cust:docNumber>
+					<cust:docDate>1999-10-15</cust:docDate>
+					<cust:docWho>Макарівським РВ ГУ МВС України в Київській обл.</cust:docWho>
+					<cust:docType>Паспорт</cust:docType>
+				</cust:docFO>
+				<cust:bankDetails>
+					<cust:bankDetail>
+						<cust:IBAN>UA80UA593220010000000000123456789</cust:IBAN>
+						<cust:bankName>АКЦІОНЕРНЕ ТОВАРИСТВО "УНІВЕРСАЛ БАНК"</cust:bankName>
+						<cust:currency>980</cust:currency>
+						<cust:bankDetailID>49604</cust:bankDetailID>
+						<cust:use4income>true</cust:use4income>
+						<cust:Period>
+							<cust:DateStart>2023-05-29</cust:DateStart>
+						</cust:Period>
+						<cust:Type>1</cust:Type>
+					</cust:bankDetail>
+				</cust:bankDetails>
+				<cust:addParams>
+					<cust:param>
+						<cust:Name>CustomField_2</cust:Name>
+						<cust:Value>false</cust:Value>
+					</cust:param>
+					<cust:param>
+						<cust:Name>CNUM</cust:Name>
+						<cust:Value>99999999</cust:Value>
+					</cust:param>
+					<cust:param>
+						<cust:Name>MobilePhone</cust:Name>
+						<cust:Value>+380680810906</cust:Value>
+					</cust:param>
+					<cust:param>
+						<cust:Name>EMail_Alter</cust:Name>
+						<cust:Value>krajcik.wyman@ohara.biz</cust:Value>
+					</cust:param>
+				</cust:addParams>
+				<cust:contact>
+					<cust:mobilePhone>+380686369085</cust:mobilePhone>
+					<cust:eMails>
+						<cust:eMail_general>krajcik.wyman@ohara.biz</cust:eMail_general>
+					</cust:eMails>
+				</cust:contact>
+				<cust:BirthInfo>
+					<cust:BirthDate>1982-12-24</cust:BirthDate>
+					<cust:BirthPlace>с Лубнище Могильовського району Могильовської області</cust:BirthPlace>
+				</cust:BirthInfo>
+				<cust:refusingCode>0</cust:refusingCode>
+			</cust:Customer>
+			<cust:agreements>
+				<cust:agreement>
+					<cust:number>15034232</cust:number>
+					<cust:date>2023-05-29</cust:date>
+					<cust:dateStart>2023-05-29</cust:dateStart>
+					<cust:AgrID>57883</cust:AgrID>
+				</cust:agreement>
+			</cust:agreements>
+			<cust:accountNumber>400820-UA10894740</cust:accountNumber>
+			<cust:Status>1</cust:Status>			
+			<cust:State>0</cust:State>
+			<cust:accountDateopen>2023-05-29</cust:accountDateopen>
+			<cust:Level>
+				<cust:NDU>2</cust:NDU>
+				<cust:NBU>2</cust:NBU>
+			</cust:Level>
+			<cust:NBU>
+				<cust:BaseAggregated_id>5</cust:BaseAggregated_id>
+			</cust:NBU>
+			<cust:AccountID>62049</cust:AccountID>
+		</cust:account>
+	</cust:body>
+</cust:responce>

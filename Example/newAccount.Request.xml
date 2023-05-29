@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cust:request xmlns:cust="urn:dmt:custodian2016" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:dmt:custodian2016 file:///C:/Users/Nim/OneDrive/Project/Custodian.Web/PublicAPI/Custodian2016.Public.API.xsd">
+	<cust:header>
+		<cust:RequestType>newAccount</cust:RequestType>
+		<cust:RequestID>C0906409-D051-4387-B5A1-DCB0C106594F</cust:RequestID>
+		<cust:TimeStamp>2023-05-24T14:58:13.262</cust:TimeStamp>
+		<cust:sourceAPPidentity>1DD4EC32-45DB-404A-A123-6F657895E502</cust:sourceAPPidentity>
+	</cust:header>
+	<cust:body>
+		<cust:newAccount>
+			<cust:nssmcClientTypeCode>110</cust:nssmcClientTypeCode>
+			<cust:Customer>
+				<cust:CNUM>99999999</cust:CNUM>
+				<cust:country>804</cust:country>
+				<cust:idCode>1234567890</cust:idCode>
+				<cust:ClientTypeCode>0</cust:ClientTypeCode>
+				<cust:name>
+					<cust:shortName>Броваренко Сергій Генадійович</cust:shortName>
+					<cust:longName>Броваренко Сергій Генадійович</cust:longName>
+				</cust:name>
+				<cust:addresses>
+					<cust:address>
+						<cust:addressType>post</cust:addressType>
+						<cust:country>804</cust:country>
+						<cust:region>73000</cust:region>
+						<cust:locality>місто Чернівці</cust:locality>
+						<cust:street>вул. І. Франкa</cust:street>
+						<cust:house>57</cust:house>
+						<cust:flat>26</cust:flat>
+					</cust:address>
+					<cust:address>
+						<cust:addressType>legal</cust:addressType>
+						<cust:country>804</cust:country>
+						<cust:region>73000</cust:region>
+						<cust:locality>місто Чернівці</cust:locality>
+						<cust:street>вул. І. Франкa</cust:street>
+						<cust:house>57</cust:house>
+						<cust:flat>26</cust:flat>
+					</cust:address>
+				</cust:addresses>
+				<cust:docFO>
+					<cust:docSerial>АА</cust:docSerial>
+					<cust:docNumber>123456</cust:docNumber>
+					<cust:docDate>1999-10-15</cust:docDate>
+					<cust:docWho>Макарівським РВ ГУ МВС України в Київській обл.</cust:docWho>
+					<cust:docType>Паспорт</cust:docType>
+				</cust:docFO>
+				<cust:bankDetails>
+					<cust:bankDetail>
+						<cust:IBAN>UA80UA593220010000000000123456789</cust:IBAN>
+						<cust:bankName>АКЦІОНЕРНЕ ТОВАРИСТВО "УНІВЕРСАЛ БАНК"</cust:bankName>
+						<cust:currency>980</cust:currency>
+						<cust:use4income>true</cust:use4income>
+					</cust:bankDetail>
+				</cust:bankDetails>
+				<cust:addParams>
+					<cust:param>
+						<cust:Name>CustomField_2</cust:Name>
+						<cust:Value>false</cust:Value>
+					</cust:param>
+				</cust:addParams>
+				<cust:contact>
+					<cust:mobilePhone>+380686369085</cust:mobilePhone>
+					<cust:eMails>
+						<cust:eMail_general>krajcik.wyman@ohara.biz</cust:eMail_general>
+					</cust:eMails>
+				</cust:contact>
+				<cust:BirthInfo>
+					<cust:BirthDate>1982-12-24</cust:BirthDate>
+					<cust:BirthPlace>с Лубнище Могильовського району Могильовської області</cust:BirthPlace>
+				</cust:BirthInfo>
+			</cust:Customer>
+			<cust:agreements>
+				<cust:agreement>
+					<cust:number>15034232</cust:number>
+					<cust:date>2023-05-29</cust:date>
+					<cust:dateStart>2023-05-29</cust:dateStart>
+				</cust:agreement>
+			</cust:agreements>
+			<cust:needSFSnotification>false</cust:needSFSnotification>
+		</cust:newAccount>
+	</cust:body>
+</cust:request>
