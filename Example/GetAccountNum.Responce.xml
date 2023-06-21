@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cust:responce xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cust="urn:dmt:custodian2016"><cust:header><cust:ResponceType>AccountNum</cust:ResponceType><cust:ResponceID>10DE93BD-5723-4941-BBB2-710ADDDB6A0B</cust:ResponceID><cust:TimeStamp>2022-01-07T19:34:57.267</cust:TimeStamp><cust:RequestID>3E5084B4-BA4F-4CC0-A356-6BC0FAF09109</cust:RequestID></cust:header><cust:body><AccountNum>400820-UA10892469</AccountNum></cust:body></cust:responce>

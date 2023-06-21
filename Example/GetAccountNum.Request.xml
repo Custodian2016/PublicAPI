@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<request xmlns="urn:dmt:custodian2016"><header><RequestType>GetAccountNum</RequestType><RequestID>3E5084B4-BA4F-4CC0-A356-6BC0FAF09109</RequestID><TimeStamp>2021-12-29T17:46:07.639+02:00</TimeStamp><sourceAPPidentity>1DD4EC32-45DB-404A-A123-6F657895E502</sourceAPPidentity></header><body><AccountNum><nssmcClientTypeCode>110</nssmcClientTypeCode><CNUM>4005098</CNUM><ClientTypeCode>0</ClientTypeCode><country>804</country></AccountNum></body></request>
