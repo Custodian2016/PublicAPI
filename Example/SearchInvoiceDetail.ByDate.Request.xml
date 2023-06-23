@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cust:request xmlns:cust="urn:dmt:custodian2016" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:dmt:custodian2016">
+	<cust:header>
+		<cust:RequestType>SearchInvoiceDetail</cust:RequestType>
+		<cust:RequestID>BBCC9B28-E017-4FD3-AC7C-3F3B88C8C26E</cust:RequestID>
+		<cust:TimeStamp>2022-06-29T22:07:46.743Z</cust:TimeStamp>
+		<cust:sourceAPPidentity>1DD4EC32-45DB-404A-A123-6F657895E502</cust:sourceAPPidentity>
+	</cust:header>
+		<cust:body>
+            <cust:InvoiceSearch>
+                <cust:line_Date_begin>2022-07-04</cust:line_Date_begin>
+                <cust:line_Date_end>2022-07-04</cust:line_Date_end>
+            </cust:InvoiceSearch>
+	    </cust:body>
+</cust:request>
