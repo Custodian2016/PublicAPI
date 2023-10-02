@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cust:responce xmlns="urn:dmt:custodian2016" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cust="urn:dmt:custodian2016">
+	<cust:header>
+		<cust:ResponceType>Transaction</cust:ResponceType>
+		<cust:ResponceID>73D233B0-4BC3-47A7-80A2-D3B5D39B24F5</cust:ResponceID>
+		<cust:TimeStamp>2023-05-04T18:51:53.580</cust:TimeStamp>
+		<cust:RequestID>B85086C7-0EE7-4E2F-BAB6-F6601DBB8DD0</cust:RequestID>
+		<cust:EndUserID>5422BF43-C9C8-4CD6-8043-7D1B288E1067</cust:EndUserID>
+		<cust:binary>
+			<cust:binary>0</cust:binary>
+			<cust:outputFormat>0</cust:outputFormat>
+		</cust:binary>
+	</cust:header>
+	<cust:body>
+		<cust:Transaction>
+			<cust:ID>808443</cust:ID>
+			<cust:OrderID>807479</cust:OrderID>
+			<cust:OrderIDYear>11457</cust:OrderIDYear>
+			<cust:OrderDateRegistr>2023-05-04T18:40:51.870</cust:OrderDateRegistr>
+			<cust:Status>
+				<cust:code>3000</cust:code>
+				<cust:message>Повідомлення відправлено</cust:message>
+			</cust:Status>
+			<cust:Commission>
+				<cust:ParticipantSource>
+					<cust:Cost>0.000000000000000e+000</cust:Cost>
+					<cust:Currency>980</cust:Currency>
+				</cust:ParticipantSource>
+			</cust:Commission>
+		</cust:Transaction>
+	</cust:body>
+</cust:responce>
