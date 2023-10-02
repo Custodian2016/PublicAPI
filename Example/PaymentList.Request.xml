@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<cust:request xmlns:cust="urn:dmt:custodian2016" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:dmt:custodian2016 file:///C:/Users/Nim/OneDrive/Project/Custodian.Web/PublicAPI/Custodian2016.Public.API.xsd">
+	<cust:header>
+		<cust:RequestType>Payments</cust:RequestType>
+		<cust:RequestID>91F61283-0B2F-4B55-8B2F-A5D9DE695AC3</cust:RequestID>
+		<cust:TimeStamp>2022-06-30T12:03:40.688Z</cust:TimeStamp>
+		<cust:sourceAPPidentity>1DD4EC32-45DB-404A-A123-6F657895E502</cust:sourceAPPidentity>
+		<cust:EndUserID>1FA2968C-3385-4369-A51C-C78023CFB294</cust:EndUserID>
+	</cust:header>
+	<cust:body>
+		<cust:PaymentList>
+			<cust:Payment>
+				<cust:InvoiceNumber>21543</cust:InvoiceNumber>
+				<cust:CustomerID>317376</cust:CustomerID>
+				<cust:Account>400820-UA40894715</cust:Account>
+				<cust:externalPaymentNumber>ExternalNumber1</cust:externalPaymentNumber>
+				<cust:PaymentDate>2023-09-20T09:30:47Z</cust:PaymentDate>
+				<cust:PaymentCost>
+					<cust:Cost>125.00</cust:Cost>
+					<cust:VAT>0.00</cust:VAT>
+					<cust:Total>125.00</cust:Total>
+				</cust:PaymentCost>
+				<cust:PaymentDoc>Платіжний документ87</cust:PaymentDoc>
+				<cust:FromPrepayment>false</cust:FromPrepayment>
+				<cust:Currency>980</cust:Currency>
+			</cust:Payment>
+			<cust:Payment>
+				<cust:InvoiceNumber>21542</cust:InvoiceNumber>
+				<cust:CustomerID>151257</cust:CustomerID>
+				<cust:Account>400820-UA40894736</cust:Account>
+				<cust:externalPaymentNumber>ExternalNumber2</cust:externalPaymentNumber>
+				<cust:PaymentDate>2023-09-20T09:30:47Z</cust:PaymentDate>
+				<cust:PaymentCost>
+					<cust:Cost>210.00</cust:Cost>
+					<cust:VAT>42.00</cust:VAT>
+					<cust:Total>252.00</cust:Total>
+				</cust:PaymentCost>
+				<cust:PaymentDoc>Платіжний документ87</cust:PaymentDoc>
+				<cust:FromPrepayment>false</cust:FromPrepayment>
+				<cust:ToPrepayment>false</cust:ToPrepayment>
+				<cust:Currency>840</cust:Currency>
+			</cust:Payment>
+			<cust:Payment>
+				<cust:InvoiceNumber>21542</cust:InvoiceNumber>
+				<cust:CustomerID>151257</cust:CustomerID>
+				<cust:Account>400820-UA40894736</cust:Account>
+				<cust:externalPaymentNumber>ExternalNumber3</cust:externalPaymentNumber>
+				<cust:PaymentDate>2023-09-20T09:30:47Z</cust:PaymentDate>
+				<cust:PaymentCost>
+					<cust:Cost>420.00</cust:Cost>
+					<cust:VAT>84.00</cust:VAT>
+					<cust:Total>504.00</cust:Total>
+				</cust:PaymentCost>
+				<cust:PaymentDoc>Платіжний документ89</cust:PaymentDoc>
+				<cust:FromPrepayment>false</cust:FromPrepayment>
+				<cust:ToPrepayment>false</cust:ToPrepayment>
+				<cust:Currency>840</cust:Currency>
+			</cust:Payment>
+		</cust:PaymentList>
+	</cust:body>
+</cust:request>
