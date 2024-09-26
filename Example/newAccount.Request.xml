@@ -15,16 +15,16 @@
 				<cust:idCode>1234567890</cust:idCode>
 				<cust:ClientTypeCode>0</cust:ClientTypeCode>
 				<cust:name>
-					<cust:shortName>Броваренко Сергій Генадійович</cust:shortName>
-					<cust:longName>Броваренко Сергій Генадійович</cust:longName>
+					<cust:shortName>Бр******** Сергій Генадійович</cust:shortName>
+					<cust:longName>Бр******** Сергій Генадійович</cust:longName>
 				</cust:name>
 				<cust:addresses>
 					<cust:address>
 						<cust:addressType>post</cust:addressType>
 						<cust:country>804</cust:country>
 						<cust:region>73000</cust:region>
-						<cust:locality>місто Чернівці</cust:locality>
-						<cust:street>вул. І. Франкa</cust:street>
+						<cust:locality>*********</cust:locality>
+						<cust:street>*********</cust:street>
 						<cust:house>57</cust:house>
 						<cust:flat>26</cust:flat>
 					</cust:address>
@@ -32,8 +32,8 @@
 						<cust:addressType>legal</cust:addressType>
 						<cust:country>804</cust:country>
 						<cust:region>73000</cust:region>
-						<cust:locality>місто Чернівці</cust:locality>
-						<cust:street>вул. І. Франкa</cust:street>
+						<cust:locality>*********</cust:locality>
+						<cust:street>*********</cust:street>
 						<cust:house>57</cust:house>
 						<cust:flat>26</cust:flat>
 					</cust:address>
@@ -47,7 +47,7 @@
 				</cust:docFO>
 				<cust:bankDetails>
 					<cust:bankDetail>
-						<cust:IBAN>UA80UA593220010000000000123456789</cust:IBAN>
+						<cust:IBAN>UA80UA59322001000000000***********</cust:IBAN>
 						<cust:bankName>АКЦІОНЕРНЕ ТОВАРИСТВО "УНІВЕРСАЛ БАНК"</cust:bankName>
 						<cust:currency>980</cust:currency>
 						<cust:use4income>true</cust:use4income>
@@ -60,9 +60,9 @@
 					</cust:param>
 				</cust:addParams>
 				<cust:contact>
-					<cust:mobilePhone>+380686369085</cust:mobilePhone>
+					<cust:mobilePhone>+380681234567</cust:mobilePhone>
 					<cust:eMails>
-						<cust:eMail_general>krajcik.wyman@ohara.biz</cust:eMail_general>
+						<cust:eMail_general>*n@*.biz</cust:eMail_general>
 					</cust:eMails>
 				</cust:contact>
 				<cust:BirthInfo>
