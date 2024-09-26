@@ -1,0 +1,45 @@
+<cust:responce xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cust="urn:dmt:custodian2016" xsi:schemaLocation="urn:dmt:custodian2016 file:///C:/Users/Nim/OneDrive/Project/Custodian.Web/PublicAPI/Custodian2016.Public.API.xsd">
+	<cust:header>
+		<cust:ResponceType>AccountListV2</cust:ResponceType>
+		<cust:ResponceID>094E5F1F-4CE1-48D2-BB76-3DB150FB177C</cust:ResponceID>
+		<cust:TimeStamp>2022-11-06T00:46:34.530</cust:TimeStamp>
+		<cust:RequestID>21240A25-7472-4BFD-9EE5-9EE8AB61FC29</cust:RequestID>
+		<cust:binary>
+			<cust:binary>0</cust:binary>
+			<cust:outputFormat>0</cust:outputFormat>
+		</cust:binary>
+	</cust:header>
+	<cust:body>
+		<cust:AccountListV2 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+			<cust:Rows xsi:type="cust:TAccountListV2_simple">
+				<cust:account>
+					<cust:Account>400820-UA10890079</cust:Account>
+					<cust:CustomerID>301408</cust:CustomerID>
+					<cust:idCode>1510504254</cust:idCode>
+					<cust:country>804</cust:country>
+					<cust:name>
+						<cust:shortName>Чмерук Олександр Федорович</cust:shortName>
+						<cust:longName>Чмерук Олександр Федорович</cust:longName>
+					</cust:name>
+					<cust:docFO>
+						<cust:docSerial>СО</cust:docSerial>
+						<cust:docNumber>260699</cust:docNumber>
+						<cust:docDate>1999-11-18</cust:docDate>
+						<cust:docWho>Ватутiнським РУГУ МВС України в м. Києвi</cust:docWho>
+						<cust:docType>Паспорт</cust:docType>
+					</cust:docFO>
+					<cust:ClientTypeCode>0</cust:ClientTypeCode>
+					<cust:nssmcClientTypeCode>110</cust:nssmcClientTypeCode>
+					<cust:State>0</cust:State>
+					<cust:Status>2</cust:Status>
+					<cust:accountDateopen>2021-11-12</cust:accountDateopen>
+					<cust:Level>
+						<cust:NDU>2</cust:NDU>
+						<cust:NBU>2</cust:NBU>
+					</cust:Level>
+					<cust:AccountID>53748</cust:AccountID>
+				</cust:account>
+			</cust:Rows>
+		</cust:AccountListV2>
+	</cust:body>
+</cust:responce>
