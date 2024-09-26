@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cust:responce xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cust="urn:dmt:custodian2016">
+  <cust:header>
+    <cust:ResponceType>NotificationTransaction</cust:ResponceType>
+    <cust:ResponceID>B94802D3-A156-41CA-8135-15B803C593FC</cust:ResponceID>
+    <cust:TimeStamp>2023-01-04T12:08:51.887</cust:TimeStamp>
+    <cust:RequestID>00000000-0000-0000-0000-000000000000</cust:RequestID>
+  </cust:header>
+  <cust:body>
+    <cust:Notification xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="cust:TNotificationTransaction">
+      <cust:NotificationType>newTransaction</cust:NotificationType>
+      <cust:OrderID>795941</cust:OrderID>
+      <cust:OrderIDs>
+        <cust:OrderID_Source>795941</cust:OrderID_Source>
+      </cust:OrderIDs>
+      <cust:Date>2022-11-10</cust:Date>
+      <cust:ISIN>
+        <cust:ISIN>UA4000093553</cust:ISIN>
+        <cust:Depositary>200</cust:Depositary>
+      </cust:ISIN>
+      <cust:AccountSource>400820-UA10000004</cust:AccountSource>
+      <cust:AccountDestination>400820-UA10000004</cust:AccountDestination>
+      <cust:Quantity>2000</cust:Quantity>
+      <cust:orderTypeCode>UnBlock_csd</cust:orderTypeCode>
+    </cust:Notification>
+  </cust:body>
+</cust:responce>

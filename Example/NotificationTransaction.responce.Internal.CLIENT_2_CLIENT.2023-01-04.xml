@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cust:responce xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cust="urn:dmt:custodian2016">
+  <cust:header>
+    <cust:ResponceType>NotificationTransaction</cust:ResponceType>
+    <cust:ResponceID>495BD23B-B847-4877-8874-3A72FD530625</cust:ResponceID>
+    <cust:TimeStamp>2023-01-04T11:58:19.200</cust:TimeStamp>
+    <cust:RequestID>00000000-0000-0000-0000-000000000000</cust:RequestID>
+  </cust:header>
+  <cust:body>
+    <cust:Notification xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="cust:TNotificationTransaction">
+      <cust:NotificationType>newTransaction</cust:NotificationType>
+      <cust:OrderID>795896</cust:OrderID>
+      <cust:OrderIDs>
+        <cust:OrderID_Source>795896</cust:OrderID_Source>
+        <cust:OrderID_Destination>795897</cust:OrderID_Destination>
+      </cust:OrderIDs>
+      <cust:Date>2022-10-27</cust:Date>
+      <cust:ISIN>
+        <cust:ISIN>UA5000008111</cust:ISIN>
+        <cust:Depositary>200</cust:Depositary>
+      </cust:ISIN>
+      <cust:AccountSource>400820-UA40894718</cust:AccountSource>
+      <cust:AccountDestination>400820-UA40894716</cust:AccountDestination>
+      <cust:Quantity>50</cust:Quantity>
+      <cust:orderTypeCode>DVPTransExternal2</cust:orderTypeCode>
+    </cust:Notification>
+  </cust:body>
+</cust:responce>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cust:responce xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cust="urn:dmt:custodian2016">
+  <cust:header>
+    <cust:ResponceType>NotificationTransaction</cust:ResponceType>
+    <cust:ResponceID>FA82736E-43F4-421C-9931-47DFE236FCD3</cust:ResponceID>
+    <cust:TimeStamp>2023-01-04T11:54:14.930</cust:TimeStamp>
+    <cust:RequestID>00000000-0000-0000-0000-000000000000</cust:RequestID>
+  </cust:header>
+  <cust:body>
+    <cust:Notification xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="cust:TNotificationTransaction">
+      <cust:NotificationType>newTransaction</cust:NotificationType>
+      <cust:OrderID>796019</cust:OrderID>
+      <cust:OrderIDs>
+        <cust:OrderID_Source>796019</cust:OrderID_Source>
+      </cust:OrderIDs>
+      <cust:Date>2022-11-23</cust:Date>
+      <cust:ISIN>
+        <cust:ISIN>UA4000093553</cust:ISIN>
+        <cust:Depositary>200</cust:Depositary>
+      </cust:ISIN>
+      <cust:AccountSource>400820-AU90043965/001</cust:AccountSource>
+      <cust:Quantity>7000</cust:Quantity>
+      <cust:orderTypeCode>csdTransSenOWNU</cust:orderTypeCode>
+    </cust:Notification>
+  </cust:body>
+</cust:responce>
