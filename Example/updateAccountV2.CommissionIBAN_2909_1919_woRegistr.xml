@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cust:request xmlns:cust="urn:dmt:custodian2016" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:dmt:custodian2016 file:///C:/Users/Nim/OneDrive/Project/Custodian.Web/PublicAPI/Custodian2016.Public.API.xsd">
+	<cust:header>
+		<cust:RequestType>updateAccountV2</cust:RequestType>
+		<cust:RequestID>BBCC9B28-E017-4FD3-AC7C-3F3B88C8C26E</cust:RequestID>
+		<cust:TimeStamp>2022-06-29T22:07:46.743Z</cust:TimeStamp>
+		<cust:sourceAPPidentity>1DD4EC32-45DB-404A-A123-6F657895E502</cust:sourceAPPidentity>
+		<cust:EndUserID>A02001CA-B34B-4BE0-B052-F8A4A6765E5E</cust:EndUserID>
+	</cust:header>
+	<cust:body>
+		<cust:updateAccount>
+			<cust:Account>400820-UA40000001</cust:Account>
+			<cust:Customer>
+				<cust:addParams>
+					<cust:param changed="true">
+						<cust:Name>IBAN_2909</cust:Name>
+						<cust:Value>UA1312345678977887874878878</cust:Value>
+					</cust:param>
+					<cust:param changed="true">
+						<cust:Name>Account_2909</cust:Name>
+						<cust:Value>887874878878</cust:Value>
+					</cust:param>
+					<cust:param changed="true">
+						<cust:Name>Currency_2909</cust:Name>
+						<cust:Value>980</cust:Value>
+					</cust:param>
+					<cust:param changed="true">
+						<cust:Name>IBAN_1919</cust:Name>
+						<cust:Value>UA1312345678977887874878878</cust:Value>
+					</cust:param>
+					<cust:param changed="true">
+						<cust:Name>Account_1919</cust:Name>
+						<cust:Value>887874878878</cust:Value>
+					</cust:param>
+					<cust:param changed="true">
+						<cust:Name>Currency_1919</cust:Name>
+						<cust:Value>980</cust:Value>
+					</cust:param>
+				</cust:addParams>
+			</cust:Customer>
+			<cust:CreateOrder>0</cust:CreateOrder>
+		</cust:updateAccount>
+	</cust:body>
+</cust:request>
