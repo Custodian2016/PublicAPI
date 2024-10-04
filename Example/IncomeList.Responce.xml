@@ -12,7 +12,7 @@
 			<cust:Income>
 				<cust:ID>94771</cust:ID>
 				<cust:payout_id>12458</cust:payout_id>
-				<cust:CorporateEvent_id>15</cust:CorporateEvent_id>
+				<cust:corporateEvent_id>15</cust:corporateEvent_id>
 				<cust:DateCreate>2022-07-22T10:06:05.193</cust:DateCreate>
 				<cust:IncomeType>PERCENT</cust:IncomeType>
 				<cust:IncomeValue>10000.00</cust:IncomeValue>
@@ -30,6 +30,7 @@
 					</cust:Tax>
 				</cust:Taxs>
 				<cust:IncomeValueClear>8050.00</cust:IncomeValueClear>
+				<cust:Quantity>1000</cust:Quantity>
 				<cust:Customer>
 					<cust:Account>400820-UA10000001</cust:Account>
 					<cust:CustomerID>103984</cust:CustomerID>
@@ -56,12 +57,16 @@
 						<cust:Depositary>200</cust:Depositary>
 					</cust:ISIN>
 					<cust:IssuerName>ТОВ "БЕСТ ЛІЗИНГ"</cust:IssuerName>
+					<cust:Type>
+						<cust:Code>01110100</cust:Code>
+						<cust:Name>Акція проста бездокументарна іменна</cust:Name>
+					</cust:Type>
 				</cust:ISIN>
 			</cust:Income>
 			<cust:Income>
 				<cust:ID>94772</cust:ID>
 				<cust:payout_id>12458</cust:payout_id>
-				<cust:CorporateEvent_id>15</cust:CorporateEvent_id>
+				<cust:corporateEvent_id>15</cust:corporateEvent_id>
 				<cust:DateCreate>2022-07-22T10:06:05.193</cust:DateCreate>
 				<cust:IncomeType>PERCENT</cust:IncomeType>
 				<cust:IncomeValue>30000.00</cust:IncomeValue>
@@ -74,6 +79,7 @@
 					</cust:Tax>
 				</cust:Taxs>
 				<cust:IncomeValueClear>28500.00</cust:IncomeValueClear>
+				<cust:Quantity>1000</cust:Quantity>
 				<cust:Customer>
 					<cust:Account>400820-UA40000037</cust:Account>
 					<cust:CustomerID>125844</cust:CustomerID>
@@ -92,17 +98,22 @@
 						<cust:Depositary>200</cust:Depositary>
 					</cust:ISIN>
 					<cust:IssuerName>ТОВ "БЕСТ ЛІЗИНГ"</cust:IssuerName>
+					<cust:Type>
+						<cust:Code>01110100</cust:Code>
+						<cust:Name>Акція проста бездокументарна іменна</cust:Name>
+					</cust:Type>
 				</cust:ISIN>
 			</cust:Income>
 			<cust:Income>
 				<cust:ID>94744</cust:ID>
 				<cust:payout_id>13500</cust:payout_id>
-				<cust:CorporateEvent_id>16</cust:CorporateEvent_id>
+				<cust:corporateEvent_id>16</cust:corporateEvent_id>
 				<cust:DateCreate>2022-07-18T14:30:09.330</cust:DateCreate>
 				<cust:IncomeType>INCOME</cust:IncomeType>
 				<cust:IncomeValue>120000.00</cust:IncomeValue>
 				<cust:Currency>980</cust:Currency>
 				<cust:IncomeValueClear>120000.00</cust:IncomeValueClear>
+				<cust:Quantity>1000</cust:Quantity>
 				<cust:Customer>
 				  <cust:Account>400820-UA10000002</cust:Account>
 				  <cust:CustomerID>103990</cust:CustomerID>
@@ -122,13 +133,17 @@
 					<cust:Depositary>200</cust:Depositary>
 				  </cust:ISIN>
 				  <cust:IssuerName>ПрАТ "СК "ПРОМІНЬ"</cust:IssuerName>
+				  <cust:Type>
+						<cust:Code>01110100</cust:Code>
+						<cust:Name>Акція проста бездокументарна іменна</cust:Name>
+					</cust:Type>
 				</cust:ISIN>
 				<cust:sendedToABS>2022-09-27T12:01:52</cust:sendedToABS>
 			</cust:Income>
 			<cust:Income>
 				<cust:ID>94745</cust:ID>
 				<cust:payout_id>13500</cust:payout_id>
-				<cust:CorporateEvent_id>16</cust:CorporateEvent_id>
+				<cust:corporateEvent_id>16</cust:corporateEvent_id>
 				<cust:DateCreate>2022-07-18T14:30:09.330</cust:DateCreate>
 				<cust:IncomeType>PERCENT</cust:IncomeType>
 				<cust:IncomeValue>120000.00</cust:IncomeValue>
@@ -141,6 +156,7 @@
 				  </cust:Tax>
 				</cust:Taxs>
 				<cust:IncomeValueClear>114000.00</cust:IncomeValueClear>
+				<cust:Quantity>1000</cust:Quantity>
 				<cust:Customer>
 				  <cust:Account>400820-UA10000003</cust:Account>
 				  <cust:CustomerID>103991</cust:CustomerID>
@@ -160,17 +176,22 @@
 					<cust:Depositary>200</cust:Depositary>
 				  </cust:ISIN>
 				  <cust:IssuerName>ПрАТ "СК "ПРОМІНЬ"</cust:IssuerName>
+				  <cust:Type>
+						<cust:Code>01110100</cust:Code>
+						<cust:Name>Акція проста бездокументарна іменна</cust:Name>
+					</cust:Type>
 				</cust:ISIN>
 			</cust:Income>
 			<cust:Income>
 				<cust:ID>94746</cust:ID>
 				<cust:payout_id>13500</cust:payout_id>
-				<cust:CorporateEvent_id>16</cust:CorporateEvent_id>
+				<cust:corporateEvent_id>16</cust:corporateEvent_id>
 				<cust:DateCreate>2022-07-18T14:30:09.330</cust:DateCreate>
 				<cust:IncomeType>INCOME</cust:IncomeType>
 				<cust:IncomeValue>110000.00</cust:IncomeValue>
 				<cust:Currency>980</cust:Currency>
 				<cust:IncomeValueClear>110000.00</cust:IncomeValueClear>
+				<cust:Quantity>1000</cust:Quantity>
 				<cust:Customer>
 				  <cust:Account>400820-UA10000003</cust:Account>
 				  <cust:CustomerID>103991</cust:CustomerID>
@@ -190,6 +211,10 @@
 					<cust:Depositary>200</cust:Depositary>
 				  </cust:ISIN>
 				  <cust:IssuerName>ПрАТ "СК "ПРОМІНЬ"</cust:IssuerName>
+				  <cust:Type>
+						<cust:Code>01110100</cust:Code>
+						<cust:Name>Акція проста бездокументарна іменна</cust:Name>
+					</cust:Type>
 				</cust:ISIN>
 			</cust:Income>
 		</cust:IncomeList>
