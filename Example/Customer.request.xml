@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cust:request xmlns:cust="urn:dmt:custodian2016" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<cust:header>
+		<cust:RequestType>Customer</cust:RequestType>
+		<cust:RequestID>745A33AB-A0B8-42D5-B8CA-56EACC14E929</cust:RequestID>
+		<cust:TimeStamp>2001-12-17T09:30:47Z</cust:TimeStamp>
+		<cust:sourceAPPidentity>1DD4EC32-45DB-404A-A123-6F657895E502</cust:sourceAPPidentity>
+	</cust:header>
+	<cust:body>
+		<cust:Customer>
+			<cust:CustomerID>335759</cust:CustomerID>
+		</cust:Customer>
+	</cust:body>
+</cust:request>
