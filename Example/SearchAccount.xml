@@ -1,2 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<cust:request xmlns:cust="urn:dmt:custodian2016">   <cust:header>    <cust:RequestType>SearchAccount</cust:RequestType>    <cust:RequestID>745A33AB-A0B8-42D5-B8CA-56EACC14E929</cust:RequestID>    <cust:TimeStamp>2001-12-17T09:30:47Z</cust:TimeStamp>    <cust:sourceAPPidentity>1DD4EC32-45DB-404A-A123-6F657895E502</cust:sourceAPPidentity>       </cust:header>   <cust:body>    <cust:SearchAccount>     <cust:Account_Num>400820-UA40000001</cust:Account_Num>         </cust:SearchAccount>   </cust:body>  </cust:request>
