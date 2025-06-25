@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cust:responce xmlns="urn:dmt:custodian2016" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cust="urn:dmt:custodian2016" xsi:schemaLocation="urn:dmt:custodian2016 file:///C:/Users/Nim/OneDrive/Project/Custodian.Web/PublicAPI/Custodian2016.Public.API.xsd">
+	<cust:header>
+		<cust:ResponceType>NotificationAccountBlock</cust:ResponceType>
+		<cust:ResponceID>F6CEE387-FF5C-4890-B9EA-23E66CCB5C14</cust:ResponceID>
+		<cust:TimeStamp>2025-06-13T19:00:27.913</cust:TimeStamp>
+		<cust:RequestID>00000000-0000-0000-0000-000000000000</cust:RequestID>
+	</cust:header>
+	<cust:body>
+		<cust:Notification xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="cust:TNotificationAccountBlockOne">
+			<cust:NotificationType>changeAccountBlock</cust:NotificationType>
+			<cust:Account>400820-UA40400826</cust:Account>
+			<cust:Restrictions>
+				<cust:Restriction>
+					<cust:blockId>127023</cust:blockId>
+					<cust:blockAdded>2025-06-13T18:28:37.450</cust:blockAdded>
+					<cust:RestrictionType>
+						<cust:id>20</cust:id>
+						<cust:Name>(РНБО)Обмеження  прав за цінними паперами, до власника яких застосовано санкцію «Блокування активів» (відповідно до Закону України «Про санкції»)</cust:Name>
+						<cust:Limitations>
+							<cust:Receive>0</cust:Receive>
+							<cust:Send>0</cust:Send>
+							<cust:Voting>1</cust:Voting>
+							<cust:Change>0</cust:Change>
+							<cust:Benefit>0</cust:Benefit>
+							<cust:Other>0</cust:Other>
+							<cust:isBlocking>1</cust:isBlocking>
+						</cust:Limitations>
+					</cust:RestrictionType>
+					<cust:DateStart>2025-06-09</cust:DateStart>
+					<cust:DateStop>2075-06-10</cust:DateStop>
+					<cust:Reason>
+						<cust:Reason>№ 395/2025, додаток № 1, позиція 35</cust:Reason>
+						<cust:ReasonDate>2025-06-10</cust:ReasonDate>
+						<cust:agency>Президент України</cust:agency>
+						<cust:sanctionType>Блокування активів&#x0D; </cust:sanctionType>
+					</cust:Reason>
+					<cust:changeType>change</cust:changeType>
+				</cust:Restriction>
+			</cust:Restrictions>
+		</cust:Notification>
+	</cust:body>
+</cust:responce>

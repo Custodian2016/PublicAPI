@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cust:request xmlns:cust="urn:dmt:custodian2016" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:dmt:custodian2016 file:///C:/Users/Nim/OneDrive/Project/Custodian.Web/PublicAPI/Custodian2016.Public.API.xsd">
+	<cust:header>
+		<cust:RequestType>Account</cust:RequestType>
+		<cust:RequestID>21240A25-7472-4BFD-9EE5-9EE8AB61FC29</cust:RequestID>
+		<cust:TimeStamp>2001-12-17T09:30:47Z</cust:TimeStamp>
+		<cust:sourceAPPidentity>1DD4EC32-45DB-404A-A123-6F657895E502</cust:sourceAPPidentity>
+		<cust:binary>
+			<cust:binary>1</cust:binary>
+			<cust:Template>354</cust:Template>
+			<cust:outputFormat>0</cust:outputFormat>
+			<cust:eSign>
+				<cust:eSign>true</cust:eSign>
+			</cust:eSign>
+			<cust:email>
+				<cust:send>true</cust:send>
+				<cust:only>true</cust:only>
+				<cust:createStatus>false</cust:createStatus>
+			</cust:email>
+		</cust:binary>
+	</cust:header>
+	<cust:body>
+		<cust:getAccount>
+			<cust:Account>400820-UA40000001</cust:Account>
+			<cust:eMailResponce>
+				<cust:eMail>nim@dekra.net.ua</cust:eMail>
+				<cust:Subject>Довідка про відкриття рахунку</cust:Subject>
+				<cust:Body>Довідка про відкриття рахунку</cust:Body>
+			</cust:eMailResponce>
+		</cust:getAccount>
+	</cust:body>
+</cust:request>

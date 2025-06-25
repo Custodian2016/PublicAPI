@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cust:responce xmlns="urn:dmt:custodian2016" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cust="urn:dmt:custodian2016" xsi:schemaLocation="urn:dmt:custodian2016 file:///C:/Users/Nim/OneDrive/Project/Custodian.Web/PublicAPI/Custodian2016.Public.API.xsd">
+	<cust:header>
+		<cust:ResponceType>Transaction</cust:ResponceType>
+		<cust:ResponceID>86FB967D-4A08-4AA8-B1C1-BCB7EC54FDEF</cust:ResponceID>
+		<cust:TimeStamp>2025-06-19T16:15:28.170</cust:TimeStamp>
+		<cust:RequestID>780E71E5-A82A-42E0-A8BF-648FF441B86A</cust:RequestID>
+		<cust:binary>
+			<cust:binary>0</cust:binary>
+			<cust:outputFormat>0</cust:outputFormat>
+		</cust:binary>
+	</cust:header>
+	<cust:body>
+		<cust:Transaction>
+			<cust:ID>830750</cust:ID>
+			<cust:OrderID>826762</cust:OrderID>
+			<cust:OrderIDYear>958</cust:OrderIDYear>
+			<cust:OrderDateRegistr>2025-06-19T16:14:01.397</cust:OrderDateRegistr>
+			<cust:OrderDateCompleted>2025-06-19T16:15:28.077</cust:OrderDateCompleted>
+			<cust:OperID>545519</cust:OperID>
+			<cust:OperIDYear>144</cust:OperIDYear>
+			<cust:Status>
+				<cust:code>1024</cust:code>
+				<cust:message>Виконана</cust:message>
+			</cust:Status>
+		</cust:Transaction>
+	</cust:body>
+</cust:responce>

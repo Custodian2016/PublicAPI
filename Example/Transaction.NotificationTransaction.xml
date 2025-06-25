@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cust:responce xmlns="urn:dmt:custodian2016" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cust="urn:dmt:custodian2016" xsi:schemaLocation="urn:dmt:custodian2016 file:///C:/Users/Nim/OneDrive/Project/Custodian.Web/PublicAPI/Custodian2016.Public.API.xsd">
+	<cust:header>
+		<cust:ResponceType>NotificationTransaction</cust:ResponceType>
+		<cust:ResponceID>DA20C725-5367-4D28-AAB7-CD939D3CDF38</cust:ResponceID>
+		<cust:TimeStamp>2025-06-19T16:15:28.153</cust:TimeStamp>
+		<cust:RequestID>00000000-0000-0000-0000-000000000000</cust:RequestID>
+	</cust:header>
+	<cust:body>
+		<cust:Notification xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="cust:TNotificationTransaction2">
+			<cust:NotificationType>newTransaction</cust:NotificationType>
+			<cust:OperID>545519</cust:OperID>
+			<cust:OrderID>826762</cust:OrderID>
+			<cust:OrderIDs>
+				<cust:OrderID_Source>826762</cust:OrderID_Source>
+				<cust:OrderID_Destination>826763</cust:OrderID_Destination>
+			</cust:OrderIDs>
+			<cust:Date>2025-06-19</cust:Date>
+			<cust:ISIN>
+				<cust:ISIN>UA4000170401</cust:ISIN>
+				<cust:Depositary>200</cust:Depositary>
+			</cust:ISIN>
+			<cust:AccountSource>400820-UA40001129</cust:AccountSource>
+			<cust:BalAccountSource>
+				<cust:Code>210000</cust:Code>
+				<cust:Name>не обтяжені зобов'язаннями</cust:Name>
+			</cust:BalAccountSource>
+			<cust:AccountDestination>400820-UA10000001</cust:AccountDestination>
+			<cust:BalAccountDestination>
+				<cust:Code>410000</cust:Code>
+				<cust:Name>не обтяжені зобов'язаннями</cust:Name>
+			</cust:BalAccountDestination>
+			<cust:Quantity>1</cust:Quantity>
+			<cust:orderTypeCode>TransExternal2</cust:orderTypeCode>
+		</cust:Notification>
+	</cust:body>
+</cust:responce>
