@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cust:responce xmlns="urn:dmt:custodian2016" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cust="urn:dmt:custodian2016" xsi:schemaLocation="urn:dmt:custodian2016 file:///C:/Users/Nim/OneDrive/Project/Custodian.Web/PublicAPI/Custodian2016.Public.API.xsd">
+	<cust:header>
+		<cust:ResponceType>DeptInfo</cust:ResponceType>
+		<cust:ResponceID>943D4A7E-7429-4AD9-A5C6-E1A888B8A21A</cust:ResponceID>
+		<cust:TimeStamp>2025-07-18T23:40:50.400</cust:TimeStamp>
+		<cust:RequestID>6089DE68-F9E6-4E45-8894-B0BE5FDDDD4D</cust:RequestID>
+		<cust:binary>
+			<cust:binary>0</cust:binary>
+			<cust:outputFormat>0</cust:outputFormat>
+		</cust:binary>
+	</cust:header>
+	<cust:body>
+		<cust:deptInfo>
+			<cust:deptExists>1</cust:deptExists>
+			<cust:deptList>
+				<cust:dept>
+					<cust:currency>840</cust:currency>
+					<cust:deptCost>50.0000</cust:deptCost>
+				</cust:dept>
+				<cust:dept>
+					<cust:currency>980</cust:currency>
+					<cust:deptCost>714770.0000</cust:deptCost>
+				</cust:dept>
+			</cust:deptList>
+		</cust:deptInfo>
+	</cust:body>
+</cust:responce>

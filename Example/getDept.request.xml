@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cust:request xmlns:cust="urn:dmt:custodian2016" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:dmt:custodian2016 file:///C:/Users/Nim/OneDrive/Project/Custodian.Web/PublicAPI/Custodian2016.Public.API.xsd">
+	<cust:header>
+		<cust:RequestType>getDept</cust:RequestType>
+		<cust:RequestID>5afb1376-0492-476e-ba36-186dbb4f0fac</cust:RequestID>
+		<cust:TimeStamp>2025-07-18T11:40:50+03:00</cust:TimeStamp>
+		<cust:sourceAPPidentity>1DD4EC32-45DB-404A-A123-6F657895E502</cust:sourceAPPidentity>
+	</cust:header>
+	<cust:body>
+		<cust:getDept>
+			<cust:Account>400820-UA40000001</cust:Account>
+		</cust:getDept>
+	</cust:body>
+</cust:request>
