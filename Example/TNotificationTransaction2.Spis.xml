@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cust:responce xmlns="urn:dmt:custodian2016" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cust="urn:dmt:custodian2016" xsi:schemaLocation="urn:dmt:custodian2016 file:///C:/Users/Nim/OneDrive/Project/Custodian.Web/PublicAPI/Custodian2016.Public.API.xsd">
+	<cust:header>
+		<cust:ResponceType>NotificationTransaction</cust:ResponceType>
+		<cust:ResponceID>598FB6AE-4F08-4884-9618-C553A31DD855</cust:ResponceID>
+		<cust:TimeStamp>2023-07-09T21:57:08.790</cust:TimeStamp>
+		<cust:RequestID>00000000-0000-0000-0000-000000000000</cust:RequestID>
+	</cust:header>
+	<cust:body>
+		<cust:Notification xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="cust:TNotificationTransaction2">
+			<cust:NotificationType>newTransaction</cust:NotificationType>
+			<cust:OperID>533385</cust:OperID>
+			<cust:OrderID>812301</cust:OrderID>
+			<cust:OrderIDs>
+				<cust:OrderID_Source>812301</cust:OrderID_Source>
+			</cust:OrderIDs>
+			<cust:Date>2023-07-09</cust:Date>
+			<cust:ISIN>
+				<cust:ISIN>UA4000190961</cust:ISIN>
+				<cust:Depositary>100</cust:Depositary>
+			</cust:ISIN>
+			<cust:AccountSource>400820-UA10001111</cust:AccountSource>
+			<cust:BalAccountSource>
+				<cust:Code>410000</cust:Code>
+				<cust:Name>не обтяжені зобов'язаннями</cust:Name>
+			</cust:BalAccountSource>
+			<cust:Quantity>1000</cust:Quantity>
+			<cust:orderTypeCode>TransSen</cust:orderTypeCode>
+		</cust:Notification>
+	</cust:body>
+</cust:responce>
