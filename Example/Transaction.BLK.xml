@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cust:request xmlns:cust="urn:dmt:custodian2016" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:dmt:custodian2016 file:///C:/Users/Nim/OneDrive/Project/Custodian.Web/PublicAPI/Custodian2016.Public.API.xsd">
+	<cust:header>
+		<cust:RequestType>Transaction</cust:RequestType>
+		<cust:RequestID>13c6fd0c-3010-41e2-bb73-bba22b3c69cb</cust:RequestID>
+		<cust:TimeStamp>2025-09-30T12:51:02+03:00</cust:TimeStamp>
+		<cust:sourceAPPidentity>1DD4EC32-45DB-404A-A123-6F657895E502</cust:sourceAPPidentity>
+	</cust:header>
+	<cust:body>
+		<cust:Transaction>
+			<cust:ISIN>
+				<cust:ISIN>UA4000207518</cust:ISIN>
+				<cust:Depositary>100</cust:Depositary>
+			</cust:ISIN>
+			<cust:Quantity>1</cust:Quantity>
+			<cust:Agreement>
+				<cust:number>20285</cust:number>
+				<cust:date>2025-06-05</cust:date>
+			</cust:Agreement>
+			<cust:CommitAfterRegistr>true</cust:CommitAfterRegistr>
+			<cust:TransationType>BLK</cust:TransationType>
+			<cust:ParticipantSource>
+				<cust:MDO>400820</cust:MDO>
+				<cust:Account>400820-UA10000001</cust:Account>
+				<cust:IDCode>0123456789</cust:IDCode>
+				<cust:Level>2</cust:Level>
+				<cust:Broker>
+					<cust:IDCode>24685310</cust:IDCode>
+				</cust:Broker>
+			</cust:ParticipantSource>
+		</cust:Transaction>
+	</cust:body>
+</cust:request>
