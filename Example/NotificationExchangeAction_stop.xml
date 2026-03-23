@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cust:responce xmlns="urn:dmt:custodian2016" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cust="urn:dmt:custodian2016" xsi:schemaLocation="urn:dmt:custodian2016 file:///C:/Users/Nim/OneDrive/Project/Custodian.Web/PublicAPI/Custodian2016.Public.API.xsd">
+	<cust:header>
+		<cust:ResponceType>NotificationExchangeAction</cust:ResponceType>
+		<cust:ResponceID>E28EBFA9-47C9-47BB-967D-7EF35C8D9D7B</cust:ResponceID>
+		<cust:TimeStamp>2026-01-27T21:15:55.820</cust:TimeStamp>
+		<cust:RequestID>00000000-0000-0000-0000-000000000000</cust:RequestID>
+	</cust:header>
+	<cust:body>
+		<cust:Notification xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="cust:TNotificationExchangeAction">
+			<cust:NotificationType>exchangeEvent</cust:NotificationType>
+			<cust:command>stop</cust:command>
+			<cust:execute_at>2026-01-27T21:15:55.820</cust:execute_at>
+			<cust:reason>Повна зупинка</cust:reason>
+			<cust:user>Admin</cust:user>
+		</cust:Notification>
+	</cust:body>
+</cust:responce>

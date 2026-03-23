@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cust:responce xmlns="urn:dmt:custodian2016" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cust="urn:dmt:custodian2016" xsi:schemaLocation="urn:dmt:custodian2016 file:///C:/Users/Nim/OneDrive/Project/Custodian.Web/PublicAPI/Custodian2016.Public.API.xsd">
+	<cust:header>
+		<cust:ResponceType>NotificationExchangeAction</cust:ResponceType>
+		<cust:ResponceID>46AE40D1-3967-4F14-8985-640629E26567</cust:ResponceID>
+		<cust:TimeStamp>2026-01-27T21:17:13.510</cust:TimeStamp>
+		<cust:RequestID>00000000-0000-0000-0000-000000000000</cust:RequestID>
+	</cust:header>
+	<cust:body>
+		<cust:Notification xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="cust:TNotificationExchangeAction">
+			<cust:NotificationType>exchangeEvent</cust:NotificationType>
+			<cust:command>startTransaction</cust:command>
+			<cust:execute_at>2026-01-27T21:17:13.510</cust:execute_at>
+			<cust:ISIN>UA1234567890</cust:ISIN>
+			<cust:reason>Відновлення обміну</cust:reason>
+			<cust:user>Admin</cust:user>
+		</cust:Notification>
+	</cust:body>
+</cust:responce>
