@@ -1,0 +1,1731 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cust:responce xmlns="urn:dmt:custodian2016" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cust="urn:dmt:custodian2016" xsi:schemaLocation="urn:dmt:custodian2016 file:///C:/Users/Nim/OneDrive/Project/Custodian.Web/PublicAPI/Custodian2016.Public.API.xsd">
+	<cust:header>
+		<cust:ResponceType>NotificationTransaction</cust:ResponceType>
+		<cust:ResponceID>BF4919C3-1FB2-44A2-B0C8-B82E5AD07587</cust:ResponceID>
+		<cust:TimeStamp>2025-12-20T14:16:01.570</cust:TimeStamp>
+		<cust:RequestID>00000000-0000-0000-0000-000000000000</cust:RequestID>
+	</cust:header>
+	<cust:body>
+		<cust:Notification xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="cust:TNotificationTransactionBalance">
+			<cust:NotificationType>newTransaction</cust:NotificationType>
+			<cust:Balance>
+				<cust:Source>
+					<cust:Account xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">400820-UA40000001</cust:Account>
+					<cust:Rows xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="cust:TStatement_of_Holding_rowsV2">
+						<cust:Row>
+							<cust:ISIN>
+								<cust:ISIN>UA4000204432</cust:ISIN>
+								<cust:Depositary>200</cust:Depositary>
+								<cust:Issuer>
+									<cust:ShortName>ПАТ "ТРЕСТ"</cust:ShortName>
+									<cust:IDCode>35583857</cust:IDCode>
+									<cust:ShortName_eng>TREST PJSC</cust:ShortName_eng>
+								</cust:Issuer>
+								<cust:State>
+									<cust:Code>0</cust:Code>
+									<cust:Name>Дійсний</cust:Name>
+								</cust:State>
+								<cust:Type>
+									<cust:Code>01110100</cust:Code>
+									<cust:Name>Акція проста електронна іменна</cust:Name>
+									<cust:Name_eng>Ordinary registered non-documentary share</cust:Name_eng>
+								</cust:Type>
+								<cust:Nominal>
+									<cust:Nominal>100.0000</cust:Nominal>
+									<cust:Currency>980</cust:Currency>
+								</cust:Nominal>
+								<cust:Quantity>5000000</cust:Quantity>
+							</cust:ISIN>
+							<cust:BalAccount>
+								<cust:Code>427000</cust:Code>
+								<cust:Name>заблоковані для торгів</cust:Name>
+								<cust:Name_eng>blocked for trading</cust:Name_eng>
+								<cust:BlockedFor>
+									<cust:ShortName>ПАТ "РОЗРАХУНКОВИЙ ЦЕНТР"</cust:ShortName>
+									<cust:IDCode>35917889</cust:IDCode>
+								</cust:BlockedFor>
+							</cust:BalAccount>
+							<cust:Quantity>1065</cust:Quantity>
+							<cust:faceAmount>106500.0000</cust:faceAmount>
+							<cust:Percent>0.0187</cust:Percent>
+						</cust:Row>
+						<cust:Row>
+							<cust:ISIN>
+								<cust:ISIN>UA4000190961</cust:ISIN>
+								<cust:Depositary>100</cust:Depositary>
+								<cust:Issuer>
+									<cust:ShortName>Міністерство фінансів України</cust:ShortName>
+									<cust:IDCode>00013480</cust:IDCode>
+									<cust:ShortName_eng>Ministry of Finance of Ukraine</cust:ShortName_eng>
+								</cust:Issuer>
+								<cust:State>
+									<cust:Code>0</cust:Code>
+									<cust:Name>Дійсний</cust:Name>
+								</cust:State>
+								<cust:Type>
+									<cust:Code>01120240</cust:Code>
+									<cust:Name>Облігація внутрішніх державних позик України довгострокова відсоткова електронна іменна</cust:Name>
+									<cust:Name_eng>Registered non-documentary long-term interest-bearing government bond </cust:Name_eng>
+								</cust:Type>
+								<cust:Nominal>
+									<cust:Nominal>1000.0000</cust:Nominal>
+									<cust:Currency>980</cust:Currency>
+								</cust:Nominal>
+								<cust:Quantity>800000</cust:Quantity>
+							</cust:ISIN>
+							<cust:BalAccount>
+								<cust:Code>410000</cust:Code>
+								<cust:Name>не обтяжені зобов'язаннями</cust:Name>
+								<cust:Name_eng>not pledged</cust:Name_eng>
+							</cust:BalAccount>
+							<cust:Quantity>2900</cust:Quantity>
+							<cust:faceAmount>2900000.0000</cust:faceAmount>
+						</cust:Row>
+						<cust:Row>
+							<cust:ISIN>
+								<cust:ISIN>UA5000000365</cust:ISIN>
+								<cust:Depositary>200</cust:Depositary>
+								<cust:Issuer>
+									<cust:ShortName>ПАТ "КОРОСТИШІВСЬКИЙ ГРАНІТНИЙ КАР'ЄР"</cust:ShortName>
+									<cust:IDCode>03343781</cust:IDCode>
+									<cust:ShortName_eng>PAT "KOROSTYSHIVSKYI HRANITNYI KAR'IER"</cust:ShortName_eng>
+								</cust:Issuer>
+								<cust:State>
+									<cust:Code>0</cust:Code>
+									<cust:Name>Дійсний</cust:Name>
+								</cust:State>
+								<cust:Type>
+									<cust:Code>01110100</cust:Code>
+									<cust:Name>Акція проста електронна іменна</cust:Name>
+									<cust:Name_eng>Ordinary registered non-documentary share</cust:Name_eng>
+								</cust:Type>
+								<cust:Nominal>
+									<cust:Nominal>0.2500</cust:Nominal>
+									<cust:Currency>980</cust:Currency>
+								</cust:Nominal>
+								<cust:Quantity>9698696</cust:Quantity>
+							</cust:ISIN>
+							<cust:BalAccount>
+								<cust:Code>410000</cust:Code>
+								<cust:Name>не обтяжені зобов'язаннями</cust:Name>
+								<cust:Name_eng>not pledged</cust:Name_eng>
+							</cust:BalAccount>
+							<cust:Quantity>1100</cust:Quantity>
+							<cust:faceAmount>275.0000</cust:faceAmount>
+							<cust:Percent>0.0113</cust:Percent>
+						</cust:Row>
+						<cust:Row>
+							<cust:ISIN>
+								<cust:ISIN>UA5000000340</cust:ISIN>
+								<cust:Depositary>200</cust:Depositary>
+								<cust:Issuer>
+									<cust:ShortName>АТ "ОНО"</cust:ShortName>
+									<cust:IDCode>11111111</cust:IDCode>
+									<cust:ShortName_eng>AT "ONO"</cust:ShortName_eng>
+								</cust:Issuer>
+								<cust:State>
+									<cust:Code>0</cust:Code>
+									<cust:Name>Дійсний</cust:Name>
+								</cust:State>
+								<cust:Type>
+									<cust:Code>01120200</cust:Code>
+									<cust:Name>Облігація підприємства відсоткова електронна іменна</cust:Name>
+									<cust:Name_eng>Registered non-documentary interest-bearing corporate bond</cust:Name_eng>
+								</cust:Type>
+								<cust:Nominal>
+									<cust:Nominal>1000.0000</cust:Nominal>
+									<cust:Currency>980</cust:Currency>
+								</cust:Nominal>
+								<cust:Quantity>1000</cust:Quantity>
+							</cust:ISIN>
+							<cust:BalAccount>
+								<cust:Code>426000</cust:Code>
+								<cust:Name>заблоковані під забезпечення кредитів</cust:Name>
+								<cust:Name_eng>blocked against loans provision</cust:Name_eng>
+							</cust:BalAccount>
+							<cust:Quantity>3</cust:Quantity>
+							<cust:faceAmount>3000.0000</cust:faceAmount>
+						</cust:Row>
+						<cust:Row>
+							<cust:ISIN>
+								<cust:ISIN>UA4000226658</cust:ISIN>
+								<cust:Depositary>100</cust:Depositary>
+								<cust:Issuer>
+									<cust:ShortName>Міністерство фінансів України</cust:ShortName>
+									<cust:IDCode>00013480</cust:IDCode>
+									<cust:ShortName_eng>Ministry of Finance of Ukraine</cust:ShortName_eng>
+								</cust:Issuer>
+								<cust:State>
+									<cust:Code>0</cust:Code>
+									<cust:Name>Дійсний</cust:Name>
+								</cust:State>
+								<cust:Type>
+									<cust:Code>01120247</cust:Code>
+									<cust:Name>Облігація внутрішніх державних позик України короткострокова дисконтна електронна іменна</cust:Name>
+									<cust:Name_eng>Registered non-documentary short-term discount government bond</cust:Name_eng>
+								</cust:Type>
+								<cust:Nominal>
+									<cust:Nominal>1000.0000</cust:Nominal>
+									<cust:Currency>980</cust:Currency>
+								</cust:Nominal>
+								<cust:Quantity>7155032</cust:Quantity>
+							</cust:ISIN>
+							<cust:BalAccount>
+								<cust:Code>410000</cust:Code>
+								<cust:Name>не обтяжені зобов'язаннями</cust:Name>
+								<cust:Name_eng>not pledged</cust:Name_eng>
+							</cust:BalAccount>
+							<cust:Quantity>1000</cust:Quantity>
+							<cust:faceAmount>1000000.0000</cust:faceAmount>
+						</cust:Row>
+						<cust:Row>
+							<cust:ISIN>
+								<cust:ISIN>UA4000204432</cust:ISIN>
+								<cust:Depositary>200</cust:Depositary>
+								<cust:Issuer>
+									<cust:ShortName>ПАТ "ТРЕСТ"</cust:ShortName>
+									<cust:IDCode>35583857</cust:IDCode>
+									<cust:ShortName_eng>TREST PJSC</cust:ShortName_eng>
+								</cust:Issuer>
+								<cust:State>
+									<cust:Code>0</cust:Code>
+									<cust:Name>Дійсний</cust:Name>
+								</cust:State>
+								<cust:Type>
+									<cust:Code>01110100</cust:Code>
+									<cust:Name>Акція проста електронна іменна</cust:Name>
+									<cust:Name_eng>Ordinary registered non-documentary share</cust:Name_eng>
+								</cust:Type>
+								<cust:Nominal>
+									<cust:Nominal>100.0000</cust:Nominal>
+									<cust:Currency>980</cust:Currency>
+								</cust:Nominal>
+								<cust:Quantity>5000000</cust:Quantity>
+							</cust:ISIN>
+							<cust:BalAccount>
+								<cust:Code>410000</cust:Code>
+								<cust:Name>не обтяжені зобов'язаннями</cust:Name>
+								<cust:Name_eng>not pledged</cust:Name_eng>
+							</cust:BalAccount>
+							<cust:Quantity>14</cust:Quantity>
+							<cust:faceAmount>1400.0000</cust:faceAmount>
+							<cust:Percent>0.0002</cust:Percent>
+						</cust:Row>
+						<cust:Row>
+							<cust:ISIN>
+								<cust:ISIN>UA5000000159</cust:ISIN>
+								<cust:Depositary>200</cust:Depositary>
+								<cust:Issuer>
+									<cust:ShortName>АТ "КИЇВЕНЕРГІЯ"</cust:ShortName>
+									<cust:IDCode>00131306</cust:IDCode>
+									<cust:ShortName_eng>AT "KYIVENERHIIA"</cust:ShortName_eng>
+								</cust:Issuer>
+								<cust:State>
+									<cust:Code>0</cust:Code>
+									<cust:Name>Дійсний</cust:Name>
+								</cust:State>
+								<cust:Type>
+									<cust:Code>01110100</cust:Code>
+									<cust:Name>Акція проста електронна іменна</cust:Name>
+									<cust:Name_eng>Ordinary registered non-documentary share</cust:Name_eng>
+								</cust:Type>
+								<cust:Nominal>
+									<cust:Nominal>1.0000</cust:Nominal>
+									<cust:Currency>980</cust:Currency>
+								</cust:Nominal>
+								<cust:Quantity>4148036</cust:Quantity>
+							</cust:ISIN>
+							<cust:BalAccount>
+								<cust:Code>410000</cust:Code>
+								<cust:Name>не обтяжені зобов'язаннями</cust:Name>
+								<cust:Name_eng>not pledged</cust:Name_eng>
+							</cust:BalAccount>
+							<cust:Quantity>102</cust:Quantity>
+							<cust:faceAmount>102.0000</cust:faceAmount>
+							<cust:Percent>0.0018</cust:Percent>
+						</cust:Row>
+						<cust:Row>
+							<cust:ISIN>
+								<cust:ISIN>UA5000000340</cust:ISIN>
+								<cust:Depositary>200</cust:Depositary>
+								<cust:Issuer>
+									<cust:ShortName>АТ "ОНО"</cust:ShortName>
+									<cust:IDCode>11111111</cust:IDCode>
+									<cust:ShortName_eng>AT "ONO"</cust:ShortName_eng>
+								</cust:Issuer>
+								<cust:State>
+									<cust:Code>0</cust:Code>
+									<cust:Name>Дійсний</cust:Name>
+								</cust:State>
+								<cust:Type>
+									<cust:Code>01120200</cust:Code>
+									<cust:Name>Облігація підприємства відсоткова електронна іменна</cust:Name>
+									<cust:Name_eng>Registered non-documentary interest-bearing corporate bond</cust:Name_eng>
+								</cust:Type>
+								<cust:Nominal>
+									<cust:Nominal>1000.0000</cust:Nominal>
+									<cust:Currency>980</cust:Currency>
+								</cust:Nominal>
+								<cust:Quantity>1000</cust:Quantity>
+							</cust:ISIN>
+							<cust:BalAccount>
+								<cust:Code>410000</cust:Code>
+								<cust:Name>не обтяжені зобов'язаннями</cust:Name>
+								<cust:Name_eng>not pledged</cust:Name_eng>
+							</cust:BalAccount>
+							<cust:Quantity>2</cust:Quantity>
+							<cust:faceAmount>2000.0000</cust:faceAmount>
+						</cust:Row>
+						<cust:Row>
+							<cust:ISIN>
+								<cust:ISIN>UA4000063010</cust:ISIN>
+								<cust:Depositary>100</cust:Depositary>
+								<cust:Issuer>
+									<cust:ShortName>Міністерство фінансів України</cust:ShortName>
+									<cust:IDCode>00013480</cust:IDCode>
+									<cust:ShortName_eng>Ministry of Finance of Ukraine</cust:ShortName_eng>
+								</cust:Issuer>
+								<cust:State>
+									<cust:Code>0</cust:Code>
+									<cust:Name>Дійсний</cust:Name>
+								</cust:State>
+								<cust:Type>
+									<cust:Code/>
+									<cust:Name/>
+								</cust:Type>
+								<cust:Nominal>
+									<cust:Nominal>1000.0000</cust:Nominal>
+									<cust:Currency>980</cust:Currency>
+								</cust:Nominal>
+								<cust:Quantity>950000</cust:Quantity>
+							</cust:ISIN>
+							<cust:BalAccount>
+								<cust:Code>410000</cust:Code>
+								<cust:Name>не обтяжені зобов'язаннями</cust:Name>
+								<cust:Name_eng>not pledged</cust:Name_eng>
+							</cust:BalAccount>
+							<cust:Quantity>200</cust:Quantity>
+							<cust:faceAmount>200000.0000</cust:faceAmount>
+						</cust:Row>
+						<cust:Row>
+							<cust:ISIN>
+								<cust:ISIN>UA4000170401</cust:ISIN>
+								<cust:Depositary>200</cust:Depositary>
+								<cust:Issuer>
+									<cust:ShortName>ПрАТ "СК "ВУСО"</cust:ShortName>
+									<cust:IDCode>31650052</cust:IDCode>
+									<cust:ShortName_eng>PRJSC "IC "VUSO"</cust:ShortName_eng>
+								</cust:Issuer>
+								<cust:State>
+									<cust:Code>0</cust:Code>
+									<cust:Name>Дійсний</cust:Name>
+								</cust:State>
+								<cust:Type>
+									<cust:Code>01110100</cust:Code>
+									<cust:Name>Акція проста електронна іменна</cust:Name>
+									<cust:Name_eng>Ordinary registered non-documentary share</cust:Name_eng>
+								</cust:Type>
+								<cust:Nominal>
+									<cust:Nominal>10.0000</cust:Nominal>
+									<cust:Currency>980</cust:Currency>
+								</cust:Nominal>
+								<cust:Quantity>6000000</cust:Quantity>
+							</cust:ISIN>
+							<cust:BalAccount>
+								<cust:Code>427000</cust:Code>
+								<cust:Name>заблоковані для торгів</cust:Name>
+								<cust:Name_eng>blocked for trading</cust:Name_eng>
+								<cust:BlockedFor>
+									<cust:ShortName>ПАТ "РОЗРАХУНКОВИЙ ЦЕНТР"</cust:ShortName>
+									<cust:IDCode>35917889</cust:IDCode>
+								</cust:BlockedFor>
+							</cust:BalAccount>
+							<cust:Quantity>300</cust:Quantity>
+							<cust:faceAmount>3000.0000</cust:faceAmount>
+							<cust:Percent>0.0050</cust:Percent>
+						</cust:Row>
+						<cust:Row>
+							<cust:ISIN>
+								<cust:ISIN>UA4000160691</cust:ISIN>
+								<cust:Depositary>200</cust:Depositary>
+								<cust:Issuer>
+									<cust:ShortName>ПАТ "Завод "Перетворювач"</cust:ShortName>
+									<cust:IDCode>05755571</cust:IDCode>
+									<cust:ShortName_eng>PJSC "Plant "Preobrazovatel"</cust:ShortName_eng>
+								</cust:Issuer>
+								<cust:State>
+									<cust:Code>0</cust:Code>
+									<cust:Name>Дійсний</cust:Name>
+								</cust:State>
+								<cust:Type>
+									<cust:Code>01110100</cust:Code>
+									<cust:Name>Акція проста електронна іменна</cust:Name>
+									<cust:Name_eng>Ordinary registered non-documentary share</cust:Name_eng>
+								</cust:Type>
+								<cust:Nominal>
+									<cust:Nominal>0.0500</cust:Nominal>
+									<cust:Currency>980</cust:Currency>
+								</cust:Nominal>
+								<cust:Quantity>2852052</cust:Quantity>
+							</cust:ISIN>
+							<cust:BalAccount>
+								<cust:Code>410000</cust:Code>
+								<cust:Name>не обтяжені зобов'язаннями</cust:Name>
+								<cust:Name_eng>not pledged</cust:Name_eng>
+							</cust:BalAccount>
+							<cust:Quantity>50</cust:Quantity>
+							<cust:faceAmount>2.5000</cust:faceAmount>
+							<cust:Percent>0.0018</cust:Percent>
+						</cust:Row>
+						<cust:Row>
+							<cust:ISIN>
+								<cust:ISIN>UA4000132641</cust:ISIN>
+								<cust:Depositary>200</cust:Depositary>
+								<cust:Issuer>
+									<cust:ShortName>АТ "Бершадське АТП 10567"</cust:ShortName>
+									<cust:IDCode>05460870</cust:IDCode>
+									<cust:ShortName_eng>AT "BERSHADSKE ATP 10567"</cust:ShortName_eng>
+								</cust:Issuer>
+								<cust:State>
+									<cust:Code>6</cust:Code>
+									<cust:Name>Блоковано</cust:Name>
+								</cust:State>
+								<cust:Type>
+									<cust:Code>01110100</cust:Code>
+									<cust:Name>Акція проста електронна іменна</cust:Name>
+									<cust:Name_eng>Ordinary registered non-documentary share</cust:Name_eng>
+								</cust:Type>
+								<cust:Nominal>
+									<cust:Nominal>0.2500</cust:Nominal>
+									<cust:Currency>980</cust:Currency>
+								</cust:Nominal>
+								<cust:Quantity>802215</cust:Quantity>
+							</cust:ISIN>
+							<cust:BalAccount>
+								<cust:Code>410000</cust:Code>
+								<cust:Name>не обтяжені зобов'язаннями</cust:Name>
+								<cust:Name_eng>not pledged</cust:Name_eng>
+							</cust:BalAccount>
+							<cust:Quantity>160</cust:Quantity>
+							<cust:faceAmount>40.0000</cust:faceAmount>
+							<cust:Percent>0.0114</cust:Percent>
+						</cust:Row>
+						<cust:Row>
+							<cust:ISIN>
+								<cust:ISIN>UA5000000043</cust:ISIN>
+								<cust:Depositary>200</cust:Depositary>
+								<cust:Issuer>
+									<cust:ShortName>ТОВ "ПО Агро"</cust:ShortName>
+									<cust:IDCode>01233210</cust:IDCode>
+									<cust:ShortName_eng>TOV "PO AHRO"</cust:ShortName_eng>
+								</cust:Issuer>
+								<cust:State>
+									<cust:Code>0</cust:Code>
+									<cust:Name>Дійсний</cust:Name>
+								</cust:State>
+								<cust:Type>
+									<cust:Code>01122102</cust:Code>
+									<cust:Name>Фінансова аграрна нота електронна іменна</cust:Name>
+									<cust:Name_eng>Agrarian financial electronic registered note</cust:Name_eng>
+								</cust:Type>
+								<cust:Nominal>
+									<cust:Nominal>256700.0000</cust:Nominal>
+									<cust:Currency>980</cust:Currency>
+								</cust:Nominal>
+								<cust:Quantity>1</cust:Quantity>
+							</cust:ISIN>
+							<cust:BalAccount>
+								<cust:Code>410000</cust:Code>
+								<cust:Name>не обтяжені зобов'язаннями</cust:Name>
+								<cust:Name_eng>not pledged</cust:Name_eng>
+							</cust:BalAccount>
+							<cust:Quantity>3</cust:Quantity>
+							<cust:faceAmount>770100.0000</cust:faceAmount>
+						</cust:Row>
+						<cust:Row>
+							<cust:ISIN>
+								<cust:ISIN>US0378331005</cust:ISIN>
+								<cust:Depositary>200</cust:Depositary>
+								<cust:Issuer>
+									<cust:ShortName>APPLE INC.</cust:ShortName>
+									<cust:IDCode>94-2404110</cust:IDCode>
+									<cust:ShortName_eng>APPLE INC.</cust:ShortName_eng>
+								</cust:Issuer>
+								<cust:State>
+									<cust:Code>0</cust:Code>
+									<cust:Name>Дійсний</cust:Name>
+								</cust:State>
+								<cust:Type>
+									<cust:Code>01111100</cust:Code>
+									<cust:Name>Акція іноземного емітента електронна іменна</cust:Name>
+									<cust:Name_eng>Registered non-documentary foreign share</cust:Name_eng>
+								</cust:Type>
+								<cust:Nominal>
+									<cust:Nominal>204.6100</cust:Nominal>
+									<cust:Currency>840</cust:Currency>
+								</cust:Nominal>
+								<cust:Quantity>4715280000</cust:Quantity>
+							</cust:ISIN>
+							<cust:BalAccount>
+								<cust:Code>427000</cust:Code>
+								<cust:Name>заблоковані для торгів</cust:Name>
+								<cust:Name_eng>blocked for trading</cust:Name_eng>
+								<cust:BlockedFor>
+									<cust:ShortName>ПАТ "РОЗРАХУНКОВИЙ ЦЕНТР"</cust:ShortName>
+									<cust:IDCode>35917889</cust:IDCode>
+								</cust:BlockedFor>
+							</cust:BalAccount>
+							<cust:Quantity>50</cust:Quantity>
+							<cust:faceAmount>10230.5000</cust:faceAmount>
+						</cust:Row>
+						<cust:Row>
+							<cust:ISIN>
+								<cust:ISIN>US55302T2042</cust:ISIN>
+								<cust:Depositary>200</cust:Depositary>
+								<cust:Issuer>
+									<cust:ShortName>MHP SE</cust:ShortName>
+									<cust:IDCode>SE 27</cust:IDCode>
+									<cust:ShortName_eng>MHP SE</cust:ShortName_eng>
+								</cust:Issuer>
+								<cust:State>
+									<cust:Code>0</cust:Code>
+									<cust:Name>Дійсний</cust:Name>
+								</cust:State>
+								<cust:Type>
+									<cust:Code>01121400</cust:Code>
+									<cust:Name>Фінансовий інструмент (у тому числі цінний папір) іншого виду іноземного емітента електронний іменний</cust:Name>
+									<cust:Name_eng>Registered documentary foreign financial instrument of another kind (including security)</cust:Name_eng>
+								</cust:Type>
+								<cust:Nominal>
+									<cust:Nominal>10.2500</cust:Nominal>
+									<cust:Currency>840</cust:Currency>
+								</cust:Nominal>
+								<cust:Quantity>110770000</cust:Quantity>
+							</cust:ISIN>
+							<cust:BalAccount>
+								<cust:Code>410000</cust:Code>
+								<cust:Name>не обтяжені зобов'язаннями</cust:Name>
+								<cust:Name_eng>not pledged</cust:Name_eng>
+							</cust:BalAccount>
+							<cust:Quantity>20</cust:Quantity>
+							<cust:faceAmount>205.0000</cust:faceAmount>
+						</cust:Row>
+						<cust:Row>
+							<cust:ISIN>
+								<cust:ISIN>UA5000000027</cust:ISIN>
+								<cust:Depositary>200</cust:Depositary>
+								<cust:Issuer>
+									<cust:ShortName>Кравець С.С</cust:ShortName>
+									<cust:ShortName_eng>KRAVETS S.S</cust:ShortName_eng>
+								</cust:Issuer>
+								<cust:State>
+									<cust:Code>0</cust:Code>
+									<cust:Name>Дійсний</cust:Name>
+								</cust:State>
+								<cust:Type>
+									<cust:Code>01122102</cust:Code>
+									<cust:Name>Фінансова аграрна нота електронна іменна</cust:Name>
+									<cust:Name_eng>Agrarian financial electronic registered note</cust:Name_eng>
+								</cust:Type>
+								<cust:Nominal>
+									<cust:Nominal>1000000.0000</cust:Nominal>
+									<cust:Currency>980</cust:Currency>
+								</cust:Nominal>
+								<cust:Quantity>1</cust:Quantity>
+							</cust:ISIN>
+							<cust:BalAccount>
+								<cust:Code>427000</cust:Code>
+								<cust:Name>заблоковані для торгів</cust:Name>
+								<cust:Name_eng>blocked for trading</cust:Name_eng>
+								<cust:BlockedFor>
+									<cust:ShortName>ПАТ "РОЗРАХУНКОВИЙ ЦЕНТР"</cust:ShortName>
+									<cust:IDCode>35917889</cust:IDCode>
+								</cust:BlockedFor>
+							</cust:BalAccount>
+							<cust:Quantity>15</cust:Quantity>
+							<cust:faceAmount>15000000.0000</cust:faceAmount>
+						</cust:Row>
+						<cust:Row>
+							<cust:ISIN>
+								<cust:ISIN>UA0000000010</cust:ISIN>
+								<cust:Depositary>200</cust:Depositary>
+								<cust:Issuer>
+									<cust:ShortName>ПрАТ "Апельсин Плаза"</cust:ShortName>
+									<cust:IDCode>30675610</cust:IDCode>
+									<cust:ShortName_eng>PRAT "APELSYN PLAZA"</cust:ShortName_eng>
+								</cust:Issuer>
+								<cust:State>
+									<cust:Code>0</cust:Code>
+									<cust:Name>Дійсний</cust:Name>
+								</cust:State>
+								<cust:Type>
+									<cust:Code>01110100</cust:Code>
+									<cust:Name>Акція проста електронна іменна</cust:Name>
+									<cust:Name_eng>Ordinary registered non-documentary share</cust:Name_eng>
+								</cust:Type>
+								<cust:Nominal>
+									<cust:Nominal>1.0000</cust:Nominal>
+									<cust:Currency>980</cust:Currency>
+								</cust:Nominal>
+								<cust:Quantity>1000</cust:Quantity>
+							</cust:ISIN>
+							<cust:BalAccount>
+								<cust:Code>427000</cust:Code>
+								<cust:Name>заблоковані для торгів</cust:Name>
+								<cust:Name_eng>blocked for trading</cust:Name_eng>
+								<cust:BlockedFor>
+									<cust:ShortName>ПАТ "РОЗРАХУНКОВИЙ ЦЕНТР"</cust:ShortName>
+									<cust:IDCode>35917889</cust:IDCode>
+								</cust:BlockedFor>
+							</cust:BalAccount>
+							<cust:Quantity>2</cust:Quantity>
+							<cust:faceAmount>2.0000</cust:faceAmount>
+							<cust:Percent>0.2000</cust:Percent>
+						</cust:Row>
+						<cust:Row>
+							<cust:ISIN>
+								<cust:ISIN>UA4000014609</cust:ISIN>
+								<cust:Depositary>200</cust:Depositary>
+								<cust:Issuer>
+									<cust:ShortName>ПрАТ "Прилучанка"</cust:ShortName>
+									<cust:IDCode>22819249</cust:IDCode>
+									<cust:ShortName_eng>PRAT "PRYLUCHANKA"</cust:ShortName_eng>
+								</cust:Issuer>
+								<cust:State>
+									<cust:Code>0</cust:Code>
+									<cust:Name>Дійсний</cust:Name>
+								</cust:State>
+								<cust:Type>
+									<cust:Code>01120221</cust:Code>
+									<cust:Name>Корпоративна облігація цільова електронна іменна</cust:Name>
+									<cust:Name_eng>Registered electronic target corporate bond</cust:Name_eng>
+								</cust:Type>
+								<cust:Nominal>
+									<cust:Nominal>120.0000</cust:Nominal>
+									<cust:Currency>980</cust:Currency>
+								</cust:Nominal>
+								<cust:Series>A</cust:Series>
+								<cust:Quantity>825000</cust:Quantity>
+							</cust:ISIN>
+							<cust:BalAccount>
+								<cust:Code>427000</cust:Code>
+								<cust:Name>заблоковані для торгів</cust:Name>
+								<cust:Name_eng>blocked for trading</cust:Name_eng>
+								<cust:BlockedFor>
+									<cust:ShortName>ПАТ "РОЗРАХУНКОВИЙ ЦЕНТР"</cust:ShortName>
+									<cust:IDCode>35917889</cust:IDCode>
+								</cust:BlockedFor>
+							</cust:BalAccount>
+							<cust:Quantity>2</cust:Quantity>
+							<cust:faceAmount>240.0000</cust:faceAmount>
+						</cust:Row>
+						<cust:Row>
+							<cust:ISIN>
+								<cust:ISIN>UA0000000010</cust:ISIN>
+								<cust:Depositary>200</cust:Depositary>
+								<cust:Issuer>
+									<cust:ShortName>ПрАТ "Апельсин Плаза"</cust:ShortName>
+									<cust:IDCode>30675610</cust:IDCode>
+									<cust:ShortName_eng>PRAT "APELSYN PLAZA"</cust:ShortName_eng>
+								</cust:Issuer>
+								<cust:State>
+									<cust:Code>0</cust:Code>
+									<cust:Name>Дійсний</cust:Name>
+								</cust:State>
+								<cust:Type>
+									<cust:Code>01110100</cust:Code>
+									<cust:Name>Акція проста електронна іменна</cust:Name>
+									<cust:Name_eng>Ordinary registered non-documentary share</cust:Name_eng>
+								</cust:Type>
+								<cust:Nominal>
+									<cust:Nominal>1.0000</cust:Nominal>
+									<cust:Currency>980</cust:Currency>
+								</cust:Nominal>
+								<cust:Quantity>1000</cust:Quantity>
+							</cust:ISIN>
+							<cust:BalAccount>
+								<cust:Code>410000</cust:Code>
+								<cust:Name>не обтяжені зобов'язаннями</cust:Name>
+								<cust:Name_eng>not pledged</cust:Name_eng>
+							</cust:BalAccount>
+							<cust:Quantity>1</cust:Quantity>
+							<cust:faceAmount>1.0000</cust:faceAmount>
+							<cust:Percent>0.1000</cust:Percent>
+						</cust:Row>
+						<cust:Row>
+							<cust:ISIN>
+								<cust:ISIN>UA4000170401</cust:ISIN>
+								<cust:Depositary>200</cust:Depositary>
+								<cust:Issuer>
+									<cust:ShortName>ПрАТ "СК "ВУСО"</cust:ShortName>
+									<cust:IDCode>31650052</cust:IDCode>
+									<cust:ShortName_eng>PRJSC "IC "VUSO"</cust:ShortName_eng>
+								</cust:Issuer>
+								<cust:State>
+									<cust:Code>0</cust:Code>
+									<cust:Name>Дійсний</cust:Name>
+								</cust:State>
+								<cust:Type>
+									<cust:Code>01110100</cust:Code>
+									<cust:Name>Акція проста електронна іменна</cust:Name>
+									<cust:Name_eng>Ordinary registered non-documentary share</cust:Name_eng>
+								</cust:Type>
+								<cust:Nominal>
+									<cust:Nominal>10.0000</cust:Nominal>
+									<cust:Currency>980</cust:Currency>
+								</cust:Nominal>
+								<cust:Quantity>6000000</cust:Quantity>
+							</cust:ISIN>
+							<cust:BalAccount>
+								<cust:Code>410000</cust:Code>
+								<cust:Name>не обтяжені зобов'язаннями</cust:Name>
+								<cust:Name_eng>not pledged</cust:Name_eng>
+							</cust:BalAccount>
+							<cust:Quantity>1188</cust:Quantity>
+							<cust:faceAmount>11880.0000</cust:faceAmount>
+							<cust:Percent>0.0198</cust:Percent>
+						</cust:Row>
+						<cust:Row>
+							<cust:ISIN>
+								<cust:ISIN>UA4000170401</cust:ISIN>
+								<cust:Depositary>200</cust:Depositary>
+								<cust:Issuer>
+									<cust:ShortName>ПрАТ "СК "ВУСО"</cust:ShortName>
+									<cust:IDCode>31650052</cust:IDCode>
+									<cust:ShortName_eng>PRJSC "IC "VUSO"</cust:ShortName_eng>
+								</cust:Issuer>
+								<cust:State>
+									<cust:Code>0</cust:Code>
+									<cust:Name>Дійсний</cust:Name>
+								</cust:State>
+								<cust:Type>
+									<cust:Code>01110100</cust:Code>
+									<cust:Name>Акція проста електронна іменна</cust:Name>
+									<cust:Name_eng>Ordinary registered non-documentary share</cust:Name_eng>
+								</cust:Type>
+								<cust:Nominal>
+									<cust:Nominal>10.0000</cust:Nominal>
+									<cust:Currency>980</cust:Currency>
+								</cust:Nominal>
+								<cust:Quantity>6000000</cust:Quantity>
+							</cust:ISIN>
+							<cust:BalAccount>
+								<cust:Code>426000</cust:Code>
+								<cust:Name>заблоковані під забезпечення кредитів</cust:Name>
+								<cust:Name_eng>blocked against loans provision</cust:Name_eng>
+								<cust:BlockedFor>
+									<cust:ShortName>ПАТ "АЛЛО БАНК"</cust:ShortName>
+									<cust:IDCode/>
+								</cust:BlockedFor>
+							</cust:BalAccount>
+							<cust:Quantity>125</cust:Quantity>
+							<cust:faceAmount>1250.0000</cust:faceAmount>
+							<cust:Percent>0.0021</cust:Percent>
+						</cust:Row>
+						<cust:Row>
+							<cust:ISIN>
+								<cust:ISIN>UA4000015499</cust:ISIN>
+								<cust:Depositary>200</cust:Depositary>
+								<cust:Issuer>
+									<cust:ShortName>ПрАТ "КРМП"</cust:ShortName>
+									<cust:IDCode>13962545</cust:IDCode>
+									<cust:ShortName_eng>CJSC "KRMP"</cust:ShortName_eng>
+								</cust:Issuer>
+								<cust:State>
+									<cust:Code>0</cust:Code>
+									<cust:Name>Дійсний</cust:Name>
+								</cust:State>
+								<cust:Type>
+									<cust:Code>01120210</cust:Code>
+									<cust:Name>Облігація підприємства дисконтна електронна іменна</cust:Name>
+									<cust:Name_eng>Registered non-documentary discount corporate bond</cust:Name_eng>
+								</cust:Type>
+								<cust:Nominal>
+									<cust:Nominal>1000.0000</cust:Nominal>
+									<cust:Currency>980</cust:Currency>
+								</cust:Nominal>
+								<cust:Series>B</cust:Series>
+							</cust:ISIN>
+							<cust:BalAccount>
+								<cust:Code>410000</cust:Code>
+								<cust:Name>не обтяжені зобов'язаннями</cust:Name>
+								<cust:Name_eng>not pledged</cust:Name_eng>
+							</cust:BalAccount>
+							<cust:Quantity>14</cust:Quantity>
+							<cust:faceAmount>14000.0000</cust:faceAmount>
+						</cust:Row>
+						<cust:Row>
+							<cust:ISIN>
+								<cust:ISIN>UA4000204432</cust:ISIN>
+								<cust:Depositary>200</cust:Depositary>
+								<cust:Issuer>
+									<cust:ShortName>ПАТ "ТРЕСТ"</cust:ShortName>
+									<cust:IDCode>35583857</cust:IDCode>
+									<cust:ShortName_eng>TREST PJSC</cust:ShortName_eng>
+								</cust:Issuer>
+								<cust:State>
+									<cust:Code>0</cust:Code>
+									<cust:Name>Дійсний</cust:Name>
+								</cust:State>
+								<cust:Type>
+									<cust:Code>01110100</cust:Code>
+									<cust:Name>Акція проста електронна іменна</cust:Name>
+									<cust:Name_eng>Ordinary registered non-documentary share</cust:Name_eng>
+								</cust:Type>
+								<cust:Nominal>
+									<cust:Nominal>100.0000</cust:Nominal>
+									<cust:Currency>980</cust:Currency>
+								</cust:Nominal>
+								<cust:Quantity>5000000</cust:Quantity>
+							</cust:ISIN>
+							<cust:BalAccount>
+								<cust:Code>427000</cust:Code>
+								<cust:Name>заблоковані для торгів</cust:Name>
+								<cust:Name_eng>blocked for trading</cust:Name_eng>
+								<cust:BlockedFor>
+									<cust:ShortName>ПАТ "РОЗРАХУНКОВИЙ ЦЕНТР"</cust:ShortName>
+									<cust:IDCode>35917889</cust:IDCode>
+								</cust:BlockedFor>
+							</cust:BalAccount>
+							<cust:Quantity>1025</cust:Quantity>
+							<cust:faceAmount>102500.0000</cust:faceAmount>
+							<cust:Percent>0.0180</cust:Percent>
+						</cust:Row>
+						<cust:Row>
+							<cust:ISIN>
+								<cust:ISIN>UA5000000308</cust:ISIN>
+								<cust:Depositary>200</cust:Depositary>
+								<cust:Issuer>
+									<cust:ShortName>ПАТ "КОНОТОП1"</cust:ShortName>
+									<cust:IDCode>12369875</cust:IDCode>
+									<cust:ShortName_eng>PAT "KONOTOP1"</cust:ShortName_eng>
+								</cust:Issuer>
+								<cust:State>
+									<cust:Code>0</cust:Code>
+									<cust:Name>Дійсний</cust:Name>
+								</cust:State>
+								<cust:Type>
+									<cust:Code>01110100</cust:Code>
+									<cust:Name>Акція проста електронна іменна</cust:Name>
+									<cust:Name_eng>Ordinary registered non-documentary share</cust:Name_eng>
+								</cust:Type>
+								<cust:Nominal>
+									<cust:Nominal>0.2000</cust:Nominal>
+									<cust:Currency>980</cust:Currency>
+								</cust:Nominal>
+								<cust:Quantity>100000</cust:Quantity>
+							</cust:ISIN>
+							<cust:BalAccount>
+								<cust:Code>410000</cust:Code>
+								<cust:Name>не обтяжені зобов'язаннями</cust:Name>
+								<cust:Name_eng>not pledged</cust:Name_eng>
+							</cust:BalAccount>
+							<cust:Quantity>3000</cust:Quantity>
+							<cust:faceAmount>600.0000</cust:faceAmount>
+							<cust:Percent>3.0000</cust:Percent>
+						</cust:Row>
+						<cust:Row>
+							<cust:ISIN>
+								<cust:ISIN>UA5000000407</cust:ISIN>
+								<cust:Depositary>200</cust:Depositary>
+								<cust:Issuer>
+									<cust:ShortName>ПРАТ "ПЛЮС"</cust:ShortName>
+									<cust:IDCode>00025067</cust:IDCode>
+									<cust:ShortName_eng>PRAT "PLIUS"</cust:ShortName_eng>
+								</cust:Issuer>
+								<cust:State>
+									<cust:Code>0</cust:Code>
+									<cust:Name>Дійсний</cust:Name>
+								</cust:State>
+								<cust:Type>
+									<cust:Code>01110100</cust:Code>
+									<cust:Name>Акція проста електронна іменна</cust:Name>
+									<cust:Name_eng>Ordinary registered non-documentary share</cust:Name_eng>
+								</cust:Type>
+								<cust:Nominal>
+									<cust:Nominal>1.0000</cust:Nominal>
+									<cust:Currency>980</cust:Currency>
+								</cust:Nominal>
+								<cust:Quantity>5000000</cust:Quantity>
+							</cust:ISIN>
+							<cust:BalAccount>
+								<cust:Code>410000</cust:Code>
+								<cust:Name>не обтяжені зобов'язаннями</cust:Name>
+								<cust:Name_eng>not pledged</cust:Name_eng>
+							</cust:BalAccount>
+							<cust:Quantity>838737</cust:Quantity>
+							<cust:faceAmount>838737.0000</cust:faceAmount>
+							<cust:Percent>16.7747</cust:Percent>
+						</cust:Row>
+						<cust:Row>
+							<cust:ISIN>
+								<cust:ISIN>UA102075GC04</cust:ISIN>
+								<cust:Depositary>200</cust:Depositary>
+								<cust:Issuer>
+									<cust:ShortName>ТОВ «КУА «АЙ К’Ю – ТЕХНОЛОДЖІ» (ЗНВПІФ «Фінвест»)</cust:ShortName>
+									<cust:IDCode>32658026-233124</cust:IDCode>
+									<cust:ShortName_eng>TOV «KUA «AI K’IU – TEKHNOLODZHI» (ZNVPIF «FINVEST»)</cust:ShortName_eng>
+								</cust:Issuer>
+								<cust:State>
+									<cust:Code>0</cust:Code>
+									<cust:Name>Дійсний</cust:Name>
+								</cust:State>
+								<cust:Type>
+									<cust:Code>01310110</cust:Code>
+									<cust:Name>Інвестиційний сертифікат документарний (паперовий) на пред'явника</cust:Name>
+									<cust:Name_eng>Bearer documentary investment certificate</cust:Name_eng>
+								</cust:Type>
+								<cust:Nominal>
+									<cust:Nominal>10000.0000</cust:Nominal>
+									<cust:Currency>980</cust:Currency>
+								</cust:Nominal>
+								<cust:Quantity>2650</cust:Quantity>
+							</cust:ISIN>
+							<cust:BalAccount>
+								<cust:Code>410000</cust:Code>
+								<cust:Name>не обтяжені зобов'язаннями</cust:Name>
+								<cust:Name_eng>not pledged</cust:Name_eng>
+							</cust:BalAccount>
+							<cust:Quantity>200</cust:Quantity>
+							<cust:faceAmount>2000000.0000</cust:faceAmount>
+						</cust:Row>
+						<cust:Row>
+							<cust:ISIN>
+								<cust:ISIN>UA5000000167</cust:ISIN>
+								<cust:Depositary>200</cust:Depositary>
+								<cust:Issuer>
+									<cust:ShortName>ПРАТ "ХІМТЕПЛОМАШ"</cust:ShortName>
+									<cust:IDCode>01882060</cust:IDCode>
+									<cust:ShortName_eng>JSC "HIMTEPLOMASH"</cust:ShortName_eng>
+								</cust:Issuer>
+								<cust:State>
+									<cust:Code>0</cust:Code>
+									<cust:Name>Дійсний</cust:Name>
+								</cust:State>
+								<cust:Type>
+									<cust:Code>01110100</cust:Code>
+									<cust:Name>Акція проста електронна іменна</cust:Name>
+									<cust:Name_eng>Ordinary registered non-documentary share</cust:Name_eng>
+								</cust:Type>
+								<cust:Nominal>
+									<cust:Nominal>1.0000</cust:Nominal>
+									<cust:Currency>980</cust:Currency>
+								</cust:Nominal>
+								<cust:Quantity>30800000</cust:Quantity>
+							</cust:ISIN>
+							<cust:BalAccount>
+								<cust:Code>426000</cust:Code>
+								<cust:Name>заблоковані під забезпечення кредитів</cust:Name>
+								<cust:Name_eng>blocked against loans provision</cust:Name_eng>
+								<cust:BlockedFor>
+									<cust:ShortName>ІФФ ПАТ "Кредобанк"</cust:ShortName>
+									<cust:IDCode>20535306</cust:IDCode>
+								</cust:BlockedFor>
+							</cust:BalAccount>
+							<cust:Quantity>1</cust:Quantity>
+							<cust:faceAmount>1.0000</cust:faceAmount>
+							<cust:Percent>0.0000</cust:Percent>
+						</cust:Row>
+						<cust:Row>
+							<cust:ISIN>
+								<cust:ISIN>UA5000000167</cust:ISIN>
+								<cust:Depositary>200</cust:Depositary>
+								<cust:Issuer>
+									<cust:ShortName>ПРАТ "ХІМТЕПЛОМАШ"</cust:ShortName>
+									<cust:IDCode>01882060</cust:IDCode>
+									<cust:ShortName_eng>JSC "HIMTEPLOMASH"</cust:ShortName_eng>
+								</cust:Issuer>
+								<cust:State>
+									<cust:Code>0</cust:Code>
+									<cust:Name>Дійсний</cust:Name>
+								</cust:State>
+								<cust:Type>
+									<cust:Code>01110100</cust:Code>
+									<cust:Name>Акція проста електронна іменна</cust:Name>
+									<cust:Name_eng>Ordinary registered non-documentary share</cust:Name_eng>
+								</cust:Type>
+								<cust:Nominal>
+									<cust:Nominal>1.0000</cust:Nominal>
+									<cust:Currency>980</cust:Currency>
+								</cust:Nominal>
+								<cust:Quantity>30800000</cust:Quantity>
+							</cust:ISIN>
+							<cust:BalAccount>
+								<cust:Code>410000</cust:Code>
+								<cust:Name>не обтяжені зобов'язаннями</cust:Name>
+								<cust:Name_eng>not pledged</cust:Name_eng>
+							</cust:BalAccount>
+							<cust:Quantity>4</cust:Quantity>
+							<cust:faceAmount>4.0000</cust:faceAmount>
+							<cust:Percent>0.0000</cust:Percent>
+						</cust:Row>
+						<cust:Row>
+							<cust:ISIN>
+								<cust:ISIN>UA4000190961</cust:ISIN>
+								<cust:Depositary>100</cust:Depositary>
+								<cust:Issuer>
+									<cust:ShortName>Міністерство фінансів України</cust:ShortName>
+									<cust:IDCode>00013480</cust:IDCode>
+									<cust:ShortName_eng>Ministry of Finance of Ukraine</cust:ShortName_eng>
+								</cust:Issuer>
+								<cust:State>
+									<cust:Code>0</cust:Code>
+									<cust:Name>Дійсний</cust:Name>
+								</cust:State>
+								<cust:Type>
+									<cust:Code>01120240</cust:Code>
+									<cust:Name>Облігація внутрішніх державних позик України довгострокова відсоткова електронна іменна</cust:Name>
+									<cust:Name_eng>Registered non-documentary long-term interest-bearing government bond </cust:Name_eng>
+								</cust:Type>
+								<cust:Nominal>
+									<cust:Nominal>1000.0000</cust:Nominal>
+									<cust:Currency>980</cust:Currency>
+								</cust:Nominal>
+								<cust:Quantity>800000</cust:Quantity>
+							</cust:ISIN>
+							<cust:BalAccount>
+								<cust:Code>428000</cust:Code>
+								<cust:Name>заблоковані власником під забезпечення виконання договірних відносин (крім тих, що блокуються на підставах, зазначених в інших групах)</cust:Name>
+								<cust:Name_eng>blocked by the holder against contract relations execution provision (apart from those blocked for other reasons indicated in other groups)</cust:Name_eng>
+								<cust:BlockedFor>
+									<cust:ShortName>Товариство з обмеженою відповідальністю "Фінансова компанія ДЕКРА"</cust:ShortName>
+									<cust:IDCode>24685310</cust:IDCode>
+								</cust:BlockedFor>
+							</cust:BalAccount>
+							<cust:Quantity>100</cust:Quantity>
+							<cust:faceAmount>100000.0000</cust:faceAmount>
+						</cust:Row>
+						<cust:Row>
+							<cust:ISIN>
+								<cust:ISIN>UA4000204432</cust:ISIN>
+								<cust:Depositary>200</cust:Depositary>
+								<cust:Issuer>
+									<cust:ShortName>ПАТ "ТРЕСТ"</cust:ShortName>
+									<cust:IDCode>35583857</cust:IDCode>
+									<cust:ShortName_eng>TREST PJSC</cust:ShortName_eng>
+								</cust:Issuer>
+								<cust:State>
+									<cust:Code>0</cust:Code>
+									<cust:Name>Дійсний</cust:Name>
+								</cust:State>
+								<cust:Type>
+									<cust:Code>01110100</cust:Code>
+									<cust:Name>Акція проста електронна іменна</cust:Name>
+									<cust:Name_eng>Ordinary registered non-documentary share</cust:Name_eng>
+								</cust:Type>
+								<cust:Nominal>
+									<cust:Nominal>100.0000</cust:Nominal>
+									<cust:Currency>980</cust:Currency>
+								</cust:Nominal>
+								<cust:Quantity>5000000</cust:Quantity>
+							</cust:ISIN>
+							<cust:BalAccount>
+								<cust:Code>426000</cust:Code>
+								<cust:Name>заблоковані під забезпечення кредитів</cust:Name>
+								<cust:Name_eng>blocked against loans provision</cust:Name_eng>
+								<cust:BlockedFor>
+									<cust:ShortName>Волок Максим Леонідович</cust:ShortName>
+									<cust:IDCode>3035712937</cust:IDCode>
+								</cust:BlockedFor>
+							</cust:BalAccount>
+							<cust:Quantity>1</cust:Quantity>
+							<cust:faceAmount>100.0000</cust:faceAmount>
+							<cust:Percent>0.0000</cust:Percent>
+						</cust:Row>
+						<cust:Row>
+							<cust:ISIN>
+								<cust:ISIN>UAT000000070</cust:ISIN>
+								<cust:Depositary>200</cust:Depositary>
+								<cust:Issuer>
+									<cust:ShortName>ТОВ "ІНВЕСТ-БУДРЕСУРС"-1</cust:ShortName>
+									<cust:IDCode>33599166</cust:IDCode>
+									<cust:ShortName_eng>INVEST-BUDRESURS LLC</cust:ShortName_eng>
+								</cust:Issuer>
+								<cust:State>
+									<cust:Code>5</cust:Code>
+									<cust:Name>ТГС</cust:Name>
+								</cust:State>
+								<cust:Type>
+									<cust:Code>01120220</cust:Code>
+									<cust:Name>Облігація підприємства цільова електронна іменна</cust:Name>
+									<cust:Name_eng>Registered non-documentary target corporate bond</cust:Name_eng>
+								</cust:Type>
+								<cust:Nominal>
+									<cust:Nominal>120.0000</cust:Nominal>
+									<cust:Currency>980</cust:Currency>
+								</cust:Nominal>
+								<cust:Series>F</cust:Series>
+								<cust:Quantity>1047713</cust:Quantity>
+							</cust:ISIN>
+							<cust:BalAccount>
+								<cust:Code>410000</cust:Code>
+								<cust:Name>не обтяжені зобов'язаннями</cust:Name>
+								<cust:Name_eng>not pledged</cust:Name_eng>
+							</cust:BalAccount>
+							<cust:Quantity>2</cust:Quantity>
+							<cust:faceAmount>240.0000</cust:faceAmount>
+						</cust:Row>
+						<cust:Row>
+							<cust:ISIN>
+								<cust:ISIN>UA5000000522</cust:ISIN>
+								<cust:Depositary>200</cust:Depositary>
+								<cust:Issuer>
+									<cust:ShortName>ПАТ "ТРАНСПОРТНИК"</cust:ShortName>
+									<cust:IDCode>21514186</cust:IDCode>
+									<cust:ShortName_eng>"TRANSPORTNYK" PJSC</cust:ShortName_eng>
+								</cust:Issuer>
+								<cust:State>
+									<cust:Code>0</cust:Code>
+									<cust:Name>Дійсний</cust:Name>
+								</cust:State>
+								<cust:Type>
+									<cust:Code>01110100</cust:Code>
+									<cust:Name>Акція проста електронна іменна</cust:Name>
+									<cust:Name_eng>Ordinary registered non-documentary share</cust:Name_eng>
+								</cust:Type>
+								<cust:Nominal>
+									<cust:Nominal>1.0000</cust:Nominal>
+									<cust:Currency>980</cust:Currency>
+								</cust:Nominal>
+								<cust:Quantity>1000000</cust:Quantity>
+							</cust:ISIN>
+							<cust:BalAccount>
+								<cust:Code>410000</cust:Code>
+								<cust:Name>не обтяжені зобов'язаннями</cust:Name>
+								<cust:Name_eng>not pledged</cust:Name_eng>
+							</cust:BalAccount>
+							<cust:Quantity>49655</cust:Quantity>
+							<cust:faceAmount>49655.0000</cust:faceAmount>
+							<cust:Percent>4.9655</cust:Percent>
+						</cust:Row>
+						<cust:Row>
+							<cust:ISIN>
+								<cust:ISIN>US0378331005</cust:ISIN>
+								<cust:Depositary>1000</cust:Depositary>
+								<cust:Issuer>
+									<cust:ShortName>123APPLE INC.APPLE INC.</cust:ShortName>
+									<cust:IDCode>94-2404110</cust:IDCode>
+									<cust:ShortName_eng>123APPLE INC.APPLE INC.</cust:ShortName_eng>
+								</cust:Issuer>
+								<cust:State>
+									<cust:Code>0</cust:Code>
+									<cust:Name>Дійсний</cust:Name>
+								</cust:State>
+								<cust:Type>
+									<cust:Code>01111100</cust:Code>
+									<cust:Name>Акція іноземного емітента електронна іменна</cust:Name>
+									<cust:Name_eng>Registered non-documentary foreign share</cust:Name_eng>
+								</cust:Type>
+								<cust:Nominal>
+									<cust:Nominal>147.9200</cust:Nominal>
+								</cust:Nominal>
+								<cust:Series/>
+								<cust:Quantity>0</cust:Quantity>
+							</cust:ISIN>
+							<cust:BalAccount>
+								<cust:Code>410000</cust:Code>
+								<cust:Name>не обтяжені зобов'язаннями</cust:Name>
+								<cust:Name_eng>not pledged</cust:Name_eng>
+							</cust:BalAccount>
+							<cust:Quantity>1000</cust:Quantity>
+							<cust:faceAmount>147920.0000</cust:faceAmount>
+						</cust:Row>
+						<cust:Row>
+							<cust:ISIN>
+								<cust:ISIN>UA5000000092</cust:ISIN>
+								<cust:Depositary>200</cust:Depositary>
+								<cust:Issuer>
+									<cust:ShortName>ПАТ "ТРЕСТ"</cust:ShortName>
+									<cust:IDCode>35583857</cust:IDCode>
+									<cust:ShortName_eng>TREST PJSC</cust:ShortName_eng>
+								</cust:Issuer>
+								<cust:State>
+									<cust:Code>6</cust:Code>
+									<cust:Name>Блоковано</cust:Name>
+								</cust:State>
+								<cust:Type>
+									<cust:Code>01120210</cust:Code>
+									<cust:Name>Облігація підприємства дисконтна електронна іменна</cust:Name>
+									<cust:Name_eng>Registered non-documentary discount corporate bond</cust:Name_eng>
+								</cust:Type>
+								<cust:Nominal>
+									<cust:Nominal>1000.0000</cust:Nominal>
+									<cust:Currency>840</cust:Currency>
+								</cust:Nominal>
+								<cust:Series>FB</cust:Series>
+								<cust:Quantity>100000</cust:Quantity>
+							</cust:ISIN>
+							<cust:BalAccount>
+								<cust:Code>410000</cust:Code>
+								<cust:Name>не обтяжені зобов'язаннями</cust:Name>
+								<cust:Name_eng>not pledged</cust:Name_eng>
+							</cust:BalAccount>
+							<cust:Quantity>3</cust:Quantity>
+							<cust:faceAmount>3000.0000</cust:faceAmount>
+						</cust:Row>
+						<cust:Row>
+							<cust:ISIN>
+								<cust:ISIN>US912797KS58</cust:ISIN>
+								<cust:Depositary>200</cust:Depositary>
+								<cust:Issuer>
+									<cust:ShortName>U.S. DEPARTMENT OF THE TREASURY</cust:ShortName>
+									<cust:IDCode>2000</cust:IDCode>
+									<cust:ShortName_eng>U.S. DEPARTMENT OF THE TREASURY</cust:ShortName_eng>
+								</cust:Issuer>
+								<cust:State>
+									<cust:Code>0</cust:Code>
+									<cust:Name>Дійсний</cust:Name>
+								</cust:State>
+								<cust:Type>
+									<cust:Code>01621300</cust:Code>
+									<cust:Name>Облігація іноземної держави електронна на пред’явника</cust:Name>
+									<cust:Name_eng>Bearer non-documentary foreign state bond</cust:Name_eng>
+								</cust:Type>
+								<cust:Nominal>
+									<cust:Nominal>100.0000</cust:Nominal>
+									<cust:Currency>840</cust:Currency>
+								</cust:Nominal>
+								<cust:Quantity>491080000</cust:Quantity>
+							</cust:ISIN>
+							<cust:BalAccount>
+								<cust:Code>410000</cust:Code>
+								<cust:Name>не обтяжені зобов'язаннями</cust:Name>
+								<cust:Name_eng>not pledged</cust:Name_eng>
+							</cust:BalAccount>
+							<cust:Quantity>23</cust:Quantity>
+							<cust:faceAmount>2300.0000</cust:faceAmount>
+						</cust:Row>
+						<cust:Row>
+							<cust:ISIN>
+								<cust:ISIN>UA5000000175</cust:ISIN>
+								<cust:Depositary>200</cust:Depositary>
+								<cust:Issuer>
+									<cust:ShortName>ПрАТ "ЄВРОТЕРМІНАЛ-2019"</cust:ShortName>
+									<cust:IDCode>01554901</cust:IDCode>
+									<cust:ShortName_eng>PrJSC "EUROTERMINAL"</cust:ShortName_eng>
+								</cust:Issuer>
+								<cust:State>
+									<cust:Code>0</cust:Code>
+									<cust:Name>Дійсний</cust:Name>
+								</cust:State>
+								<cust:Type>
+									<cust:Code>01110100</cust:Code>
+									<cust:Name>Акція проста електронна іменна</cust:Name>
+									<cust:Name_eng>Ordinary registered non-documentary share</cust:Name_eng>
+								</cust:Type>
+								<cust:Nominal>
+									<cust:Nominal>3.7500</cust:Nominal>
+									<cust:Currency>980</cust:Currency>
+								</cust:Nominal>
+								<cust:Quantity>5000000</cust:Quantity>
+							</cust:ISIN>
+							<cust:BalAccount>
+								<cust:Code>410000</cust:Code>
+								<cust:Name>не обтяжені зобов'язаннями</cust:Name>
+								<cust:Name_eng>not pledged</cust:Name_eng>
+							</cust:BalAccount>
+							<cust:Quantity>3</cust:Quantity>
+							<cust:faceAmount>11.2500</cust:faceAmount>
+							<cust:Percent>0.0001</cust:Percent>
+						</cust:Row>
+						<cust:Row>
+							<cust:ISIN>
+								<cust:ISIN>US55302T2042</cust:ISIN>
+								<cust:Depositary>200</cust:Depositary>
+								<cust:Issuer>
+									<cust:ShortName>MHP SE</cust:ShortName>
+									<cust:IDCode>SE 27</cust:IDCode>
+									<cust:ShortName_eng>MHP SE</cust:ShortName_eng>
+								</cust:Issuer>
+								<cust:State>
+									<cust:Code>0</cust:Code>
+									<cust:Name>Дійсний</cust:Name>
+								</cust:State>
+								<cust:Type>
+									<cust:Code>01121400</cust:Code>
+									<cust:Name>Фінансовий інструмент (у тому числі цінний папір) іншого виду іноземного емітента електронний іменний</cust:Name>
+									<cust:Name_eng>Registered documentary foreign financial instrument of another kind (including security)</cust:Name_eng>
+								</cust:Type>
+								<cust:Nominal>
+									<cust:Nominal>10.2500</cust:Nominal>
+									<cust:Currency>840</cust:Currency>
+								</cust:Nominal>
+								<cust:Quantity>110770000</cust:Quantity>
+							</cust:ISIN>
+							<cust:BalAccount>
+								<cust:Code>427000</cust:Code>
+								<cust:Name>заблоковані для торгів</cust:Name>
+								<cust:Name_eng>blocked for trading</cust:Name_eng>
+							</cust:BalAccount>
+							<cust:Quantity>1</cust:Quantity>
+							<cust:faceAmount>10.2500</cust:faceAmount>
+						</cust:Row>
+						<cust:Row>
+							<cust:ISIN>
+								<cust:ISIN>UA4000181002</cust:ISIN>
+								<cust:Depositary>200</cust:Depositary>
+								<cust:Issuer>
+									<cust:ShortName>ВАТ " Енергогенеруюча апаратура"</cust:ShortName>
+									<cust:IDCode>33102403</cust:IDCode>
+									<cust:ShortName_eng>VAT " ENERHOHENERUIUCHA APARATURA"</cust:ShortName_eng>
+								</cust:Issuer>
+								<cust:State>
+									<cust:Code>6</cust:Code>
+									<cust:Name>Блоковано</cust:Name>
+								</cust:State>
+								<cust:Type>
+									<cust:Code>01210100</cust:Code>
+									<cust:Name>Акція проста документарна (паперова) іменна</cust:Name>
+									<cust:Name_eng>Ordinary registered documentary share</cust:Name_eng>
+								</cust:Type>
+								<cust:Nominal>
+									<cust:Nominal>0.2500</cust:Nominal>
+									<cust:Currency>980</cust:Currency>
+								</cust:Nominal>
+								<cust:Quantity>514000000</cust:Quantity>
+							</cust:ISIN>
+							<cust:BalAccount>
+								<cust:Code>410000</cust:Code>
+								<cust:Name>не обтяжені зобов'язаннями</cust:Name>
+								<cust:Name_eng>not pledged</cust:Name_eng>
+							</cust:BalAccount>
+							<cust:Quantity>350000</cust:Quantity>
+							<cust:faceAmount>87500.0000</cust:faceAmount>
+							<cust:Percent>0.0681</cust:Percent>
+						</cust:Row>
+						<cust:Row>
+							<cust:ISIN>
+								<cust:ISIN>UA4000123640</cust:ISIN>
+								<cust:Depositary>200</cust:Depositary>
+								<cust:Issuer>
+									<cust:ShortName>ПрАТ "Концерн Хлібпром"</cust:ShortName>
+									<cust:IDCode>05511001</cust:IDCode>
+									<cust:ShortName_eng>PRAT "KONTSERN KHLIBPROM"</cust:ShortName_eng>
+								</cust:Issuer>
+								<cust:State>
+									<cust:Code>0</cust:Code>
+									<cust:Name>Дійсний</cust:Name>
+								</cust:State>
+								<cust:Type>
+									<cust:Code>01110100</cust:Code>
+									<cust:Name>Акція проста електронна іменна</cust:Name>
+									<cust:Name_eng>Ordinary registered non-documentary share</cust:Name_eng>
+								</cust:Type>
+								<cust:Nominal>
+									<cust:Nominal>0.0100</cust:Nominal>
+									<cust:Currency>980</cust:Currency>
+								</cust:Nominal>
+								<cust:Quantity>16354578054</cust:Quantity>
+							</cust:ISIN>
+							<cust:BalAccount>
+								<cust:Code>410000</cust:Code>
+								<cust:Name>не обтяжені зобов'язаннями</cust:Name>
+								<cust:Name_eng>not pledged</cust:Name_eng>
+							</cust:BalAccount>
+							<cust:Quantity>10</cust:Quantity>
+							<cust:faceAmount>0.1000</cust:faceAmount>
+							<cust:Percent>0.0000</cust:Percent>
+						</cust:Row>
+						<cust:Row>
+							<cust:ISIN>
+								<cust:ISIN>UA4000198014</cust:ISIN>
+								<cust:Depositary>200</cust:Depositary>
+								<cust:Issuer>
+									<cust:ShortName>АТ "ЗНВКІФ "НАВІС"</cust:ShortName>
+									<cust:IDCode>41430704</cust:IDCode>
+									<cust:ShortName_eng>SC "CNDVCIF "NAVIS"</cust:ShortName_eng>
+								</cust:Issuer>
+								<cust:State>
+									<cust:Code>7</cust:Code>
+									<cust:Name>Анульовано</cust:Name>
+								</cust:State>
+								<cust:Type>
+									<cust:Code>01110105</cust:Code>
+									<cust:Name>Акція корпоративного інвестиційного фонду проста електронна іменна</cust:Name>
+									<cust:Name_eng>Ordinary registered non-documentary share of corporate investment fund</cust:Name_eng>
+								</cust:Type>
+								<cust:Nominal>
+									<cust:Nominal>1000.0000</cust:Nominal>
+								</cust:Nominal>
+								<cust:Quantity>750000</cust:Quantity>
+							</cust:ISIN>
+							<cust:BalAccount>
+								<cust:Code>410000</cust:Code>
+								<cust:Name>не обтяжені зобов'язаннями</cust:Name>
+								<cust:Name_eng>not pledged</cust:Name_eng>
+							</cust:BalAccount>
+							<cust:Quantity>49</cust:Quantity>
+							<cust:faceAmount>49000.0000</cust:faceAmount>
+							<cust:Percent>0.0049</cust:Percent>
+						</cust:Row>
+						<cust:Row>
+							<cust:ISIN>
+								<cust:ISIN>UA0000000010</cust:ISIN>
+								<cust:Depositary>200</cust:Depositary>
+								<cust:Issuer>
+									<cust:ShortName>ПрАТ "Апельсин Плаза"</cust:ShortName>
+									<cust:IDCode>30675610</cust:IDCode>
+									<cust:ShortName_eng>PRAT "APELSYN PLAZA"</cust:ShortName_eng>
+								</cust:Issuer>
+								<cust:State>
+									<cust:Code>0</cust:Code>
+									<cust:Name>Дійсний</cust:Name>
+								</cust:State>
+								<cust:Type>
+									<cust:Code>01110100</cust:Code>
+									<cust:Name>Акція проста електронна іменна</cust:Name>
+									<cust:Name_eng>Ordinary registered non-documentary share</cust:Name_eng>
+								</cust:Type>
+								<cust:Nominal>
+									<cust:Nominal>1.0000</cust:Nominal>
+									<cust:Currency>980</cust:Currency>
+								</cust:Nominal>
+								<cust:Quantity>1000</cust:Quantity>
+							</cust:ISIN>
+							<cust:BalAccount>
+								<cust:Code>423340</cust:Code>
+								<cust:Name>заблоковані за постановою суду</cust:Name>
+							</cust:BalAccount>
+							<cust:Quantity>1</cust:Quantity>
+							<cust:faceAmount>1.0000</cust:faceAmount>
+							<cust:Percent>0.1000</cust:Percent>
+						</cust:Row>
+						<cust:Row>
+							<cust:ISIN>
+								<cust:ISIN>US0378331005</cust:ISIN>
+								<cust:Depositary>200</cust:Depositary>
+								<cust:Issuer>
+									<cust:ShortName>APPLE INC.</cust:ShortName>
+									<cust:IDCode>94-2404110</cust:IDCode>
+									<cust:ShortName_eng>APPLE INC.</cust:ShortName_eng>
+								</cust:Issuer>
+								<cust:State>
+									<cust:Code>0</cust:Code>
+									<cust:Name>Дійсний</cust:Name>
+								</cust:State>
+								<cust:Type>
+									<cust:Code>01111100</cust:Code>
+									<cust:Name>Акція іноземного емітента електронна іменна</cust:Name>
+									<cust:Name_eng>Registered non-documentary foreign share</cust:Name_eng>
+								</cust:Type>
+								<cust:Nominal>
+									<cust:Nominal>204.6100</cust:Nominal>
+									<cust:Currency>840</cust:Currency>
+								</cust:Nominal>
+								<cust:Quantity>4715280000</cust:Quantity>
+							</cust:ISIN>
+							<cust:BalAccount>
+								<cust:Code>410000</cust:Code>
+								<cust:Name>не обтяжені зобов'язаннями</cust:Name>
+								<cust:Name_eng>not pledged</cust:Name_eng>
+							</cust:BalAccount>
+							<cust:Quantity>39</cust:Quantity>
+							<cust:faceAmount>7979.7900</cust:faceAmount>
+						</cust:Row>
+					</cust:Rows>
+				</cust:Source>
+				<cust:Destination>
+					<cust:Account xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">400820-UA10000001</cust:Account>
+					<cust:Rows xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="cust:TStatement_of_Holding_rowsV2">
+						<cust:Row>
+							<cust:ISIN>
+								<cust:ISIN>UA5000000407</cust:ISIN>
+								<cust:Depositary>200</cust:Depositary>
+								<cust:Issuer>
+									<cust:ShortName>ПРАТ "ПЛЮС"</cust:ShortName>
+									<cust:IDCode>00025067</cust:IDCode>
+									<cust:ShortName_eng>PRAT "PLIUS"</cust:ShortName_eng>
+								</cust:Issuer>
+								<cust:State>
+									<cust:Code>0</cust:Code>
+									<cust:Name>Дійсний</cust:Name>
+								</cust:State>
+								<cust:Type>
+									<cust:Code>01110100</cust:Code>
+									<cust:Name>Акція проста електронна іменна</cust:Name>
+									<cust:Name_eng>Ordinary registered non-documentary share</cust:Name_eng>
+								</cust:Type>
+								<cust:Nominal>
+									<cust:Nominal>1.0000</cust:Nominal>
+									<cust:Currency>980</cust:Currency>
+								</cust:Nominal>
+								<cust:Quantity>5000000</cust:Quantity>
+							</cust:ISIN>
+							<cust:BalAccount>
+								<cust:Code>410000</cust:Code>
+								<cust:Name>не обтяжені зобов'язаннями</cust:Name>
+								<cust:Name_eng>not pledged</cust:Name_eng>
+							</cust:BalAccount>
+							<cust:Quantity>132</cust:Quantity>
+							<cust:faceAmount>132.0000</cust:faceAmount>
+							<cust:Percent>0.0026</cust:Percent>
+						</cust:Row>
+						<cust:Row>
+							<cust:ISIN>
+								<cust:ISIN>UA4000207518</cust:ISIN>
+								<cust:Depositary>100</cust:Depositary>
+								<cust:Issuer>
+									<cust:ShortName>Міністерство фінансів України</cust:ShortName>
+									<cust:IDCode>00013480</cust:IDCode>
+									<cust:ShortName_eng>Ministry of Finance of Ukraine</cust:ShortName_eng>
+								</cust:Issuer>
+								<cust:State>
+									<cust:Code>0</cust:Code>
+									<cust:Name>Дійсний</cust:Name>
+								</cust:State>
+								<cust:Type>
+									<cust:Code>01120240</cust:Code>
+									<cust:Name>Облігація внутрішніх державних позик України довгострокова відсоткова електронна іменна</cust:Name>
+									<cust:Name_eng>Registered non-documentary long-term interest-bearing government bond </cust:Name_eng>
+								</cust:Type>
+								<cust:Nominal>
+									<cust:Nominal>1000.0000</cust:Nominal>
+									<cust:Currency>980</cust:Currency>
+								</cust:Nominal>
+								<cust:Quantity>15281691</cust:Quantity>
+							</cust:ISIN>
+							<cust:BalAccount>
+								<cust:Code>410000</cust:Code>
+								<cust:Name>не обтяжені зобов'язаннями</cust:Name>
+								<cust:Name_eng>not pledged</cust:Name_eng>
+							</cust:BalAccount>
+							<cust:Quantity>6</cust:Quantity>
+							<cust:faceAmount>6000.0000</cust:faceAmount>
+							
+						</cust:Row>
+						<cust:Row>
+							<cust:ISIN>
+								<cust:ISIN>UA1301141008</cust:ISIN>
+								<cust:Depositary>200</cust:Depositary>
+								<cust:Issuer>
+									<cust:ShortName>ЗАТ "Транспортні комунікації"</cust:ShortName>
+									<cust:IDCode>32182154</cust:IDCode>
+									<cust:ShortName_eng>ZAT "TRANSPORTNI KOMUNIKATSII"</cust:ShortName_eng>
+								</cust:Issuer>
+								<cust:State>
+									<cust:Code>6</cust:Code>
+									<cust:Name>Блоковано</cust:Name>
+								</cust:State>
+								<cust:Type>
+									<cust:Code>01210100</cust:Code>
+									<cust:Name>Акція проста документарна (паперова) іменна</cust:Name>
+									<cust:Name_eng>Ordinary registered documentary share</cust:Name_eng>
+								</cust:Type>
+								<cust:Nominal>
+									<cust:Nominal>1.0000</cust:Nominal>
+									<cust:Currency>980</cust:Currency>
+								</cust:Nominal>
+								<cust:Quantity>250000</cust:Quantity>
+							</cust:ISIN>
+							<cust:BalAccount>
+								<cust:Code>410000</cust:Code>
+								<cust:Name>не обтяжені зобов'язаннями</cust:Name>
+								<cust:Name_eng>not pledged</cust:Name_eng>
+							</cust:BalAccount>
+							<cust:Quantity>1</cust:Quantity>
+							<cust:faceAmount>1.0000</cust:faceAmount>
+							<cust:Percent>0.0004</cust:Percent>
+						</cust:Row>
+						<cust:Row>
+							<cust:ISIN>
+								<cust:ISIN>US912797KS58</cust:ISIN>
+								<cust:Depositary>200</cust:Depositary>
+								<cust:Issuer>
+									<cust:ShortName>U.S. DEPARTMENT OF THE TREASURY</cust:ShortName>
+									<cust:IDCode>2000</cust:IDCode>
+									<cust:ShortName_eng>U.S. DEPARTMENT OF THE TREASURY</cust:ShortName_eng>
+								</cust:Issuer>
+								<cust:State>
+									<cust:Code>0</cust:Code>
+									<cust:Name>Дійсний</cust:Name>
+								</cust:State>
+								<cust:Type>
+									<cust:Code>01621300</cust:Code>
+									<cust:Name>Облігація іноземної держави електронна на пред’явника</cust:Name>
+									<cust:Name_eng>Bearer non-documentary foreign state bond</cust:Name_eng>
+								</cust:Type>
+								<cust:Nominal>
+									<cust:Nominal>100.0000</cust:Nominal>
+									<cust:Currency>840</cust:Currency>
+								</cust:Nominal>
+								<cust:Quantity>491080000</cust:Quantity>
+							</cust:ISIN>
+							<cust:BalAccount>
+								<cust:Code>410000</cust:Code>
+								<cust:Name>не обтяжені зобов'язаннями</cust:Name>
+								<cust:Name_eng>not pledged</cust:Name_eng>
+							</cust:BalAccount>
+							<cust:Quantity>50000</cust:Quantity>
+							<cust:faceAmount>5000000.0000</cust:faceAmount>
+						</cust:Row>
+						<cust:Row>
+							<cust:ISIN>
+								<cust:ISIN>UA4000085831</cust:ISIN>
+								<cust:Depositary>200</cust:Depositary>
+								<cust:Issuer>
+									<cust:ShortName>ПрАТ "СК "ПРОМІНЬ"</cust:ShortName>
+									<cust:IDCode>32077527</cust:IDCode>
+									<cust:ShortName_eng>PRAT "SK "PROMIN"</cust:ShortName_eng>
+								</cust:Issuer>
+								<cust:State>
+									<cust:Code>6</cust:Code>
+									<cust:Name>Блоковано</cust:Name>
+								</cust:State>
+								<cust:Type>
+									<cust:Code>01110100</cust:Code>
+									<cust:Name>Акція проста електронна іменна</cust:Name>
+									<cust:Name_eng>Ordinary registered non-documentary share</cust:Name_eng>
+								</cust:Type>
+								<cust:Nominal>
+									<cust:Nominal>1.0000</cust:Nominal>
+									<cust:Currency>980</cust:Currency>
+								</cust:Nominal>
+								<cust:Quantity>120000000</cust:Quantity>
+							</cust:ISIN>
+							<cust:BalAccount>
+								<cust:Code>410000</cust:Code>
+								<cust:Name>не обтяжені зобов'язаннями</cust:Name>
+								<cust:Name_eng>not pledged</cust:Name_eng>
+							</cust:BalAccount>
+							<cust:Quantity>120</cust:Quantity>
+							<cust:faceAmount>120.0000</cust:faceAmount>
+							<cust:Percent>0.0001</cust:Percent>
+						</cust:Row>
+						<cust:Row>
+							<cust:ISIN>
+								<cust:ISIN>UA4000129134</cust:ISIN>
+								<cust:Depositary>200</cust:Depositary>
+								<cust:Issuer>
+									<cust:ShortName>ТОВ "ВіЕйБі Лізинг"</cust:ShortName>
+									<cust:IDCode>33880354</cust:IDCode>
+									<cust:ShortName_eng>LLC "VAB Leasing"</cust:ShortName_eng>
+								</cust:Issuer>
+								<cust:State>
+									<cust:Code>0</cust:Code>
+									<cust:Name>Дійсний</cust:Name>
+								</cust:State>
+								<cust:Type>
+									<cust:Code>01120200</cust:Code>
+									<cust:Name>Облігація підприємства відсоткова електронна іменна</cust:Name>
+									<cust:Name_eng>Registered non-documentary interest-bearing corporate bond</cust:Name_eng>
+								</cust:Type>
+								<cust:Nominal>
+									<cust:Nominal>1000.0000</cust:Nominal>
+									<cust:Currency>980</cust:Currency>
+								</cust:Nominal>
+								<cust:Series>B</cust:Series>
+								<cust:Quantity>75000</cust:Quantity>
+							</cust:ISIN>
+							<cust:BalAccount>
+								<cust:Code>410000</cust:Code>
+								<cust:Name>не обтяжені зобов'язаннями</cust:Name>
+								<cust:Name_eng>not pledged</cust:Name_eng>
+							</cust:BalAccount>
+							<cust:Quantity>1000</cust:Quantity>
+							<cust:faceAmount>1000000.0000</cust:faceAmount>
+						</cust:Row>
+						<cust:Row>
+							<cust:ISIN>
+								<cust:ISIN>UA4000123640</cust:ISIN>
+								<cust:Depositary>200</cust:Depositary>
+								<cust:Issuer>
+									<cust:ShortName>ПрАТ "Концерн Хлібпром"</cust:ShortName>
+									<cust:IDCode>05511001</cust:IDCode>
+									<cust:ShortName_eng>PRAT "KONTSERN KHLIBPROM"</cust:ShortName_eng>
+								</cust:Issuer>
+								<cust:State>
+									<cust:Code>0</cust:Code>
+									<cust:Name>Дійсний</cust:Name>
+								</cust:State>
+								<cust:Type>
+									<cust:Code>01110100</cust:Code>
+									<cust:Name>Акція проста електронна іменна</cust:Name>
+									<cust:Name_eng>Ordinary registered non-documentary share</cust:Name_eng>
+								</cust:Type>
+								<cust:Nominal>
+									<cust:Nominal>0.0100</cust:Nominal>
+									<cust:Currency>980</cust:Currency>
+								</cust:Nominal>
+								<cust:Quantity>16354578054</cust:Quantity>
+							</cust:ISIN>
+							<cust:BalAccount>
+								<cust:Code>410000</cust:Code>
+								<cust:Name>не обтяжені зобов'язаннями</cust:Name>
+								<cust:Name_eng>not pledged</cust:Name_eng>
+							</cust:BalAccount>
+							<cust:Quantity>98</cust:Quantity>
+							<cust:faceAmount>0.9800</cust:faceAmount>
+							<cust:Percent>0.0000</cust:Percent>
+						</cust:Row>
+						<cust:Row>
+							<cust:ISIN>
+								<cust:ISIN>UA4000170401</cust:ISIN>
+								<cust:Depositary>200</cust:Depositary>
+								<cust:Issuer>
+									<cust:ShortName>ПрАТ "СК "ВУСО"</cust:ShortName>
+									<cust:IDCode>31650052</cust:IDCode>
+									<cust:ShortName_eng>PRJSC "IC "VUSO"</cust:ShortName_eng>
+								</cust:Issuer>
+								<cust:State>
+									<cust:Code>0</cust:Code>
+									<cust:Name>Дійсний</cust:Name>
+								</cust:State>
+								<cust:Type>
+									<cust:Code>01110100</cust:Code>
+									<cust:Name>Акція проста електронна іменна</cust:Name>
+									<cust:Name_eng>Ordinary registered non-documentary share</cust:Name_eng>
+								</cust:Type>
+								<cust:Nominal>
+									<cust:Nominal>10.0000</cust:Nominal>
+									<cust:Currency>980</cust:Currency>
+								</cust:Nominal>
+								<cust:Quantity>6000000</cust:Quantity>
+							</cust:ISIN>
+							<cust:BalAccount>
+								<cust:Code>410000</cust:Code>
+								<cust:Name>не обтяжені зобов'язаннями</cust:Name>
+								<cust:Name_eng>not pledged</cust:Name_eng>
+							</cust:BalAccount>
+							<cust:Quantity>1621</cust:Quantity>
+							<cust:faceAmount>16210.0000</cust:faceAmount>
+							<cust:Percent>0.0270</cust:Percent>
+						</cust:Row>
+						<cust:Row>
+							<cust:ISIN>
+								<cust:ISIN>US0378331005</cust:ISIN>
+								<cust:Depositary>1000</cust:Depositary>
+								<cust:Issuer>
+									<cust:ShortName>123APPLE INC.APPLE INC.</cust:ShortName>
+									<cust:IDCode>94-2404110</cust:IDCode>
+									<cust:ShortName_eng>123APPLE INC.APPLE INC.</cust:ShortName_eng>
+								</cust:Issuer>
+								<cust:State>
+									<cust:Code>0</cust:Code>
+									<cust:Name>Дійсний</cust:Name>
+								</cust:State>
+								<cust:Type>
+									<cust:Code>01111100</cust:Code>
+									<cust:Name>Акція іноземного емітента електронна іменна</cust:Name>
+									<cust:Name_eng>Registered non-documentary foreign share</cust:Name_eng>
+								</cust:Type>
+								<cust:Nominal>
+									<cust:Nominal>147.9200</cust:Nominal>
+								</cust:Nominal>
+								<cust:Series/>
+								<cust:Quantity>0</cust:Quantity>
+							</cust:ISIN>
+							<cust:BalAccount>
+								<cust:Code>410000</cust:Code>
+								<cust:Name>не обтяжені зобов'язаннями</cust:Name>
+								<cust:Name_eng>not pledged</cust:Name_eng>
+							</cust:BalAccount>
+							<cust:Quantity>30000</cust:Quantity>
+							<cust:faceAmount>4437600.0000</cust:faceAmount>
+						</cust:Row>
+					</cust:Rows>
+				</cust:Destination>
+			</cust:Balance>
+		</cust:Notification>
+	</cust:body>
+</cust:responce>

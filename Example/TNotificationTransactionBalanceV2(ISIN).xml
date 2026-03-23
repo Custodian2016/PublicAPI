@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cust:responce xmlns="urn:dmt:custodian2016" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cust="urn:dmt:custodian2016" xsi:schemaLocation="urn:dmt:custodian2016 file:///C:/Users/Nim/OneDrive/Project/Custodian.Web/PublicAPI/Custodian2016.Public.API.xsd">
+	<cust:header>
+		<cust:ResponceType>NotificationTransaction</cust:ResponceType>
+		<cust:ResponceID>BF04C1B1-2E34-4835-9FCA-B56F845C63BD</cust:ResponceID>
+		<cust:TimeStamp>2025-12-20T14:16:01.553</cust:TimeStamp>
+		<cust:RequestID>00000000-0000-0000-0000-000000000000</cust:RequestID>
+	</cust:header>
+	<cust:body>
+		<cust:Notification xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="cust:TNotificationTransactionBalance">
+			<cust:NotificationType>newTransaction</cust:NotificationType>
+			<cust:Balance>
+				<cust:Source>
+					<cust:Account xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">400820-UA40000001</cust:Account>
+					<cust:ISIN xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+						<cust:ISIN>UA4000170401</cust:ISIN>
+						<cust:Depositary>200</cust:Depositary>
+					</cust:ISIN>
+					<cust:Rows xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="cust:TStatement_of_Holding_rowsV2">
+						<cust:Row>
+							<cust:ISIN>
+								<cust:ISIN>UA4000170401</cust:ISIN>
+								<cust:Depositary>200</cust:Depositary>
+								<cust:Issuer>
+									<cust:ShortName>ПрАТ "СК "ВУСО"</cust:ShortName>
+									<cust:IDCode>31650052</cust:IDCode>
+									<cust:ShortName_eng>PRJSC "IC "VUSO"</cust:ShortName_eng>
+								</cust:Issuer>
+								<cust:State>
+									<cust:Code>0</cust:Code>
+									<cust:Name>Дійсний</cust:Name>
+								</cust:State>
+								<cust:Type>
+									<cust:Code>01110100</cust:Code>
+									<cust:Name>Акція проста електронна іменна</cust:Name>
+									<cust:Name_eng>Ordinary registered non-documentary share</cust:Name_eng>
+								</cust:Type>
+								<cust:Nominal>
+									<cust:Nominal>10.0000</cust:Nominal>
+									<cust:Currency>980</cust:Currency>
+								</cust:Nominal>
+								<cust:Quantity>6000000</cust:Quantity>
+							</cust:ISIN>
+							<cust:BalAccount>
+								<cust:Code>427000</cust:Code>
+								<cust:Name>заблоковані для торгів</cust:Name>
+								<cust:Name_eng>blocked for trading</cust:Name_eng>
+								<cust:BlockedFor>
+									<cust:ShortName>ПАТ "РОЗРАХУНКОВИЙ ЦЕНТР"</cust:ShortName>
+									<cust:IDCode>35917889</cust:IDCode>
+								</cust:BlockedFor>
+							</cust:BalAccount>
+							<cust:Quantity>300</cust:Quantity>
+							<cust:faceAmount>3000.0000</cust:faceAmount>
+							<cust:Percent>0.0050</cust:Percent>
+						</cust:Row>
+						<cust:Row>
+							<cust:ISIN>
+								<cust:ISIN>UA4000170401</cust:ISIN>
+								<cust:Depositary>200</cust:Depositary>
+								<cust:Issuer>
+									<cust:ShortName>ПрАТ "СК "ВУСО"</cust:ShortName>
+									<cust:IDCode>31650052</cust:IDCode>
+									<cust:ShortName_eng>PRJSC "IC "VUSO"</cust:ShortName_eng>
+								</cust:Issuer>
+								<cust:State>
+									<cust:Code>0</cust:Code>
+									<cust:Name>Дійсний</cust:Name>
+								</cust:State>
+								<cust:Type>
+									<cust:Code>01110100</cust:Code>
+									<cust:Name>Акція проста електронна іменна</cust:Name>
+									<cust:Name_eng>Ordinary registered non-documentary share</cust:Name_eng>
+								</cust:Type>
+								<cust:Nominal>
+									<cust:Nominal>10.0000</cust:Nominal>
+									<cust:Currency>980</cust:Currency>
+								</cust:Nominal>
+								<cust:Quantity>6000000</cust:Quantity>
+							</cust:ISIN>
+							<cust:BalAccount>
+								<cust:Code>410000</cust:Code>
+								<cust:Name>не обтяжені зобов'язаннями</cust:Name>
+								<cust:Name_eng>not pledged</cust:Name_eng>
+							</cust:BalAccount>
+							<cust:Quantity>1188</cust:Quantity>
+							<cust:faceAmount>11880.0000</cust:faceAmount>
+							<cust:Percent>0.0198</cust:Percent>
+						</cust:Row>
+						<cust:Row>
+							<cust:ISIN>
+								<cust:ISIN>UA4000170401</cust:ISIN>
+								<cust:Depositary>200</cust:Depositary>
+								<cust:Issuer>
+									<cust:ShortName>ПрАТ "СК "ВУСО"</cust:ShortName>
+									<cust:IDCode>31650052</cust:IDCode>
+									<cust:ShortName_eng>PRJSC "IC "VUSO"</cust:ShortName_eng>
+								</cust:Issuer>
+								<cust:State>
+									<cust:Code>0</cust:Code>
+									<cust:Name>Дійсний</cust:Name>
+								</cust:State>
+								<cust:Type>
+									<cust:Code>01110100</cust:Code>
+									<cust:Name>Акція проста електронна іменна</cust:Name>
+									<cust:Name_eng>Ordinary registered non-documentary share</cust:Name_eng>
+								</cust:Type>
+								<cust:Nominal>
+									<cust:Nominal>10.0000</cust:Nominal>
+									<cust:Currency>980</cust:Currency>
+								</cust:Nominal>
+								<cust:Quantity>6000000</cust:Quantity>
+							</cust:ISIN>
+							<cust:BalAccount>
+								<cust:Code>426000</cust:Code>
+								<cust:Name>заблоковані під забезпечення кредитів</cust:Name>
+								<cust:Name_eng>blocked against loans provision</cust:Name_eng>
+								<cust:BlockedFor>
+									<cust:ShortName>ПАТ "АЛЛО БАНК"</cust:ShortName>
+									<cust:IDCode/>
+								</cust:BlockedFor>
+							</cust:BalAccount>
+							<cust:Quantity>125</cust:Quantity>
+							<cust:faceAmount>1250.0000</cust:faceAmount>
+							<cust:Percent>0.0021</cust:Percent>
+						</cust:Row>
+					</cust:Rows>
+				</cust:Source>
+				<cust:Destination>
+					<cust:Account xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">400820-UA10000001</cust:Account>
+					<cust:ISIN xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+						<cust:ISIN>UA4000170401</cust:ISIN>
+						<cust:Depositary>200</cust:Depositary>
+					</cust:ISIN>
+					<cust:Rows xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="cust:TStatement_of_Holding_rowsV2">
+						<cust:Row>
+							<cust:ISIN>
+								<cust:ISIN>UA4000170401</cust:ISIN>
+								<cust:Depositary>200</cust:Depositary>
+								<cust:Issuer>
+									<cust:ShortName>ПрАТ "СК "ВУСО"</cust:ShortName>
+									<cust:IDCode>31650052</cust:IDCode>
+									<cust:ShortName_eng>PRJSC "IC "VUSO"</cust:ShortName_eng>
+								</cust:Issuer>
+								<cust:State>
+									<cust:Code>0</cust:Code>
+									<cust:Name>Дійсний</cust:Name>
+								</cust:State>
+								<cust:Type>
+									<cust:Code>01110100</cust:Code>
+									<cust:Name>Акція проста електронна іменна</cust:Name>
+									<cust:Name_eng>Ordinary registered non-documentary share</cust:Name_eng>
+								</cust:Type>
+								<cust:Nominal>
+									<cust:Nominal>10.0000</cust:Nominal>
+									<cust:Currency>980</cust:Currency>
+								</cust:Nominal>
+								<cust:Quantity>6000000</cust:Quantity>
+							</cust:ISIN>
+							<cust:BalAccount>
+								<cust:Code>410000</cust:Code>
+								<cust:Name>не обтяжені зобов'язаннями</cust:Name>
+								<cust:Name_eng>not pledged</cust:Name_eng>
+							</cust:BalAccount>
+							<cust:Quantity>1621</cust:Quantity>
+							<cust:faceAmount>16210.0000</cust:faceAmount>
+							<cust:Percent>0.0270</cust:Percent>
+						</cust:Row>
+					</cust:Rows>
+				</cust:Destination>
+			</cust:Balance>
+		</cust:Notification>
+	</cust:body>
+</cust:responce>

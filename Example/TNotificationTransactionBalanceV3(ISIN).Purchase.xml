@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cust:responce xmlns="urn:dmt:custodian2016" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cust="urn:dmt:custodian2016" xsi:schemaLocation="urn:dmt:custodian2016 file:///C:/Users/Nim/OneDrive/Project/Custodian.Web/PublicAPI/Custodian2016.Public.API.xsd">
+	<cust:header>
+		<cust:ResponceType>NotificationTransaction</cust:ResponceType>
+		<cust:ResponceID>475A7C96-C440-4260-9C90-0BC4EC01C01C</cust:ResponceID>
+		<cust:TimeStamp>2025-12-20T14:58:59.940</cust:TimeStamp>
+		<cust:RequestID>00000000-0000-0000-0000-000000000000</cust:RequestID>
+	</cust:header>
+	<cust:body>
+		<cust:Notification xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="cust:TNotificationTransactionBalance">
+			<cust:NotificationType>newTransaction</cust:NotificationType>
+			<cust:Balance>
+				<cust:Destination>
+					<cust:Account xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">400820-UA10000001</cust:Account>
+					<cust:ISIN xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+						<cust:ISIN>UA4000170401</cust:ISIN>
+						<cust:Depositary>200</cust:Depositary>
+					</cust:ISIN>
+					<cust:Rows xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="cust:TStatement_of_Holding_rowsV3_simple">
+						<cust:Row>
+							<cust:ISIN>
+								<cust:ISIN>UA4000170401</cust:ISIN>
+								<cust:Depositary>200</cust:Depositary>
+							</cust:ISIN>
+							<cust:BalAccount>410000</cust:BalAccount>
+							<cust:Quantity>1921</cust:Quantity>
+							<cust:faceAmount>19210.0000</cust:faceAmount>
+						</cust:Row>
+					</cust:Rows>
+				</cust:Destination>
+			</cust:Balance>
+		</cust:Notification>
+	</cust:body>
+</cust:responce>
