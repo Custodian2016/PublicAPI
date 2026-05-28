@@ -1,0 +1,22 @@
+<cust:request xmlns:cust="urn:dmt:custodian2016" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:dmt:custodian2016 file:///C:/Users/Nim/OneDrive/Project/Custodian.Web/PublicAPI/Custodian2016.Public.API.xsd">
+	<cust:header>
+		<cust:RequestType>absIncomeStatuses</cust:RequestType>
+		<cust:RequestID>E96E9120-682F-4ADE-AA91-7ABCD1C0883D</cust:RequestID>
+		<cust:TimeStamp>2024-10-02T09:37:03.776</cust:TimeStamp>
+		<cust:sourceAPPidentity>9FF4A970-DD0F-4FF9-BDDB-A6CBAFD94670</cust:sourceAPPidentity>
+	</cust:header>
+	<cust:body>
+		<cust:absIncomeStatuses>
+			<cust:status>
+				<cust:status>Received</cust:status>
+				<cust:message>Реєстр успішно прийнятий</cust:message>
+				<cust:FinID>10685</cust:FinID>
+			</cust:status>
+			<cust:status>
+				<cust:status>Received</cust:status>
+				<cust:message>Реєстр успішно прийнятий</cust:message>
+				<cust:FinID>10686</cust:FinID>
+			</cust:status>
+		</cust:absIncomeStatuses>
+	</cust:body>
+</cust:request>
